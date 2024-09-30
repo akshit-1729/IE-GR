@@ -1,0 +1,98 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "GNAS",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "MYOD1",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "CDKN2A",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 1+, 34%"
+        },
+        {
+            "BioMarker": "PD-L1(SP142)",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 2+, 12%"
+        },
+        {
+            "BioMarker": "H3.3",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "PR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 1+, 63%"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "19 mutations/Mb High"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low - 8% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "CALR",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.Y303H",
+            "Exon": 9,
+            "DNA Alteration": "3",
+            "Allele Frequency %": "8.69"
+        },
+        {
+            "Gene": "DICER1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.E7K",
+            "Exon": 14,
+            "DNA Alteration": "c.19G>A",
+            "Allele Frequency %": "13.82"
+        },
+        {
+            "Gene": "SDHA",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.A30V",
+            "Exon": 4,
+            "DNA Alteration": "c.322G>C",
+            "Allele Frequency %": "23.88"
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "FBXW7",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "ER",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 1+, 82%"
+        },
+        {
+            "BioMarker": "ABL1",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "Mismatch repair status",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 2+, 75%"
+        },
+        {
+            "BioMarker": "ARID2",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "TLR8",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "FOXL2",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "CTNNB1",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "CTNNB1",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "18 mutations/Mb High"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 20% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "IKZF1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.K659E",
+            "Exon": 14,
+            "DNA Alteration": "c.1144T>C",
+            "Allele Frequency %": "20.52"
+        },
+        {
+            "Gene": "CD74",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.R132H",
+            "Exon": 11,
+            "DNA Alteration": "c.395_396inv",
+            "Allele Frequency %": "28.0"
+        },
+        {
+            "Gene": "MYCN",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.K385I",
+            "Exon": 9,
+            "DNA Alteration": "c.1154_1155delinsTA",
+            "Allele Frequency %": "29.11"
+        },
+        {
+            "Gene": "ERBB2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.D140E",
+            "Exon": 17,
+            "DNA Alteration": "c.380G>C",
+            "Allele Frequency %": "11.61"
+        }
+    ]
+}

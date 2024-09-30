@@ -1,0 +1,228 @@
+{
+    "patient": {
+        "Name": "Alexandra Oconnor",
+        "DateOfBirth": "1968-03-09",
+        "Sex": "Female",
+        "Diagnosis": "Adenocarcinoma",
+        "BodyPart": "Lung",
+        "Physician": "Dr. Duane Adams",
+        "TreatingInstitution": "Winters LLC"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Lung",
+            "CollectedDate": "2023-05-01",
+            "ReceivedDate": "2023-05-01",
+            "TumorPercentage": "30%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-05-02",
+            "ReceivedDate": "2023-05-09"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "SMO",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A374E Stopgain-LOF",
+                "VariantAlleleFraction": "39.39%"
+            },
+            {
+                "Gene": "HDAC1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.Y303H Frameshift-LOF",
+                "VariantAlleleFraction": "28.89%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R156X Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "27.05%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "HDAC2",
+            "PKLR",
+            "SDHA",
+            "PTEN",
+            "ABL1"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "24 m/Mb",
+            "Tmbpercentile": "92%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "High"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N159Y Nonsense-GOF",
+                "VariantAlleleFraction": "13.64%"
+            },
+            {
+                "Gene": "RNF43",
+                "DNA Alteration": "c.954G>T",
+                "GeneMutation": "p.A169T Nonsense-LOF",
+                "VariantAlleleFraction": "17.84%"
+            },
+            {
+                "Gene": "CHD6",
+                "DNA Alteration": "c.4800C>G",
+                "GeneMutation": "p.I1600M Nonsense-GOF",
+                "VariantAlleleFraction": "9.95%"
+            },
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N159Y Nonsense-LOF",
+                "VariantAlleleFraction": "1.41%"
+            },
+            {
+                "Gene": "HSD3B1",
+                "DNA Alteration": "c.1100C>A",
+                "GeneMutation": "p.T367= Frameshift-GOF",
+                "VariantAlleleFraction": "2.03%"
+            },
+            {
+                "Gene": "MAP2K2",
+                "DNA Alteration": "c.383C>T",
+                "GeneMutation": "p.P128L Nonsense-LOF",
+                "VariantAlleleFraction": "4.35%"
+            },
+            {
+                "Gene": "GNAS",
+                "DNA Alteration": "c.374A>G",
+                "GeneMutation": "p.R201S Nonsense-LOF",
+                "VariantAlleleFraction": "9.04%"
+            },
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.V49M Frameshift-GOF",
+                "VariantAlleleFraction": "9.62%"
+            }
+        ],
+        "Germline": [
+            {
+                "Gene": "CTNNB1",
+                "DNA Alteration": "c.97T>C",
+                "GeneMutation": "p.S45P Stopgain-LOF",
+                "Condition": "technology"
+            },
+            {
+                "Gene": "TP53",
+                "DNA Alteration": "c.638G>A",
+                "GeneMutation": "p.V272A Nonsense-LOF",
+                "Condition": "rise"
+            }
+        ]
+    },
+    "low coverage regions": [
+        "CSF3R",
+        "BRCA2",
+        "ARID2"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "SMO",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A374E Stopgain-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "39.39%"
+            },
+            {
+                "Gene": "HDAC1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.Y303H Frameshift-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "28.89%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R156X Missensevariant(exon2)-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "27.05%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-04-30"
+    },
+    "other": {
+        "ReportId": "1918",
+        "ReportDate": "2023-05-04",
+        "SignedBy": "Duane Adams",
+        "Supervisor": "Dr. Jason Rojas"
+    }
+}

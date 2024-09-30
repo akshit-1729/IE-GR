@@ -1,0 +1,274 @@
+{
+    "patient": {
+        "Name": "Jennifer Delacruz",
+        "DateOfBirth": "1939-09-25",
+        "Sex": "Male",
+        "Diagnosis": "Chronic myeloid leukemia (CML)",
+        "BodyPart": "Leukemia",
+        "Physician": "Dr. Michelle White",
+        "TreatingInstitution": "Hernandez Ltd"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Leukemia",
+            "CollectedDate": "2023-10-10",
+            "ReceivedDate": "2023-10-10",
+            "TumorPercentage": "58%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-10-16",
+            "ReceivedDate": "2023-10-22"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "CSF1R",
+                "DNA Alteration": "c.1085A>G",
+                "GeneMutation": "p.N648S Nonsense-GOF",
+                "VariantAlleleFraction": "4.29%"
+            },
+            {
+                "Gene": "XPC",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S346P Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "32.81%"
+            },
+            {
+                "Gene": "MUTYH",
+                "DNA Alteration": "c.1014G>C",
+                "GeneMutation": "p.Q338H Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "3.95%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.S1982Rfs*22 Frameshift-LOF",
+                "VariantAlleleFraction": "14.54%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "MTOR",
+                "DNA Alteration": "c.5664C>A",
+                "GeneMutation": "p.G1954R Stopgain-LOF",
+                "VariantAlleleFraction": "16.86%"
+            },
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": "p.F1888L Frameshift-GOF",
+                "VariantAlleleFraction": "8.99%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "FLT3",
+            "BTK",
+            "IKZF1"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "13 m/Mb",
+            "Tmbpercentile": "24%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "H3.3",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G35R Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "15.75%"
+            },
+            {
+                "Gene": "SF3B1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.D781X Nonsense-GOF",
+                "VariantAlleleFraction": "2.12%"
+            },
+            {
+                "Gene": "ERBB2",
+                "DNA Alteration": "c.1976_1977delinsAG",
+                "GeneMutation": "p.T733I Frameshift-GOF",
+                "VariantAlleleFraction": "11.53%"
+            },
+            {
+                "Gene": "MUTYH",
+                "DNA Alteration": "c.1014G>C",
+                "GeneMutation": "p.Q338H Frameshift-GOF",
+                "VariantAlleleFraction": "9.8%"
+            },
+            {
+                "Gene": "FGFR4",
+                "DNA Alteration": "c.1162G>A",
+                "GeneMutation": "p.G388R Nonsense-GOF",
+                "VariantAlleleFraction": "7.89%"
+            },
+            {
+                "Gene": "MYOD1",
+                "DNA Alteration": "c.365T>G",
+                "GeneMutation": "p.L122R Nonsense-LOF",
+                "VariantAlleleFraction": "5.49%"
+            },
+            {
+                "Gene": "FOXL2",
+                "DNA Alteration": "c.402C>G",
+                "GeneMutation": "p.C134W Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "4.71%"
+            },
+            {
+                "Gene": "EGFR",
+                "DNA Alteration": "c.2375T>A",
+                "GeneMutation": "p.S768_V769insVAS Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "6.99%"
+            },
+            {
+                "Gene": "RNF43",
+                "DNA Alteration": "c.461C>T",
+                "GeneMutation": "p.D140E Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "3.16%"
+            },
+            {
+                "Gene": "TLR8",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N515H Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "6.38%"
+            },
+            {
+                "Gene": "CSF3R",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G751A Nonsense-LOF",
+                "VariantAlleleFraction": "5.88%"
+            },
+            {
+                "Gene": "ZEB2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.H1038R Frameshift-GOF",
+                "VariantAlleleFraction": "6.18%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "BRAF"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "CSF1R",
+                "DNA Alteration": "c.1085A>G",
+                "GeneMutation": "p.N648S Nonsense-GOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "4.29%"
+            },
+            {
+                "Gene": "XPC",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S346P Spliceregionvariant-LOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "32.81%"
+            },
+            {
+                "Gene": "MUTYH",
+                "DNA Alteration": "c.1014G>C",
+                "GeneMutation": "p.Q338H Spliceregionvariant-LOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "3.95%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.S1982Rfs*22 Frameshift-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "14.54%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "MTOR",
+                "DNA Alteration": "c.5664C>A",
+                "GeneMutation": "p.G1954R Stopgain-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "16.86%"
+            },
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": "p.F1888L Frameshift-GOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "8.99%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-10-09"
+    },
+    "other": {
+        "ReportId": "7519",
+        "ReportDate": "2023-10-18",
+        "SignedBy": "Michelle White",
+        "Supervisor": "Dr. Timothy Nelson"
+    }
+}

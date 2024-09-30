@@ -1,0 +1,77 @@
+{
+    "Patient": {
+        "Name": "Christina Parks",
+        "DOB": "1975-01-13",
+        "Sex": "Female",
+        "Caseno": "8345",
+        "Diagnosis": "Follicular thyroid cancer",
+        "Physician": "Dr. Margaret Martin"
+    },
+    "specimen information": {
+        "primary_tumor_site": "Thyroid",
+        "specimen_site": "Central and lateral cervical lymph nodes",
+        "specimen_ID": "8876",
+        "CollectedDate": "2024-04-24",
+        "ReceivedDate": "2024-04-27"
+    },
+    "Results with Therapy association": [
+        {
+            "Biomarker": "ER",
+            "Method": "IHC",
+            "Analyte": "protein",
+            "Result": "Positive | 3+, 100%",
+            "Therapy association": [
+                "BENEFIT",
+                "abemaciclib",
+                "palbociclib",
+                "ribociclib",
+                "endocrine",
+                "therapy",
+                "everolimus"
+            ],
+            "Biomarker level": "level 2"
+        },
+        {
+            "Biomarker": "PR",
+            "Method": "IHC",
+            "Analyte": "protein",
+            "Result": "Positive | 2+, 95%",
+            "Therapy association": [
+                "BENEFIT",
+                "abemaciclib",
+                "palbociclib",
+                "ribociclib",
+                "endocrine therapy"
+            ],
+            "Biomarker_level": "level 2"
+        },
+        {
+            "Biomarker": "TMB",
+            "Method": "seq",
+            "Analyte": "DNA tumor",
+            "Result": "18 m/Mb High",
+            "Therapy association": [
+                "BENEFIT",
+                "pembrolizumab"
+            ],
+            "Biomarker_level": "level 2"
+        },
+        {
+            "Biomarker": "ERBB2",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative | 0",
+            "Therapy association": [
+                "LACK OF BENEFT",
+                "trastuzumab",
+                "ado-trastuzumab emtansine",
+                "pertuzumab",
+                "fam-trastuzumab deruxtecan-nxki",
+                "lapatinib",
+                "neratinib",
+                "tucatinib"
+            ],
+            "Biomarker_level": "level 1"
+        }
+    ]
+}

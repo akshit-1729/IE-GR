@@ -1,0 +1,74 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "BTK",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.F332V",
+            "Exon": 16,
+            "DNA Alteration": "G",
+            "Allele Frequency %": "24.44"
+        },
+        {
+            "Gene": "CSF3R",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.G12V",
+            "Exon": 14,
+            "DNA Alteration": "c.183A>G",
+            "Allele Frequency %": "7.43"
+        },
+        {
+            "Gene": "ARID2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.S1982Rfs*22",
+            "Exon": 20,
+            "DNA Alteration": "c.5946delT",
+            "Allele Frequency %": "3.6"
+        },
+        {
+            "Gene": "SIX1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.F1888L",
+            "Exon": 4,
+            "DNA Alteration": "c.5662T>C",
+            "Allele Frequency %": "7.32"
+        },
+        {
+            "Gene": "TOP2A",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.*143Qext*31",
+            "Exon": 6,
+            "DNA Alteration": "c.427T>C",
+            "Allele Frequency %": "3.72"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Positive| 3+, 79%"
+        },
+        {
+            "Biomarker": "PMS2",
+            "Result": "Negative| 1+, 50%"
+        },
+        {
+            "Biomarker": "MSH2",
+            "Result": "Negative| 2+, 18%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "PDGFRA",
+        "SIX1",
+        "TEK",
+        "FOXL2"
+    ]
+}

@@ -1,0 +1,337 @@
+{
+    "Patient Information": {
+        "Patient ID": "N/A",
+        "Patient Name": "Eric Rogers",
+        "Date of Birth": "1953-01-19",
+        "Age": 71,
+        "Gender": "Female",
+        "Contact Information": "N/A",
+        "Address": "N/A"
+    },
+    "Diagnosis Information": {
+        "Diagnosis Center": "Dorsey-Robertson",
+        "Doctor Name": "Dr. Michelle Anderson",
+        "Accession Number": "8512",
+        "Date of Diagnosis": "2023-07-11",
+        "Date of Report Issuance": "2023-07-18",
+        "CLIA Number": "14D2114007",
+        "Laboratory Medical Director ": "Dr. Michael Burke",
+        "Method of Analysis": "Not explicitly stated, assumed NGS",
+        "Pipeline Version (Report Version)": "3.2.0"
+    },
+    "Cancer Information": {
+        "Cancer Type": "Small cell carcinoma",
+        "Cancer Stage": "Not explicitly stated",
+        "Cancer Grade": "Not explicitly stated",
+        "Cancer Location in the Body": "Prostate",
+        "Tumor Specimen Source": "Prostate",
+        "Tumor Percentage in Sample": "34%",
+        "Normal Specimen Source": "Blood",
+        "Date of Tumor Sample Collection": "2023-07-13",
+        "Date Tumor Sample Received": "2023-07-16",
+        "Date of Normal Sample Collection": "2023-07-18",
+        "Date Normal Sample Received": "2023-07-18"
+    },
+    "Biomarkers": {
+        "General Biomarkers": {
+            "Microsatellite Instability (MSI)": "High",
+            "Tumor Mutational Burden (TMB)": "40 m/Mb",
+            "Tumor Mutational Burden Percentile": "92%",
+            "Loss of Heterozygosity (LOH)": "N/A",
+            "Mismatch Repair (MMR) Status": "N/A",
+            "PDL1 Expression": "N/A",
+            "EBV (Epstein-Barr Virus) Status": "N/A",
+            "Other Immunotherapy Markers": "N/A",
+            "Low-Coverage Regions": [
+                "TLR8"
+            ]
+        },
+        "Gene Mutations": [
+            {
+                "Gene Name": "FGFR1",
+                "DNA Mutation Description": "c.1966A>G",
+                "Protein Variant": "p.K656E",
+                "Mutation Type": "Missensevariant(exon2)",
+                "Functional Impact": "GOF",
+                "Exon Number": "N/A",
+                "Variant Allele Fraction": "33.56%",
+                "Transcript ID": "N/A",
+                "Somatic or Germline": "Somatic",
+                "Potentially Actionable or Biologically Relevant": "Potentially Actionable",
+                "Analyte": "DNA",
+                "Method of Detection ": "N/A",
+                "Pathogenicity": "N/A",
+                "Pertinent Negative Results": "N/A"
+            },
+            {
+                "Gene Name": "HRAS",
+                "DNA Mutation Description": "c.35G>T",
+                "Protein Variant": "p.G12V",
+                "Mutation Type": "Spliceregionvariant",
+                "Functional Impact": "LOF",
+                "Exon Number": "N/A",
+                "Variant Allele Fraction": "9.39%",
+                "Transcript ID": "N/A",
+                "Somatic or Germline": "Somatic",
+                "Potentially Actionable or Biologically Relevant": "Potentially Actionable",
+                "Analyte": "DNA",
+                "Method of Detection ": "N/A",
+                "Pathogenicity": "N/A",
+                "Pertinent Negative Results": "N/A"
+            },
+            {
+                "Gene Name": "HBB",
+                "DNA Mutation Description": "c.79G>A",
+                "Protein Variant": "p.E122Q",
+                "Mutation Type": "Spliceregionvariant",
+                "Functional Impact": "GOF",
+                "Exon Number": "N/A",
+                "Variant Allele Fraction": "10.29%",
+                "Transcript ID": "N/A",
+                "Somatic or Germline": "Somatic",
+                "Potentially Actionable or Biologically Relevant": "Biologically Relevant",
+                "Analyte": "DNA",
+                "Method of Detection ": "N/A",
+                "Pathogenicity": "N/A",
+                "Pertinent Negative Results": "N/A"
+            },
+            {
+                "Gene Name": "U2AF1",
+                "DNA Mutation Description": "c.3113A>G",
+                "Protein Variant": "p.G12X",
+                "Mutation Type": "Spliceregionvariant",
+                "Functional Impact": "LOF",
+                "Exon Number": "N/A",
+                "Variant Allele Fraction": "5.71%",
+                "Transcript ID": "N/A",
+                "Somatic or Germline": "Somatic",
+                "Potentially Actionable or Biologically Relevant": "Biologically Relevant",
+                "Analyte": "DNA",
+                "Method of Detection ": "N/A",
+                "Pathogenicity": "N/A",
+                "Pertinent Negative Results": "N/A"
+            },
+            {
+                "Gene Name": "SRSF2",
+                "DNA Mutation Description": "c.3113A>G",
+                "Protein Variant": "p.R156X",
+                "Mutation Type": "Nonsense",
+                "Functional Impact": "LOF",
+                "Exon Number": "N/A",
+                "Variant Allele Fraction": "14.59%",
+                "Transcript ID": "N/A",
+                "Somatic or Germline": "Somatic",
+                "Potentially Actionable or Biologically Relevant": "Biologically Relevant",
+                "Analyte": "DNA",
+                "Method of Detection ": "N/A",
+                "Pathogenicity": "N/A",
+                "Pertinent Negative Results": "N/A"
+            }
+        ],
+        "Immunochemistry Biomarkers": []
+    },
+    "Therapeutic Information": {
+        "FDA-Approved Therapies for Current Diagnosis": [
+            {
+                "Therapy Name": "KRAS G12C Inhibitors",
+                "Therapy Type": "targeted therapy",
+                "Medication": "Sotorasib",
+                "Evidence Source": "NCCN, Consensus, Non-Small Cell Lung Cancer, MSK OncoKB, Level 1",
+                "Associated Biomarker": {
+                    "Biomarker Name": "KRASp.G12C G12C-GOF",
+                    "Positively/Negatively Associated": "N/A"
+                }
+            }
+        ],
+        "FDA-Approved Therapies for Other Indications": [
+            {
+                "Therapy Name": "KRAS G12C Inhibitors",
+                "Therapy Type": "targeted therapy",
+                "Medication": "Sotorasib",
+                "Evidence Source": "NCCN, Consensus, Non-Small Cell Lung Cancer, MSK OncoKB, Level 1",
+                "Associated Biomarker": {
+                    "Biomarker Name": "KRASp.G12C G12C-GOF",
+                    "Positively/Negatively Associated": "N/A"
+                }
+            }
+        ]
+    },
+    "Clinical Trials": [
+        {
+            "Trial Title": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "Clinical Trial ID": "N/A",
+            "Phase of Trial": "Phase 2",
+            "Trial Location": "City, state - x mi",
+            "Therapy Type": "N/A",
+            "Medication": "N/A",
+            "Associated Mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "Trial Title": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "Clinical Trial ID": "N/A",
+            "Phase of Trial": "Phase 1/2",
+            "Trial Location": "City, state - x mi",
+            "Therapy Type": "N/A",
+            "Medication": "N/A",
+            "Associated Mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "Trial Title": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "Clinical Trial ID": "N/A",
+            "Phase of Trial": "Phase 1/2",
+            "Trial Location": "City, state - x mi",
+            "Therapy Type": "N/A",
+            "Medication": "N/A",
+            "Associated Mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "Variants of Unknown Significance (VUS)": [
+        {
+            "Gene Name": "MAP2K2",
+            "DNA Alteration": "c.383C>T",
+            "Protein Variant": "p.P128L",
+            "Mutation Type": "Spliceregionvariant",
+            "Functional Impact": "LOF",
+            "Variant Allele Fraction": "14.7%",
+            "Exon Number": "N/A",
+            "Transcript ID": "NM_001011645",
+            "Somatic or Germline": "Somatic"
+        },
+        {
+            "Gene Name": "ALK",
+            "DNA Alteration": "c.3260C>T",
+            "Protein Variant": "p.F1245X",
+            "Mutation Type": "Frameshift",
+            "Functional Impact": "LOF",
+            "Variant Allele Fraction": "7.53%",
+            "Exon Number": "N/A",
+            "Transcript ID": "NM_001011645",
+            "Somatic or Germline": "Somatic"
+        },
+        {
+            "Gene Name": "ALK",
+            "DNA Alteration": "c.3512_3513delinsAT",
+            "Protein Variant": "p.L1196M",
+            "Mutation Type": "Missensevariant(exon2)",
+            "Functional Impact": "GOF",
+            "Variant Allele Fraction": "1.26%",
+            "Exon Number": "N/A",
+            "Transcript ID": "NM_001011645",
+            "Somatic or Germline": "Somatic"
+        },
+        {
+            "Gene Name": "SRSF2",
+            "DNA Alteration": "c.3113A>G",
+            "Protein Variant": "p.P95X",
+            "Mutation Type": "Frameshift",
+            "Functional Impact": "LOF",
+            "Variant Allele Fraction": "6.87%",
+            "Exon Number": "N/A",
+            "Transcript ID": "NM_001011645",
+            "Somatic or Germline": "Somatic"
+        },
+        {
+            "Gene Name": "DPYD",
+            "DNA Alteration": "c.557A>G",
+            "Protein Variant": "p.I560S",
+            "Mutation Type": "Nonsense",
+            "Functional Impact": "GOF",
+            "Variant Allele Fraction": "8.98%",
+            "Exon Number": "N/A",
+            "Transcript ID": "NM_001011645",
+            "Somatic or Germline": "Somatic"
+        },
+        {
+            "Gene Name": "CHEK2",
+            "DNA Alteration": "c.470T>C",
+            "Protein Variant": "p.S428F",
+            "Mutation Type": "Spliceregionvariant",
+            "Functional Impact": "GOF",
+            "Variant Allele Fraction": "5.3%",
+            "Exon Number": "N/A",
+            "Transcript ID": "NM_001011645",
+            "Somatic or Germline": "Somatic"
+        },
+        {
+            "Gene Name": "DDR2",
+            "DNA Alteration": "c.1912A>T",
+            "Protein Variant": "p.I638F",
+            "Mutation Type": "Spliceregionvariant",
+            "Functional Impact": "GOF",
+            "Variant Allele Fraction": "8.49%",
+            "Exon Number": "N/A",
+            "Transcript ID": "NM_001011645",
+            "Somatic or Germline": "Somatic"
+        },
+        {
+            "Gene Name": "RB1",
+            "DNA Alteration": "c.3113A>G",
+            "Protein Variant": "p.F650S",
+            "Mutation Type": "Spliceregionvariant",
+            "Functional Impact": "GOF",
+            "Variant Allele Fraction": "9.72%",
+            "Exon Number": "N/A",
+            "Transcript ID": "NM_001011645",
+            "Somatic or Germline": "Somatic"
+        },
+        {
+            "Gene Name": "HSD3B1",
+            "DNA Alteration": "c.1100=",
+            "Protein Variant": "p.T367N",
+            "Mutation Type": "Missensevariant(exon2)",
+            "Functional Impact": "GOF",
+            "Variant Allele Fraction": "2.78%",
+            "Exon Number": "N/A",
+            "Transcript ID": "NM_001011645",
+            "Somatic or Germline": "Somatic"
+        },
+        {
+            "Gene Name": "STAT5B",
+            "DNA Alteration": "c.1924A>C",
+            "Protein Variant": "p.N713_A714insKGKGGG",
+            "Mutation Type": "Nonsense",
+            "Functional Impact": "GOF",
+            "Variant Allele Fraction": "2.47%",
+            "Exon Number": "N/A",
+            "Transcript ID": "NM_001011645",
+            "Somatic or Germline": "Somatic"
+        },
+        {
+            "Gene Name": "NCSTN",
+            "DNA Alteration": "c.3113A>G",
+            "Protein Variant": "p.A572G",
+            "Mutation Type": "Nonsense",
+            "Functional Impact": "LOF",
+            "Variant Allele Fraction": "7.84%",
+            "Exon Number": "N/A",
+            "Transcript ID": "NM_001011645",
+            "Somatic or Germline": "Somatic"
+        },
+        {
+            "Gene Name": "MAP2K2",
+            "DNA Alteration": "c.383C>T",
+            "Protein Variant": "p.P128L",
+            "Mutation Type": "Spliceregionvariant",
+            "Functional Impact": "LOF",
+            "Variant Allele Fraction": "8.73%",
+            "Exon Number": "N/A",
+            "Transcript ID": "NM_001011645",
+            "Somatic or Germline": "Somatic"
+        }
+    ],
+    "Additional Indicators": {
+        "Prognostic Markers": {
+            "description": "Unfavorable Prognosis",
+            "recommendation": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "biomarker": "KRASp.G12C Gain-of-function"
+        }
+    }
+}

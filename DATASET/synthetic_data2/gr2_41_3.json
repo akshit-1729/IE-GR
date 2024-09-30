@@ -1,0 +1,90 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "KLF1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.R1012X",
+            "Exon": 2,
+            "DNA Alteration": ">",
+            "Allele Frequency %": "14.62"
+        },
+        {
+            "Gene": "DPYD",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.E1705V",
+            "Exon": 7,
+            "DNA Alteration": "c.5439G>T",
+            "Allele Frequency %": "14.92"
+        },
+        {
+            "Gene": "ARID2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.A374E",
+            "Exon": 14,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "16.44"
+        },
+        {
+            "Gene": "IDH2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.M1R",
+            "Exon": 17,
+            "DNA Alteration": "c.2T>G",
+            "Allele Frequency %": "1.83"
+        },
+        {
+            "Gene": "NTRK1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": " p.W266*",
+            "Exon": 20,
+            "DNA Alteration": " c.798G>A",
+            "Allele Frequency %": "4.53"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Negative| 3+, 82%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Positive| 1+, 48%"
+        },
+        {
+            "Biomarker": "MSH6",
+            "Result": "Negative| 1+, 8%"
+        },
+        {
+            "Biomarker": "MSH2",
+            "Result": "Positive| 3+, 61%"
+        },
+        {
+            "Biomarker": "MLH1",
+            "Result": "Positive| 1+, 13%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Negative| 2+, 44%"
+        },
+        {
+            "Biomarker": "ER",
+            "Result": "Positive| 3+, 87%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "PRKCA",
+        "HDAC1",
+        "DICER1",
+        "FGFR4"
+    ]
+}

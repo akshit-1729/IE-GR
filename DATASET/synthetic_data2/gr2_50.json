@@ -1,0 +1,331 @@
+{
+    "Patient": {
+        "Name": "Christina Ingram",
+        "DOB": "1960-09-01",
+        "Sex": "Male",
+        "Caseno": "1947",
+        "Diagnosis": "Squamous cell carcinoma",
+        "Physician": "Dr. Melanie Ochoa"
+    },
+    "specimen information": {
+        "primary_tumor_site": "Lung",
+        "specimen_site": "Bronchus",
+        "specimen_ID": "7351",
+        "CollectedDate": "2023-05-19",
+        "ReceivedDate": "2023-05-20",
+        "Pathological Diagnosis": "Left breast, central, 12:00, suspicious mass, 12-gauge core needle biopsy: Infiltrating moderately-differentiated mammary carcinoma, grade 2, Nottingham score 6 (architectural grade 3, nuclear grade 2, mitotic figures 1).",
+        "Dissection Information": "Molecular testing of this specimen was performed after harvesting of targeted tissues with an approved manual microdissection technique. Candidate slides were examined under a microscope and areas containing tumor cells (and separately normal cells, when necessary for testing) were circled. A laboratory technician harvested targeted tissues for extraction from the marked areas using a dissection microscope."
+    },
+    "Results with Therapy association": [
+        {
+            "Biomarker": "ER",
+            "Method": "IHC",
+            "Analyte": "protein",
+            "Result": "Positive | 3+, 100%",
+            "Therapy association": [
+                "BENEFIT",
+                "abemaciclib",
+                "palbociclib",
+                "ribociclib",
+                "endocrine",
+                "therapy",
+                "everolimus"
+            ],
+            "Biomarker_level": "level 2"
+        },
+        {
+            "Biomarker": "PR",
+            "Method": "IHC",
+            "Analyte": "protein",
+            "Result": "Positive | 2+, 95%",
+            "Therapy association": [
+                "BENEFIT",
+                "abemaciclib",
+                "palbociclib",
+                "ribociclib",
+                "endocrine therapy"
+            ],
+            "Biomarker_level": "level 2"
+        },
+        {
+            "Biomarker": "TMB",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "15 m/Mb High",
+            "Therapy association": [
+                "BENEFIT",
+                "pembrolizumab"
+            ],
+            "Biomarker_level": "level 2"
+        },
+        {
+            "Biomarker": "ERBB2",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative | 0",
+            "Therapy association": [
+                "LACK OF BENEFT",
+                "trastuzumab",
+                "ado-trastuzumab emtansine",
+                "pertuzumab",
+                "fam-trastuzumab deruxtecan-nxki",
+                "lapatinib",
+                "neratinib",
+                "tucatinib"
+            ],
+            "Biomarker_level": "level 1"
+        }
+    ],
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "Mismatch repair status",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 3+, 71%"
+        },
+        {
+            "BioMarker": "PD-L1(SP142)",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 1+, 88%"
+        },
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 3+, 2%"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "15 mutations/Mb High"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 22% of tested genomic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "SMO",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.N713_A714insKGKGGG",
+            "Exon": 15,
+            "DNA Alteration": "c.1924A>C",
+            "Allele Frequency %": "30.25"
+        },
+        {
+            "Gene": "APC",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.I1600M",
+            "Exon": 6,
+            "DNA Alteration": "c.4800C>G",
+            "Allele Frequency %": "25.67"
+        },
+        {
+            "Gene": "RNF43",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.N452D",
+            "Exon": 7,
+            "DNA Alteration": "c.1354A>G",
+            "Allele Frequency %": "8.5"
+        },
+        {
+            "Gene": "BRAF",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.*143Qext*31",
+            "Exon": 10,
+            "DNA Alteration": "c.427T>C",
+            "Allele Frequency %": "20.11"
+        },
+        {
+            "Gene": "SRSF2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.R132C",
+            "Exon": 13,
+            "DNA Alteration": "c.394_395delinsGT",
+            "Allele Frequency %": "6.12"
+        }
+    ],
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "TLR8",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.R465H",
+            "Exon": 6,
+            "DNA Alteration": "c.1394G>A",
+            "Allele Frequency %": "8.68"
+        },
+        {
+            "Gene": "ALK",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.A34V",
+            "Exon": 17,
+            "DNA Alteration": "G",
+            "Allele Frequency %": "20.1"
+        },
+        {
+            "Gene": "H3.3",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.A374E",
+            "Exon": 2,
+            "DNA Alteration": "A",
+            "Allele Frequency %": "3.21"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "ER",
+            "Result": "Positive| 2+, 11%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Positive| 1+, 48%"
+        },
+        {
+            "Biomarker": "MSH6",
+            "Result": "Positive| 2+, 96%"
+        },
+        {
+            "Biomarker": "PMS2",
+            "Result": "Positive| 1+, 48%"
+        },
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Positive| 2+, 61%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Negative| 3+, 46%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "FLT3",
+        "ARHGAP45",
+        "NT5C2",
+        "PAX5",
+        "XPC"
+    ],
+    "Chemotherapy clinical trials": [
+        {
+            "Drug class": "Anti hormonal therapy",
+            "Biomarker": "ER",
+            "Method": "IHC",
+            "Analyte": "protein",
+            "Investigational agents": [
+                "anastrazole",
+                "letrozole",
+                "exemestane",
+                "fulvestrant",
+                "tamoxifen",
+                "goserelin",
+                "leuprolide"
+            ]
+        },
+        {
+            "Drug class": "Anti hormonal therapy",
+            "Biomarker": "PR",
+            "Method": "IHC",
+            "Analyte": "protein",
+            "Investigational agents": [
+                "anastrazole",
+                "letrozole",
+                "exemestane",
+                "fulvestrant",
+                "tamoxifen",
+                "goserelin",
+                "leuprolide"
+            ]
+        },
+        {
+            "Drug class": "Anti inflammatory agents",
+            "Biomarker": "PIK3CA",
+            "Method": "NGS",
+            "Analyte": "DNA tumor",
+            "Investigational agents": [
+                "aspirin"
+            ]
+        }
+    ],
+    "Targeted therapy clinical trials": [
+        {
+            "Drug class": "Akt inhibitors",
+            "Biomarker": "ARID1A",
+            "Method": "NGS",
+            "Analyte": "DNA tumor",
+            "Investigational agents": [
+                "AZD5363",
+                "MK-2206",
+                "ipataserib"
+            ]
+        },
+        {
+            "Drug class": "immunomodulatory agents",
+            "Biomarker": "TMB",
+            "Method": "NGS",
+            "Analyte": "DNA tumor",
+            "Investigational agents": [
+                "avelumab",
+                "atezolizumab",
+                "durvalumab",
+                "ipilimumab",
+                "nivolumab",
+                "pembrolizumab"
+            ]
+        },
+        {
+            "Drug class": "PARP inhibitors",
+            "Biomarker": "NBN",
+            "Method": "NGS",
+            "Analyte": "DNA tumor",
+            "Investigational agents": [
+                "BGB-290",
+                "BMN-673",
+                "olaparib",
+                "rucaparib",
+                "talazoparib"
+            ]
+        },
+        {
+            "Drug class": "Akt/mTor inhibitors",
+            "Biomarker": "PIK3CA",
+            "Method": "NGS",
+            "Analyte": "DNA tumor",
+            "Investigational agents": [
+                "AZD5363",
+                "BYL719",
+                "MK-2206",
+                "ipataserib",
+                "everolimus",
+                "temsirolimus"
+            ]
+        }
+    ]
+}

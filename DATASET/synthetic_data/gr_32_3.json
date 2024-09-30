@@ -1,0 +1,41 @@
+{
+    "low coverage regions": [
+        "BLM"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "AKT1",
+                "DNA Alteration": "c.49G>A",
+                "GeneMutation": "p.E17K Stopgain-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "39.66%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.E17K Nonsense-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "26.49%"
+            },
+            {
+                "Gene": "PIK3CA",
+                "DNA Alteration": "c.1635G>T",
+                "GeneMutation": "p.H1047X Frameshift-LOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "3.5%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-11-27"
+    },
+    "other": {
+        "ReportId": "9716",
+        "ReportDate": "2023-11-29",
+        "SignedBy": "Joshua Villa",
+        "Supervisor": "Dr. Kimberly Boyd"
+    }
+}

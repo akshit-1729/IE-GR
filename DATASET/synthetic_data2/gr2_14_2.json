@@ -1,0 +1,98 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "KLF4",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "HBB",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "PR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 3+, 72%"
+        },
+        {
+            "BioMarker": "KIT",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "BRCA2",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "Mismatch repair status",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 2+, 100%"
+        },
+        {
+            "BioMarker": "PD-L1(SP142)",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 1+, 75%"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "14 mutations/Mb High"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 34% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "SDHD",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.G183S",
+            "Exon": 4,
+            "DNA Alteration": "c.964G>A",
+            "Allele Frequency %": "6.99"
+        },
+        {
+            "Gene": "CHEK2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.R367Q",
+            "Exon": 3,
+            "DNA Alteration": "c.1100G>A",
+            "Allele Frequency %": "32.65"
+        },
+        {
+            "Gene": "CSF1R",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.I543V",
+            "Exon": 20,
+            "DNA Alteration": "c.1905+1G>A",
+            "Allele Frequency %": "2.2"
+        }
+    ]
+}

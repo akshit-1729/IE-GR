@@ -1,0 +1,116 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 3+, 43%"
+        },
+        {
+            "BioMarker": "MUTYH",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 3+, 97%"
+        },
+        {
+            "BioMarker": "Mismatch repair status",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 1+, 80%"
+        },
+        {
+            "BioMarker": "MYO1G",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "11 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low - 10% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "ERBB2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.R80X",
+            "Exon": 10,
+            "DNA Alteration": "c.322G>C",
+            "Allele Frequency %": "24.7"
+        },
+        {
+            "Gene": "IDH2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.A774X",
+            "Exon": 11,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "6.74"
+        },
+        {
+            "Gene": "KIT",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.D463H",
+            "Exon": 9,
+            "DNA Alteration": "c.1387G>C",
+            "Allele Frequency %": "28.75"
+        },
+        {
+            "Gene": "RB1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.I543V",
+            "Exon": 17,
+            "DNA Alteration": "c.1679T>G",
+            "Allele Frequency %": "6.67"
+        },
+        {
+            "Gene": "TEK",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.M1R",
+            "Exon": 9,
+            "DNA Alteration": "c.2T>G",
+            "Allele Frequency %": "7.8"
+        },
+        {
+            "Gene": "MAPK1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.Q125R",
+            "Exon": 14,
+            "DNA Alteration": "c.602G>A",
+            "Allele Frequency %": "2.46"
+        }
+    ]
+}

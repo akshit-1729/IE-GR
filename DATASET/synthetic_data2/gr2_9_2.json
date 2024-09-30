@@ -1,0 +1,108 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "DICER1",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "PTEN",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "ER",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 1+, 53%"
+        },
+        {
+            "BioMarker": "BRCA1",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "IDH1",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "MTOR",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "NT5C2",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "19 mutations/Mb High"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 17% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "STAT5B",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.L858G",
+            "Exon": 7,
+            "DNA Alteration": "c.2386G>C",
+            "Allele Frequency %": "22.64"
+        },
+        {
+            "Gene": "DNMT3A",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.D463H",
+            "Exon": 18,
+            "DNA Alteration": "c.1387G>C",
+            "Allele Frequency %": "20.09"
+        },
+        {
+            "Gene": "MYCN",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.E322K",
+            "Exon": 2,
+            "DNA Alteration": "c.964G>A",
+            "Allele Frequency %": "8.02"
+        },
+        {
+            "Gene": "APC",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.F332V",
+            "Exon": 18,
+            "DNA Alteration": "A",
+            "Allele Frequency %": "19.24"
+        }
+    ]
+}

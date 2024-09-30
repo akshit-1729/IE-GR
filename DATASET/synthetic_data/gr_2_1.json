@@ -1,0 +1,99 @@
+{
+    "patient": {
+        "Name": "Alvin Trujillo",
+        "DateOfBirth": "1969-12-12",
+        "Sex": "Male",
+        "Diagnosis": "Acute myeloid leukemia (AML)",
+        "BodyPart": "Leukemia",
+        "Physician": "Dr. Benjamin Sullivan",
+        "TreatingInstitution": "Casey-Williams"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Leukemia",
+            "CollectedDate": "2023-07-19",
+            "ReceivedDate": "2023-07-22",
+            "TumorPercentage": "36%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-07-23",
+            "ReceivedDate": "2023-07-23"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N159Y Frameshift-LOF",
+                "VariantAlleleFraction": "15.21%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "KLF4",
+                "DNA Alteration": "c.1225A>C",
+                "GeneMutation": "p.K409Q Stopgain-LOF",
+                "VariantAlleleFraction": "22.76%"
+            },
+            {
+                "Gene": "MUTYH",
+                "DNA Alteration": "c.1014G>C",
+                "GeneMutation": "p.N159Y Frameshift-LOF",
+                "VariantAlleleFraction": "3.78%"
+            },
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.K409Q Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "6.14%"
+            },
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.Q338H Frameshift-LOF",
+                "VariantAlleleFraction": "19.67%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "CTNNB1",
+            "SDHA",
+            "MSH2"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "39 m/Mb",
+            "Tmbpercentile": "33%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "High"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

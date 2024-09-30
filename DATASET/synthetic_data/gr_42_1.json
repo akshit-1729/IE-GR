@@ -1,0 +1,105 @@
+{
+    "patient": {
+        "Name": "Brandi Thomas",
+        "DateOfBirth": "1976-07-21",
+        "Sex": "Female",
+        "Diagnosis": "Triple-negative breast cancer",
+        "BodyPart": "Breast",
+        "Physician": "Dr. Timothy Johnson",
+        "TreatingInstitution": "Yates, Farley and Roberts"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Breast",
+            "CollectedDate": "2023-04-30",
+            "ReceivedDate": "2023-05-04",
+            "TumorPercentage": "52%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-05-05",
+            "ReceivedDate": "2023-05-05"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "CCND3",
+                "DNA Alteration": "c.766_776del11",
+                "GeneMutation": "p.R256fs*64 Frameshift-GOF",
+                "VariantAlleleFraction": "30.18%"
+            },
+            {
+                "Gene": "ZEB2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.H1038R Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "31.52%"
+            },
+            {
+                "Gene": "GNAS",
+                "DNA Alteration": "c.601C>T",
+                "GeneMutation": "p.Q125R Nonsense-GOF",
+                "VariantAlleleFraction": "2.26%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "DICER1",
+                "DNA Alteration": "c.5428G>C",
+                "GeneMutation": "p.W1831* Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "16.85%"
+            },
+            {
+                "Gene": "CDC73",
+                "DNA Alteration": "c.1A>G",
+                "GeneMutation": "p.E1813G Stopgain-LOF",
+                "VariantAlleleFraction": "10.25%"
+            },
+            {
+                "Gene": "EGFR",
+                "DNA Alteration": "c.1474A>C",
+                "GeneMutation": "p.P772_H773insNPH Stopgain-LOF",
+                "VariantAlleleFraction": "8.07%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "KLF4",
+            "MAPK1",
+            "FGFR1"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "46 m/Mb",
+            "Tmbpercentile": "95%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

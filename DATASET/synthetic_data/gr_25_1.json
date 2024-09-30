@@ -1,0 +1,105 @@
+{
+    "patient": {
+        "Name": "Julia Chambers",
+        "DateOfBirth": "1987-02-13",
+        "Sex": "Female",
+        "Diagnosis": "Merkel cell carcinoma",
+        "BodyPart": "Skin",
+        "Physician": "Dr. Jennifer Knight",
+        "TreatingInstitution": "Becker, Adams and Nelson"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Skin",
+            "CollectedDate": "2023-05-07",
+            "ReceivedDate": "2023-05-14",
+            "TumorPercentage": "6%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-05-14",
+            "ReceivedDate": "2023-05-16"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": " p.W266* Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "33.12%"
+            },
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1154_1155insTTGTC",
+                "GeneMutation": "p.K385fs*47 Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "34.25%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "NOTCH1",
+                "DNA Alteration": "c.7398_7407del",
+                "GeneMutation": "p.S2467Afs*15 Nonsense-GOF",
+                "VariantAlleleFraction": "9.15%"
+            },
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.G1196D Frameshift-LOF",
+                "VariantAlleleFraction": "1.3%"
+            },
+            {
+                "Gene": "PTEN",
+                "DNA Alteration": "c.389G>A",
+                "GeneMutation": "p.G1196D Nonsense-GOF",
+                "VariantAlleleFraction": "2.36%"
+            },
+            {
+                "Gene": "HBA2",
+                "DNA Alteration": "c.427T>C",
+                "GeneMutation": "p.S2467Gfs*11 Frameshift-LOF",
+                "VariantAlleleFraction": "4.49%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "B2M",
+            "PAX5",
+            "FGFR1"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "33 m/Mb",
+            "Tmbpercentile": "47%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "PR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 1+, 22%"
+        },
+        {
+            "BioMarker": "PD-L1(SP142)",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 1+, 78%"
+        },
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 2+, 10%"
+        },
+        {
+            "BioMarker": "BRCA1",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "12 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low - 8% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "ERCC2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.I66T",
+            "Exon": 8,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "23.82"
+        },
+        {
+            "Gene": "BTK",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.R132C",
+            "Exon": 11,
+            "DNA Alteration": "c.394_395delinsTC",
+            "Allele Frequency %": "8.95"
+        },
+        {
+            "Gene": "DDR2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.Q338H",
+            "Exon": 3,
+            "DNA Alteration": "c.1014G>C",
+            "Allele Frequency %": "20.34"
+        }
+    ]
+}

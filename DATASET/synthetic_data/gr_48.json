@@ -1,0 +1,286 @@
+{
+    "patient": {
+        "Name": "Charles Turner",
+        "DateOfBirth": "1972-09-21",
+        "Sex": "Male",
+        "Diagnosis": "Medullary thyroid cancer",
+        "BodyPart": "Thyroid",
+        "Physician": "Dr. Rebecca Flynn",
+        "TreatingInstitution": "Fletcher PLC"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Thyroid",
+            "CollectedDate": "2023-04-28",
+            "ReceivedDate": "2023-04-29",
+            "TumorPercentage": "68%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-05-04",
+            "ReceivedDate": "2023-05-06"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Frameshift-GOF",
+                "VariantAlleleFraction": "22.86%"
+            },
+            {
+                "Gene": "CCND3",
+                "DNA Alteration": "c.766_776del11",
+                "GeneMutation": "p.R256fs*64 Nonsense-GOF",
+                "VariantAlleleFraction": "5.48%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "ERBB2",
+                "DNA Alteration": "c.2584A>G",
+                "GeneMutation": "p.R896C Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "1.03%"
+            },
+            {
+                "Gene": "MAPK1",
+                "DNA Alteration": "c.964G>A",
+                "GeneMutation": "p.L755P Nonsense-LOF",
+                "VariantAlleleFraction": "6.25%"
+            },
+            {
+                "Gene": "CDC73",
+                "DNA Alteration": "c.1A>G",
+                "GeneMutation": "p.L755S Nonsense-GOF",
+                "VariantAlleleFraction": "10.39%"
+            },
+            {
+                "Gene": "SDHA",
+                "DNA Alteration": "c.1660C>T",
+                "GeneMutation": "p.R256fs*64 Frameshift-GOF",
+                "VariantAlleleFraction": "13.38%"
+            },
+            {
+                "Gene": "ABL1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G660D Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "7.63%"
+            },
+            {
+                "Gene": "KRAS",
+                "DNA Alteration": "c.36T>C",
+                "GeneMutation": "p.G12C Nonsense-GOF",
+                "VariantAlleleFraction": "4.59%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "SRSF2",
+            "PAX5",
+            "CCND3",
+            "HDAC2",
+            "PDGFRA"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "40 m/Mb",
+            "Tmbpercentile": "97%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "FGFR3",
+                "DNA Alteration": "c.1138G>A",
+                "GeneMutation": "p.R248C Stopgain-LOF",
+                "VariantAlleleFraction": "18.87%"
+            },
+            {
+                "Gene": "IDH2",
+                "DNA Alteration": "c.515G>A",
+                "GeneMutation": "p.R140L Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "7.92%"
+            },
+            {
+                "Gene": "KLF4",
+                "DNA Alteration": "c.1225A>C",
+                "GeneMutation": "p.K409Q Nonsense-GOF",
+                "VariantAlleleFraction": "3.74%"
+            },
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A572G Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "8.64%"
+            },
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.Q157X Nonsense-GOF",
+                "VariantAlleleFraction": "1.22%"
+            },
+            {
+                "Gene": "HSD3B1",
+                "DNA Alteration": "c.1100=",
+                "GeneMutation": "p.T367= Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "6.81%"
+            },
+            {
+                "Gene": "ARHGAP45",
+                "DNA Alteration": "c.416G>A",
+                "GeneMutation": "p.R139H Frameshift-LOF",
+                "VariantAlleleFraction": "8.19%"
+            },
+            {
+                "Gene": "HSD3B1",
+                "DNA Alteration": "c.1100=",
+                "GeneMutation": "p.T367= Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "8.58%"
+            },
+            {
+                "Gene": "PDGFRA",
+                "DNA Alteration": "c.1153_1154delinsTT",
+                "GeneMutation": "p.D842V Frameshift-LOF",
+                "VariantAlleleFraction": "4.59%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "ERCC2",
+        "DICER1",
+        "KLF1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Frameshift-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "22.86%"
+            },
+            {
+                "Gene": "CCND3",
+                "DNA Alteration": "c.766_776del11",
+                "GeneMutation": "p.R256fs*64 Nonsense-GOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "5.48%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "ERBB2",
+                "DNA Alteration": "c.2584A>G",
+                "GeneMutation": "p.R896C Spliceregionvariant-LOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "1.03%"
+            },
+            {
+                "Gene": "MAPK1",
+                "DNA Alteration": "c.964G>A",
+                "GeneMutation": "p.L755P Nonsense-LOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "6.25%"
+            },
+            {
+                "Gene": "CDC73",
+                "DNA Alteration": "c.1A>G",
+                "GeneMutation": "p.L755S Nonsense-GOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "10.39%"
+            },
+            {
+                "Gene": "SDHA",
+                "DNA Alteration": "c.1660C>T",
+                "GeneMutation": "p.R256fs*64 Frameshift-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "13.38%"
+            },
+            {
+                "Gene": "ABL1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G660D Missensevariant(exon2)-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "7.63%"
+            },
+            {
+                "Gene": "KRAS",
+                "DNA Alteration": "c.36T>C",
+                "GeneMutation": "p.G12C Nonsense-GOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "4.59%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-04-21"
+    },
+    "other": {
+        "ReportId": "6947",
+        "ReportDate": "2023-04-29",
+        "SignedBy": "Rebecca Flynn",
+        "Supervisor": "Dr. Eric Odonnell"
+    }
+}

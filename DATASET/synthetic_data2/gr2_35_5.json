@@ -1,0 +1,97 @@
+{
+    "Chemotherapy clinical trials": [
+        {
+            "Drug class": "Anti hormonal therapy",
+            "Biomarker": "ER",
+            "Method": "IHC",
+            "Analyte": "protein",
+            "Investigational agents": [
+                "anastrazole",
+                "letrozole",
+                "exemestane",
+                "fulvestrant",
+                "tamoxifen",
+                "goserelin",
+                "leuprolide"
+            ]
+        },
+        {
+            "Drug class": "Anti hormonal therapy",
+            "Biomarker": "PR",
+            "Method": "IHC",
+            "Analyte": "protein",
+            "Investigational agents": [
+                "anastrazole",
+                "letrozole",
+                "exemestane",
+                "fulvestrant",
+                "tamoxifen",
+                "goserelin",
+                "leuprolide"
+            ]
+        },
+        {
+            "Drug class": "Anti inflammatory agents",
+            "Biomarker": "PIK3CA",
+            "Method": "NGS",
+            "Analyte": "DNA tumor",
+            "Investigational agents": [
+                "aspirin"
+            ]
+        }
+    ],
+    "Targeted therapy clinical trials": [
+        {
+            "Drug class": "Akt inhibitors",
+            "Biomarker": "ARID1A",
+            "Method": "NGS",
+            "Analyte": "DNA tumor",
+            "Investigational agents": [
+                "AZD5363",
+                "MK-2206",
+                "ipataserib"
+            ]
+        },
+        {
+            "Drug class": "immunomodulatory agents",
+            "Biomarker": "TMB",
+            "Method": "NGS",
+            "Analyte": "DNA tumor",
+            "Investigational agents": [
+                "avelumab",
+                "atezolizumab",
+                "durvalumab",
+                "ipilimumab",
+                "nivolumab",
+                "pembrolizumab"
+            ]
+        },
+        {
+            "Drug class": "PARP inhibitors",
+            "Biomarker": "NBN",
+            "Method": "NGS",
+            "Analyte": "DNA tumor",
+            "Investigational agents": [
+                "BGB-290",
+                "BMN-673",
+                "olaparib",
+                "rucaparib",
+                "talazoparib"
+            ]
+        },
+        {
+            "Drug class": "Akt/mTor inhibitors",
+            "Biomarker": "PIK3CA",
+            "Method": "NGS",
+            "Analyte": "DNA tumor",
+            "Investigational agents": [
+                "AZD5363",
+                "BYL719",
+                "MK-2206",
+                "ipataserib",
+                "everolimus",
+                "temsirolimus"
+            ]
+        }
+    ]
+}

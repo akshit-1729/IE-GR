@@ -1,0 +1,77 @@
+{
+    "Patient": {
+        "Name": "Sara Bradshaw",
+        "DOB": "1991-10-14",
+        "Sex": "Male",
+        "Caseno": "8570",
+        "Diagnosis": "Invasive ductal carcinoma",
+        "Physician": "Dr. Donald Burns"
+    },
+    "specimen information": {
+        "primary_tumor_site": "Breast",
+        "specimen_site": "Lymph nodes (axillary",
+        "specimen_ID": "4123",
+        "CollectedDate": "2023-05-03",
+        "ReceivedDate": "2023-05-05"
+    },
+    "Results with Therapy association": [
+        {
+            "Biomarker": "ER",
+            "Method": "IHC",
+            "Analyte": "protein",
+            "Result": "Positive | 3+, 100%",
+            "Therapy association": [
+                "BENEFIT",
+                "abemaciclib",
+                "palbociclib",
+                "ribociclib",
+                "endocrine",
+                "therapy",
+                "everolimus"
+            ],
+            "Biomarker level": "level 2"
+        },
+        {
+            "Biomarker": "PR",
+            "Method": "IHC",
+            "Analyte": "protein",
+            "Result": "Positive | 2+, 95%",
+            "Therapy association": [
+                "BENEFIT",
+                "abemaciclib",
+                "palbociclib",
+                "ribociclib",
+                "endocrine therapy"
+            ],
+            "Biomarker_level": "level 2"
+        },
+        {
+            "Biomarker": "TMB",
+            "Method": "seq",
+            "Analyte": "DNA tumor",
+            "Result": "10 m/Mb Low",
+            "Therapy association": [
+                "BENEFIT",
+                "pembrolizumab"
+            ],
+            "Biomarker_level": "level 2"
+        },
+        {
+            "Biomarker": "ERBB2",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative | 0",
+            "Therapy association": [
+                "LACK OF BENEFT",
+                "trastuzumab",
+                "ado-trastuzumab emtansine",
+                "pertuzumab",
+                "fam-trastuzumab deruxtecan-nxki",
+                "lapatinib",
+                "neratinib",
+                "tucatinib"
+            ],
+            "Biomarker_level": "level 1"
+        }
+    ]
+}

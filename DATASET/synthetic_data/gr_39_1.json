@@ -1,0 +1,107 @@
+{
+    "patient": {
+        "Name": "Scott Patton",
+        "DateOfBirth": "1958-01-08",
+        "Sex": "Male",
+        "Diagnosis": "Follicular thyroid cancer",
+        "BodyPart": "Thyroid",
+        "Physician": "Dr. Melissa Cooper",
+        "TreatingInstitution": "Miller, Schwartz and Watkins"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Thyroid",
+            "CollectedDate": "2023-11-19",
+            "ReceivedDate": "2023-11-19",
+            "TumorPercentage": "22%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-11-26",
+            "ReceivedDate": "2023-11-26"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "APC",
+                "DNA Alteration": "c.3920T>A",
+                "GeneMutation": "p.I1307K Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "23.13%"
+            },
+            {
+                "Gene": "KLF4",
+                "DNA Alteration": "c.1225A>C",
+                "GeneMutation": "p.K409Q Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "23.52%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.K409Q Nonsense-GOF",
+                "VariantAlleleFraction": "27.29%"
+            },
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.N159Y Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "3.93%"
+            },
+            {
+                "Gene": "CSF3R",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G751A Nonsense-GOF",
+                "VariantAlleleFraction": "12.36%"
+            },
+            {
+                "Gene": "ALK",
+                "DNA Alteration": "c.3185A>T",
+                "GeneMutation": "p.V49M Nonsense-GOF",
+                "VariantAlleleFraction": "11.14%"
+            },
+            {
+                "Gene": "TEK",
+                "DNA Alteration": "c.1354A>G",
+                "GeneMutation": "p.F1174C Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "9.03%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": []
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "44 m/Mb",
+            "Tmbpercentile": "80%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "High"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

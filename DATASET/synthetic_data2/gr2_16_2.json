@@ -1,0 +1,108 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "MYD88",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "JAK3",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "IDH1",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "PD-L1(SP142)",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 2+, 90%"
+        },
+        {
+            "BioMarker": "PD-L1(SP142)",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 3+, 94%"
+        },
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 3+, 89%"
+        },
+        {
+            "BioMarker": "STAT5B",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Equivocal"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "10 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 30% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "PTCH1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.E504K",
+            "Exon": 4,
+            "DNA Alteration": "c.1510G>A",
+            "Allele Frequency %": "36.5"
+        },
+        {
+            "Gene": "NF1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.K385L",
+            "Exon": 2,
+            "DNA Alteration": "c.1153_1154delinsTC",
+            "Allele Frequency %": "10.81"
+        },
+        {
+            "Gene": "FGFR1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.A374E",
+            "Exon": 8,
+            "DNA Alteration": "c",
+            "Allele Frequency %": "18.4"
+        },
+        {
+            "Gene": "NRAS",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": " p.W266*",
+            "Exon": 12,
+            "DNA Alteration": " c.798G>A",
+            "Allele Frequency %": "7.81"
+        }
+    ]
+}

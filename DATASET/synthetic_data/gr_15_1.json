@@ -1,0 +1,105 @@
+{
+    "patient": {
+        "Name": "Jennifer Delacruz",
+        "DateOfBirth": "1939-09-25",
+        "Sex": "Male",
+        "Diagnosis": "Chronic myeloid leukemia (CML)",
+        "BodyPart": "Leukemia",
+        "Physician": "Dr. Michelle White",
+        "TreatingInstitution": "Hernandez Ltd"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Leukemia",
+            "CollectedDate": "2023-10-10",
+            "ReceivedDate": "2023-10-10",
+            "TumorPercentage": "58%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-10-16",
+            "ReceivedDate": "2023-10-22"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "CSF1R",
+                "DNA Alteration": "c.1085A>G",
+                "GeneMutation": "p.N648S Nonsense-GOF",
+                "VariantAlleleFraction": "4.29%"
+            },
+            {
+                "Gene": "XPC",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S346P Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "32.81%"
+            },
+            {
+                "Gene": "MUTYH",
+                "DNA Alteration": "c.1014G>C",
+                "GeneMutation": "p.Q338H Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "3.95%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.S1982Rfs*22 Frameshift-LOF",
+                "VariantAlleleFraction": "14.54%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "MTOR",
+                "DNA Alteration": "c.5664C>A",
+                "GeneMutation": "p.G1954R Stopgain-LOF",
+                "VariantAlleleFraction": "16.86%"
+            },
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": "p.F1888L Frameshift-GOF",
+                "VariantAlleleFraction": "8.99%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "FLT3",
+            "BTK",
+            "IKZF1"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "13 m/Mb",
+            "Tmbpercentile": "24%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

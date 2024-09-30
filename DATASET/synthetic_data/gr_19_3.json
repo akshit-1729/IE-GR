@@ -1,0 +1,56 @@
+{
+    "low coverage regions": [
+        "RNF43",
+        "AKT1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "KIT",
+                "DNA Alteration": "c.2464A>T",
+                "GeneMutation": "p.K818Q Frameshift-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "3.21%"
+            },
+            {
+                "Gene": "PHF6",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R225X Stopgain-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "7.95%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "SDHD",
+                "DNA Alteration": "c.34G>A",
+                "GeneMutation": "p.G12S Stopgain-LOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "1.69%"
+            },
+            {
+                "Gene": "SIX1",
+                "DNA Alteration": "c.530A>G",
+                "GeneMutation": "p.G12S Frameshift-GOF",
+                "description": "BCL11B encodes a C2H2-type zinc finger protein that functions as a transcriptional repressor and plays a role in T-cell development and survival. Loss of function mutations, copy number loss, and fusions resulting in the underexpression of BCL11B are associated with cancer progression.",
+                "VariantAlleleFraction": "17.8%"
+            },
+            {
+                "Gene": "FGFR2",
+                "DNA Alteration": "c.1144T>C",
+                "GeneMutation": "p.C382R Nonsense-GOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "8.51%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2024-04-14"
+    },
+    "other": {
+        "ReportId": "6354",
+        "ReportDate": "2024-04-19",
+        "SignedBy": "Terri Francis",
+        "Supervisor": "Dr. Angela Thornton"
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "DICER1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.P44L",
+            "Exon": 15,
+            "DNA Alteration": "c.131C>T",
+            "Allele Frequency %": "7.15"
+        },
+        {
+            "Gene": "CD74",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.D820Y",
+            "Exon": 6,
+            "DNA Alteration": "c.1669T>C",
+            "Allele Frequency %": "12.97"
+        },
+        {
+            "Gene": "ARID2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.L239R",
+            "Exon": 17,
+            "DNA Alteration": "c.1912A>T",
+            "Allele Frequency %": "13.85"
+        },
+        {
+            "Gene": "CDC73",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.G503A",
+            "Exon": 14,
+            "DNA Alteration": "c.1508G>C",
+            "Allele Frequency %": "13.0"
+        },
+        {
+            "Gene": "DPYD",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.I1600M",
+            "Exon": 9,
+            "DNA Alteration": "c.4800C>G",
+            "Allele Frequency %": "5.76"
+        },
+        {
+            "Gene": "CHD6",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.N515H",
+            "Exon": 15,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "3.67"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Positive| 1+, 2%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Negative| 1+, 3%"
+        },
+        {
+            "Biomarker": "MSH2",
+            "Result": "Negative| 3+, 66%"
+        },
+        {
+            "Biomarker": "MLH1",
+            "Result": "Positive| 1+, 61%"
+        },
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Positive| 1+, 38%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "MYD88",
+        "PAX5",
+        "KRAS",
+        "B2M",
+        "HBA2",
+        "KRAS"
+    ]
+}

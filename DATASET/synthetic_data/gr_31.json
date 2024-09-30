@@ -1,0 +1,257 @@
+{
+    "patient": {
+        "Name": "Bryan Bishop",
+        "DateOfBirth": "1985-09-14",
+        "Sex": "Female",
+        "Diagnosis": "Hodgkin lymphoma",
+        "BodyPart": "Lymphoma",
+        "Physician": "Dr. Laura Ballard",
+        "TreatingInstitution": "Mcintosh, Garcia and Davis"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Lymphoma",
+            "CollectedDate": "2023-07-16",
+            "ReceivedDate": "2023-07-17",
+            "TumorPercentage": "26%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-07-23",
+            "ReceivedDate": "2023-07-23"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "MPL",
+                "DNA Alteration": "c.1543_1545delinsAAA",
+                "GeneMutation": "p.W515L Stopgain-LOF",
+                "VariantAlleleFraction": "10.36%"
+            },
+            {
+                "Gene": "TP53",
+                "DNA Alteration": "c.742C>T",
+                "GeneMutation": "p.K132N Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "7.97%"
+            },
+            {
+                "Gene": "ABL1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A34V Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "27.51%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.S1982Rfs*22 Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "1.82%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "MSH2",
+                "DNA Alteration": "c.1906G>C",
+                "GeneMutation": "p.S1982Rfs*22 Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "17.94%"
+            },
+            {
+                "Gene": "BLM",
+                "DNA Alteration": "c.2207_2212delinsTAGATTC",
+                "GeneMutation": "p.S1982Rfs*22 Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "5.16%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "APC",
+            "CCND3",
+            "CALR"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "18 m/Mb",
+            "Tmbpercentile": "23%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1154_1155insTTGTC",
+                "GeneMutation": "p.K385fs*47 Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "13.11%"
+            },
+            {
+                "Gene": "FGFR4",
+                "DNA Alteration": "c.1162G>A",
+                "GeneMutation": "p.G388R Frameshift-LOF",
+                "VariantAlleleFraction": "1.93%"
+            },
+            {
+                "Gene": "EGFR",
+                "DNA Alteration": "c.2310_2311ins9",
+                "GeneMutation": "p.D770_N771insD Frameshift-LOF",
+                "VariantAlleleFraction": "10.31%"
+            },
+            {
+                "Gene": "PKLR",
+                "DNA Alteration": "c.1436G>A",
+                "GeneMutation": "p.R479H Nonsense-LOF",
+                "VariantAlleleFraction": "3.76%"
+            },
+            {
+                "Gene": "MYD88",
+                "DNA Alteration": "c.794T>C",
+                "GeneMutation": "p.L265P Nonsense-GOF",
+                "VariantAlleleFraction": "3.63%"
+            },
+            {
+                "Gene": "DICER1",
+                "DNA Alteration": "c.5428G>C",
+                "GeneMutation": "p.E1705V Frameshift-LOF",
+                "VariantAlleleFraction": "3.55%"
+            },
+            {
+                "Gene": "BRCA1",
+                "DNA Alteration": "c.5265_5266insC",
+                "GeneMutation": "p.Q1756Pfs Stopgain-LOF",
+                "VariantAlleleFraction": "3.22%"
+            },
+            {
+                "Gene": "MTOR",
+                "DNA Alteration": "c.5664C>A",
+                "GeneMutation": "p.G1954R Nonsense-LOF",
+                "VariantAlleleFraction": "7.15%"
+            }
+        ],
+        "Germline": [
+            {
+                "Gene": "CHD6",
+                "DNA Alteration": "c.4800C>G",
+                "GeneMutation": "p.I1600M Spliceregionvariant-LOF",
+                "Condition": "drive"
+            }
+        ]
+    },
+    "low coverage regions": [
+        "CDKN2A"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "MPL",
+                "DNA Alteration": "c.1543_1545delinsAAA",
+                "GeneMutation": "p.W515L Stopgain-LOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "10.36%"
+            },
+            {
+                "Gene": "TP53",
+                "DNA Alteration": "c.742C>T",
+                "GeneMutation": "p.K132N Spliceregionvariant-LOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "7.97%"
+            },
+            {
+                "Gene": "ABL1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A34V Spliceregionvariant-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "27.51%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.S1982Rfs*22 Missensevariant(exon2)-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "1.82%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "MSH2",
+                "DNA Alteration": "c.1906G>C",
+                "GeneMutation": "p.S1982Rfs*22 Spliceregionvariant-LOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "17.94%"
+            },
+            {
+                "Gene": "BLM",
+                "DNA Alteration": "c.2207_2212delinsTAGATTC",
+                "GeneMutation": "p.S1982Rfs*22 Spliceregionvariant-LOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "5.16%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-07-15"
+    },
+    "other": {
+        "ReportId": "8371",
+        "ReportDate": "2023-07-25",
+        "SignedBy": "Laura Ballard",
+        "Supervisor": "Dr. Anne Gibson"
+    }
+}

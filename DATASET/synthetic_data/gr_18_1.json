@@ -1,0 +1,94 @@
+{
+    "patient": {
+        "Name": "Lisa Robinson",
+        "DateOfBirth": "1970-04-29",
+        "Sex": "Male",
+        "Diagnosis": "Hodgkin lymphoma",
+        "BodyPart": "Lymphoma",
+        "Physician": "Dr. Lisa Garrett",
+        "TreatingInstitution": "Williams, Sherman and Carr"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Lymphoma",
+            "CollectedDate": "2023-07-30",
+            "ReceivedDate": "2023-08-01",
+            "TumorPercentage": "15%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-08-05",
+            "ReceivedDate": "2023-08-05"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "FOXL2",
+                "DNA Alteration": "c.402C>G",
+                "GeneMutation": "p.C134W Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "5.64%"
+            },
+            {
+                "Gene": "AKT1",
+                "DNA Alteration": "c.49G>A",
+                "GeneMutation": "p.E17K Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "7.82%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "CSF3R",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G751A Nonsense-GOF",
+                "VariantAlleleFraction": "23.83%"
+            },
+            {
+                "Gene": "CTNNB1",
+                "DNA Alteration": "c.94G>A",
+                "GeneMutation": "p.D32G Stopgain-LOF",
+                "VariantAlleleFraction": "4.13%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "MUTYH",
+            "SRSF2",
+            "EZH2",
+            "DDR2"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "4 m/Mb",
+            "Tmbpercentile": "45%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

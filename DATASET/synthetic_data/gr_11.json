@@ -1,0 +1,214 @@
+{
+    "patient": {
+        "Name": "Marilyn Mcbride",
+        "DateOfBirth": "2000-04-16",
+        "Sex": "Male",
+        "Diagnosis": "Large cell carcinoma",
+        "BodyPart": "Lung",
+        "Physician": "Dr. Jennifer Johnson",
+        "TreatingInstitution": "Gutierrez Group"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Lung",
+            "CollectedDate": "2023-12-29",
+            "ReceivedDate": "2023-12-29",
+            "TumorPercentage": "72%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2024-01-02",
+            "ReceivedDate": "2024-01-07"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "NF1",
+                "DNA Alteration": "c.4394A>G",
+                "GeneMutation": "p.S2309Cfs*10 Frameshift-LOF",
+                "VariantAlleleFraction": "3.51%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N1465S Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "18.76%"
+            },
+            {
+                "Gene": "MPL",
+                "DNA Alteration": "c.1543_1545delinsAAA",
+                "GeneMutation": "p.W515K Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "21.92%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "CSF1R",
+            "HBB",
+            "ERCC2",
+            "IDH1"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "18 m/Mb",
+            "Tmbpercentile": "89%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "DICER1",
+                "DNA Alteration": "c.5492G>A",
+                "GeneMutation": "p.E1705V Frameshift-GOF",
+                "VariantAlleleFraction": "10.63%"
+            },
+            {
+                "Gene": "HBB",
+                "DNA Alteration": "c.364G>A",
+                "GeneMutation": "p.E27K Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "18.81%"
+            },
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.V49M Nonsense-GOF",
+                "VariantAlleleFraction": "3.43%"
+            },
+            {
+                "Gene": "TLR8",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N515H Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "2.28%"
+            },
+            {
+                "Gene": "PHF6",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R225X Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "3.88%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.S1982Rfs*22 Nonsense-GOF",
+                "VariantAlleleFraction": "8.32%"
+            },
+            {
+                "Gene": "PHF6",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R225X Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "3.86%"
+            }
+        ],
+        "Germline": [
+            {
+                "Gene": "SDHB",
+                "DNA Alteration": "c.487T>C",
+                "GeneMutation": "p.S163P Nonsense-LOF",
+                "Condition": "recent"
+            }
+        ]
+    },
+    "low coverage regions": [
+        "MAPK1",
+        "PIK3CA"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "NF1",
+                "DNA Alteration": "c.4394A>G",
+                "GeneMutation": "p.S2309Cfs*10 Frameshift-LOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "3.51%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N1465S Missensevariant(exon2)-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "18.76%"
+            },
+            {
+                "Gene": "MPL",
+                "DNA Alteration": "c.1543_1545delinsAAA",
+                "GeneMutation": "p.W515K Spliceregionvariant-GOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "21.92%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-12-27"
+    },
+    "other": {
+        "ReportId": "5191",
+        "ReportDate": "2024-01-05",
+        "SignedBy": "Jennifer Johnson",
+        "Supervisor": "Dr. Tammy Farley"
+    }
+}

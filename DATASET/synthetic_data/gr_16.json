@@ -1,0 +1,220 @@
+{
+    "patient": {
+        "Name": "Amanda Payne",
+        "DateOfBirth": "1972-11-07",
+        "Sex": "Male",
+        "Diagnosis": "Invasive lobular carcinoma",
+        "BodyPart": "Breast",
+        "Physician": "Dr. Donald Fowler",
+        "TreatingInstitution": "Lopez, Fisher and Bryan"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Breast",
+            "CollectedDate": "2023-09-16",
+            "ReceivedDate": "2023-09-18",
+            "TumorPercentage": "59%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-09-23",
+            "ReceivedDate": "2023-09-29"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "FOXL2",
+                "DNA Alteration": "c.402C>G",
+                "GeneMutation": "p.C134W Nonsense-GOF",
+                "VariantAlleleFraction": "15.4%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "NF1",
+                "DNA Alteration": "c.6926del",
+                "GeneMutation": "p.C134W Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "33.58%"
+            },
+            {
+                "Gene": "CDKN2A",
+                "DNA Alteration": "c.151G>A",
+                "GeneMutation": "p.N1465S Frameshift-GOF",
+                "VariantAlleleFraction": "24.97%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "BLM",
+            "RB1",
+            "BRCA2",
+            "CSF3R"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "1 m/Mb",
+            "Tmbpercentile": "58%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "High"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "STAG2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R1012X Nonsense-LOF",
+                "VariantAlleleFraction": "14.49%"
+            },
+            {
+                "Gene": "STAT5B",
+                "DNA Alteration": "c.1924A>C",
+                "GeneMutation": "p.N713_A714insKGKGGG Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "5.58%"
+            },
+            {
+                "Gene": "PRKCA",
+                "DNA Alteration": "c.1387G>C",
+                "GeneMutation": "p.D463H Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "2.01%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.S1982Rfs*22 Nonsense-GOF",
+                "VariantAlleleFraction": "4.43%"
+            },
+            {
+                "Gene": "DICER1",
+                "DNA Alteration": "c.5439G>C",
+                "GeneMutation": "p.W1831* Nonsense-GOF",
+                "VariantAlleleFraction": "1.08%"
+            },
+            {
+                "Gene": "CSF1R",
+                "DNA Alteration": "c.1085A>G",
+                "GeneMutation": "p.N648S Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "4.41%"
+            },
+            {
+                "Gene": "CTNNB1",
+                "DNA Alteration": "c.98C>T",
+                "GeneMutation": "p.D32N Frameshift-LOF",
+                "VariantAlleleFraction": "2.63%"
+            },
+            {
+                "Gene": "CHD6",
+                "DNA Alteration": "c.4800C>G",
+                "GeneMutation": "p.I1600M Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "4.36%"
+            },
+            {
+                "Gene": "MYOD1",
+                "DNA Alteration": "c.365T>G",
+                "GeneMutation": "p.L122R Nonsense-GOF",
+                "VariantAlleleFraction": "5.95%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "STAT5B",
+        "ARID2",
+        "MYOD1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "FOXL2",
+                "DNA Alteration": "c.402C>G",
+                "GeneMutation": "p.C134W Nonsense-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "15.4%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "NF1",
+                "DNA Alteration": "c.6926del",
+                "GeneMutation": "p.C134W Spliceregionvariant-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "33.58%"
+            },
+            {
+                "Gene": "CDKN2A",
+                "DNA Alteration": "c.151G>A",
+                "GeneMutation": "p.N1465S Frameshift-GOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "24.97%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-09-09"
+    },
+    "other": {
+        "ReportId": "1109",
+        "ReportDate": "2023-09-25",
+        "SignedBy": "Donald Fowler",
+        "Supervisor": "Dr. Donna Calderon"
+    }
+}

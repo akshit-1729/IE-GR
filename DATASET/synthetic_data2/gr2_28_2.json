@@ -1,0 +1,134 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "CHD6",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "PTPN11",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "NRAS",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "HBA2",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "CALR",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "Mismatch repair status",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 2+, 64%"
+        },
+        {
+            "BioMarker": "ER",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 1+, 10%"
+        },
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 1+, 83%"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "17 mutations/Mb High"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 39% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "EZH2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.L239R",
+            "Exon": 12,
+            "DNA Alteration": "c.716T>G",
+            "Allele Frequency %": "3.69"
+        },
+        {
+            "Gene": "CSF3R",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.N713_A714insKGKGGG",
+            "Exon": 20,
+            "DNA Alteration": "c.1924A>C",
+            "Allele Frequency %": "1.0"
+        },
+        {
+            "Gene": "PTCH1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.E17K",
+            "Exon": 2,
+            "DNA Alteration": "c.49G>A",
+            "Allele Frequency %": "26.93"
+        },
+        {
+            "Gene": "PRKCA",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.S346P",
+            "Exon": 13,
+            "DNA Alteration": "G",
+            "Allele Frequency %": "23.11"
+        },
+        {
+            "Gene": "JAK2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.F332V",
+            "Exon": 2,
+            "DNA Alteration": "G",
+            "Allele Frequency %": "12.13"
+        },
+        {
+            "Gene": "RNF43",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.V842I",
+            "Exon": 6,
+            "DNA Alteration": "c.2325_2326ins12",
+            "Allele Frequency %": "9.83"
+        }
+    ]
+}

@@ -1,0 +1,146 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "JAK2",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "DDR2",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "ER",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 2+, 16%"
+        },
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 3+, 84%"
+        },
+        {
+            "BioMarker": "PR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 3+, 62%"
+        },
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 3+, 58%"
+        },
+        {
+            "BioMarker": "MUTYH",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "CSF3R",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "STAT5B",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "MTOR",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Equivocal"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "14 mutations/Mb High"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 27% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "NTRK1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.R139H",
+            "Exon": 15,
+            "DNA Alteration": "c.416G>A",
+            "Allele Frequency %": "10.26"
+        },
+        {
+            "Gene": "DDR2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.N159Y",
+            "Exon": 2,
+            "DNA Alteration": ".",
+            "Allele Frequency %": "27.25"
+        },
+        {
+            "Gene": "MAP2K2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.W515L",
+            "Exon": 3,
+            "DNA Alteration": "c.1543_1544delinsAA",
+            "Allele Frequency %": "4.69"
+        },
+        {
+            "Gene": "PDGFRA",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.Q338H",
+            "Exon": 16,
+            "DNA Alteration": "c.1014G>C",
+            "Allele Frequency %": "17.65"
+        },
+        {
+            "Gene": "ABL1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.I1307K",
+            "Exon": 2,
+            "DNA Alteration": "c.3920T>A",
+            "Allele Frequency %": "12.07"
+        },
+        {
+            "Gene": "CSF3R",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.K656E",
+            "Exon": 12,
+            "DNA Alteration": "c.1966A>G",
+            "Allele Frequency %": "8.82"
+        }
+    ]
+}

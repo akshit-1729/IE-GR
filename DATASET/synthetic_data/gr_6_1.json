@@ -1,0 +1,89 @@
+{
+    "patient": {
+        "Name": "Zoe Johnson",
+        "DateOfBirth": "1971-06-01",
+        "Sex": "Male",
+        "Diagnosis": "Neuroendocrine tumors",
+        "BodyPart": "Colorectal",
+        "Physician": "Dr. Andrew Lang",
+        "TreatingInstitution": "Willis-Ramos"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Colorectal",
+            "CollectedDate": "2024-03-30",
+            "ReceivedDate": "2024-04-02",
+            "TumorPercentage": "25%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2024-04-04",
+            "ReceivedDate": "2024-04-04"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "DPYD",
+                "DNA Alteration": "c.557A>G",
+                "GeneMutation": "p.I543V Frameshift-GOF",
+                "VariantAlleleFraction": "34.26%"
+            },
+            {
+                "Gene": "H3.3",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G35R Stopgain-LOF",
+                "VariantAlleleFraction": "6.13%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "PTCH1",
+                "DNA Alteration": "c.3583A>T",
+                "GeneMutation": "p.T1195S Nonsense-LOF",
+                "VariantAlleleFraction": "12.78%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "TOP2A",
+            "KRAS",
+            "BLM",
+            "FBXW7",
+            "PHF6"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "19 m/Mb",
+            "Tmbpercentile": "74%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

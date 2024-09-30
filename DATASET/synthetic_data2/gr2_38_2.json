@@ -1,0 +1,110 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "SDHA",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "CDC73",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "PR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 3+, 44%"
+        },
+        {
+            "BioMarker": "KRAS",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Stable"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Equivocal"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "5 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low - 1% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "ARHGAP45",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.R742W",
+            "Exon": 17,
+            "DNA Alteration": "c.1912A>T",
+            "Allele Frequency %": "27.6"
+        },
+        {
+            "Gene": "HDAC1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.P44L",
+            "Exon": 13,
+            "DNA Alteration": "c.131_132delinsTT",
+            "Allele Frequency %": "18.0"
+        },
+        {
+            "Gene": "PAX5",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.G466E",
+            "Exon": 15,
+            "DNA Alteration": "c.1798_1799delinsAA",
+            "Allele Frequency %": "5.75"
+        },
+        {
+            "Gene": "CSF1R",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.P98S",
+            "Exon": 6,
+            "DNA Alteration": "G",
+            "Allele Frequency %": "5.29"
+        },
+        {
+            "Gene": "DNMT3A",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.Q227E",
+            "Exon": 16,
+            "DNA Alteration": "c.478C>T",
+            "Allele Frequency %": "9.58"
+        },
+        {
+            "Gene": "KLF4",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.Y303H",
+            "Exon": 3,
+            "DNA Alteration": ">",
+            "Allele Frequency %": "2.57"
+        }
+    ]
+}

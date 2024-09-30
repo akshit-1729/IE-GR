@@ -1,0 +1,50 @@
+{
+    "low coverage regions": [
+        "B2M",
+        "APC",
+        "PHF6"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "SF3B1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.D781X Spliceregionvariant-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "27.06%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "ERCC2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.D781X Missensevariant(exon2)-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "32.56%"
+            },
+            {
+                "Gene": "KLF1",
+                "DNA Alteration": "c.115A>C",
+                "GeneMutation": "p.N626X Nonsense-GOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "3.7%"
+            },
+            {
+                "Gene": "ALDH2",
+                "DNA Alteration": "c.1510G>A",
+                "GeneMutation": "p.G740X Spliceregionvariant-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "6.72%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2024-01-27"
+    },
+    "other": {
+        "ReportId": "5410",
+        "ReportDate": "2024-02-10",
+        "SignedBy": "Bryan Snyder",
+        "Supervisor": "Dr. Whitney Hernandez"
+    }
+}

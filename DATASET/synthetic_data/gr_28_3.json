@@ -1,0 +1,63 @@
+{
+    "low coverage regions": [
+        "U2AF1",
+        "IDH2"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "B2M",
+                "DNA Alteration": "c.2T>G",
+                "GeneMutation": "p.M1R Stopgain-LOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "17.61%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "HBB",
+                "DNA Alteration": "c.364G>C",
+                "GeneMutation": "p.E7K Spliceregionvariant-LOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "27.4%"
+            },
+            {
+                "Gene": "NOTCH1",
+                "DNA Alteration": "c.7398del",
+                "GeneMutation": "p.E122K Spliceregionvariant-GOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "23.28%"
+            },
+            {
+                "Gene": "CCND3",
+                "DNA Alteration": "c.766_776del11",
+                "GeneMutation": "p.E27K Spliceregionvariant-GOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "24.74%"
+            },
+            {
+                "Gene": "HDAC2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R256fs*64 Frameshift-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "5.19%"
+            },
+            {
+                "Gene": "ERCC2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.E7V Stopgain-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "9.61%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-08-31"
+    },
+    "other": {
+        "ReportId": "7333",
+        "ReportDate": "2023-09-15",
+        "SignedBy": "Troy Sosa",
+        "Supervisor": "Dr. Matthew Barton"
+    }
+}

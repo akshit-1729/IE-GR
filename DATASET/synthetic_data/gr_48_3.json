@@ -1,0 +1,78 @@
+{
+    "low coverage regions": [
+        "ERCC2",
+        "DICER1",
+        "KLF1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Frameshift-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "22.86%"
+            },
+            {
+                "Gene": "CCND3",
+                "DNA Alteration": "c.766_776del11",
+                "GeneMutation": "p.R256fs*64 Nonsense-GOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "5.48%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "ERBB2",
+                "DNA Alteration": "c.2584A>G",
+                "GeneMutation": "p.R896C Spliceregionvariant-LOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "1.03%"
+            },
+            {
+                "Gene": "MAPK1",
+                "DNA Alteration": "c.964G>A",
+                "GeneMutation": "p.L755P Nonsense-LOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "6.25%"
+            },
+            {
+                "Gene": "CDC73",
+                "DNA Alteration": "c.1A>G",
+                "GeneMutation": "p.L755S Nonsense-GOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "10.39%"
+            },
+            {
+                "Gene": "SDHA",
+                "DNA Alteration": "c.1660C>T",
+                "GeneMutation": "p.R256fs*64 Frameshift-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "13.38%"
+            },
+            {
+                "Gene": "ABL1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G660D Missensevariant(exon2)-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "7.63%"
+            },
+            {
+                "Gene": "KRAS",
+                "DNA Alteration": "c.36T>C",
+                "GeneMutation": "p.G12C Nonsense-GOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "4.59%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-04-21"
+    },
+    "other": {
+        "ReportId": "6947",
+        "ReportDate": "2023-04-29",
+        "SignedBy": "Rebecca Flynn",
+        "Supervisor": "Dr. Eric Odonnell"
+    }
+}

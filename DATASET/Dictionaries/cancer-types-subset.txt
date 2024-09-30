@@ -1,0 +1,16 @@
+Skin Cancer
+Bladder Cancer
+Bone Cancer
+Breast Cancer
+Cervical Cancer
+Colon Cancer
+Gastric Cancer
+Kidney Cancer
+Ovarian Cancer
+Fallopian Tube Cancer
+Peritoneal Cancer
+Penile Cancer
+Prostate Cancer
+Rectal Cancer
+Lung Cancer
+Testicular Cancer

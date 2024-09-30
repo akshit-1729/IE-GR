@@ -1,0 +1,94 @@
+{
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1154_1155insTTGTC",
+                "GeneMutation": "p.K385fs*47 Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "13.11%"
+            },
+            {
+                "Gene": "FGFR4",
+                "DNA Alteration": "c.1162G>A",
+                "GeneMutation": "p.G388R Frameshift-LOF",
+                "VariantAlleleFraction": "1.93%"
+            },
+            {
+                "Gene": "EGFR",
+                "DNA Alteration": "c.2310_2311ins9",
+                "GeneMutation": "p.D770_N771insD Frameshift-LOF",
+                "VariantAlleleFraction": "10.31%"
+            },
+            {
+                "Gene": "PKLR",
+                "DNA Alteration": "c.1436G>A",
+                "GeneMutation": "p.R479H Nonsense-LOF",
+                "VariantAlleleFraction": "3.76%"
+            },
+            {
+                "Gene": "MYD88",
+                "DNA Alteration": "c.794T>C",
+                "GeneMutation": "p.L265P Nonsense-GOF",
+                "VariantAlleleFraction": "3.63%"
+            },
+            {
+                "Gene": "DICER1",
+                "DNA Alteration": "c.5428G>C",
+                "GeneMutation": "p.E1705V Frameshift-LOF",
+                "VariantAlleleFraction": "3.55%"
+            },
+            {
+                "Gene": "BRCA1",
+                "DNA Alteration": "c.5265_5266insC",
+                "GeneMutation": "p.Q1756Pfs Stopgain-LOF",
+                "VariantAlleleFraction": "3.22%"
+            },
+            {
+                "Gene": "MTOR",
+                "DNA Alteration": "c.5664C>A",
+                "GeneMutation": "p.G1954R Nonsense-LOF",
+                "VariantAlleleFraction": "7.15%"
+            }
+        ],
+        "Germline": [
+            {
+                "Gene": "CHD6",
+                "DNA Alteration": "c.4800C>G",
+                "GeneMutation": "p.I1600M Spliceregionvariant-LOF",
+                "Condition": "drive"
+            }
+        ]
+    }
+}

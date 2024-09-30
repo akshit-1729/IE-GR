@@ -1,0 +1,233 @@
+{
+    "patient": {
+        "Name": "Gregory Griffin",
+        "DateOfBirth": "1987-01-05",
+        "Sex": "Female",
+        "Diagnosis": "Medullary thyroid cancer",
+        "BodyPart": "Thyroid",
+        "Physician": "Dr. Bryan Snyder",
+        "TreatingInstitution": "Merritt, Gonzalez and Ramos"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Thyroid",
+            "CollectedDate": "2024-02-02",
+            "ReceivedDate": "2024-02-03",
+            "TumorPercentage": "59%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2024-02-08",
+            "ReceivedDate": "2024-02-11"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "SF3B1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.D781X Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "27.06%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "ERCC2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.D781X Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "32.56%"
+            },
+            {
+                "Gene": "KLF1",
+                "DNA Alteration": "c.115A>C",
+                "GeneMutation": "p.N626X Nonsense-GOF",
+                "VariantAlleleFraction": "3.7%"
+            },
+            {
+                "Gene": "ALDH2",
+                "DNA Alteration": "c.1510G>A",
+                "GeneMutation": "p.G740X Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "6.72%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "DNMT3A",
+            "SDHD",
+            "TOP2A"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "10 m/Mb",
+            "Tmbpercentile": "83%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "High"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A572G Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "17.94%"
+            },
+            {
+                "Gene": "PKLR",
+                "DNA Alteration": "c.1436G>A",
+                "GeneMutation": "p.R479H Nonsense-GOF",
+                "VariantAlleleFraction": "13.68%"
+            },
+            {
+                "Gene": "MYOD1",
+                "DNA Alteration": "c.365T>G",
+                "GeneMutation": "p.L122R Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "9.76%"
+            },
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A572G Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "9.74%"
+            },
+            {
+                "Gene": "SDHB",
+                "DNA Alteration": "c.487T>C",
+                "GeneMutation": "p.S163P Nonsense-GOF",
+                "VariantAlleleFraction": "1.76%"
+            },
+            {
+                "Gene": "CHD6",
+                "DNA Alteration": "c.4800C>G",
+                "GeneMutation": "p.I1600M Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "3.37%"
+            },
+            {
+                "Gene": "PKLR",
+                "DNA Alteration": "c.1436G>A",
+                "GeneMutation": "p.R479H Nonsense-LOF",
+                "VariantAlleleFraction": "4.14%"
+            }
+        ],
+        "Germline": [
+            {
+                "Gene": "EZH2",
+                "DNA Alteration": "c.1937A>G",
+                "GeneMutation": "p.Y646D Spliceregionvariant-LOF",
+                "Condition": "score"
+            },
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N159Y Spliceregionvariant-GOF",
+                "Condition": "energy"
+            }
+        ]
+    },
+    "low coverage regions": [
+        "B2M",
+        "APC",
+        "PHF6"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "SF3B1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.D781X Spliceregionvariant-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "27.06%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "ERCC2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.D781X Missensevariant(exon2)-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "32.56%"
+            },
+            {
+                "Gene": "KLF1",
+                "DNA Alteration": "c.115A>C",
+                "GeneMutation": "p.N626X Nonsense-GOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "3.7%"
+            },
+            {
+                "Gene": "ALDH2",
+                "DNA Alteration": "c.1510G>A",
+                "GeneMutation": "p.G740X Spliceregionvariant-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "6.72%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2024-01-27"
+    },
+    "other": {
+        "ReportId": "5410",
+        "ReportDate": "2024-02-10",
+        "SignedBy": "Bryan Snyder",
+        "Supervisor": "Dr. Whitney Hernandez"
+    }
+}

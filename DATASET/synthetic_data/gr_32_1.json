@@ -1,0 +1,87 @@
+{
+    "patient": {
+        "Name": "Micheal Baker",
+        "DateOfBirth": "1964-04-29",
+        "Sex": "Female",
+        "Diagnosis": "Lymphoma",
+        "BodyPart": "Colorectal",
+        "Physician": "Dr. Joshua Villa",
+        "TreatingInstitution": "Contreras PLC"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Colorectal",
+            "CollectedDate": "2023-11-28",
+            "ReceivedDate": "2023-12-02",
+            "TumorPercentage": "92%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-12-02",
+            "ReceivedDate": "2023-12-02"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "AKT1",
+                "DNA Alteration": "c.49G>A",
+                "GeneMutation": "p.E17K Stopgain-LOF",
+                "VariantAlleleFraction": "39.66%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.E17K Nonsense-LOF",
+                "VariantAlleleFraction": "26.49%"
+            },
+            {
+                "Gene": "PIK3CA",
+                "DNA Alteration": "c.1635G>T",
+                "GeneMutation": "p.H1047X Frameshift-LOF",
+                "VariantAlleleFraction": "3.5%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "HDAC2",
+            "PIK3CA",
+            "PDGFRA"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "25 m/Mb",
+            "Tmbpercentile": "37%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

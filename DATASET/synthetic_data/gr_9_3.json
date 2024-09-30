@@ -1,0 +1,43 @@
+{
+    "low coverage regions": [
+        "TOP2A",
+        "HBB",
+        "NCSTN"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "PTCH1",
+                "DNA Alteration": "c.3583A>T",
+                "GeneMutation": "p.T1195S Missensevariant(exon2)-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "18.3%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "XPC",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S346P Frameshift-GOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "14.45%"
+            },
+            {
+                "Gene": "PRKCA",
+                "DNA Alteration": "c.1387G>C",
+                "GeneMutation": "p.S346P Frameshift-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "12.29%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2024-02-03"
+    },
+    "other": {
+        "ReportId": "7562",
+        "ReportDate": "2024-02-04",
+        "SignedBy": "William Hays",
+        "Supervisor": "Dr. Dr. Joy Shelton MD"
+    }
+}

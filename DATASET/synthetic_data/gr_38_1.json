@@ -1,0 +1,89 @@
+{
+    "patient": {
+        "Name": "Alexandra Oconnor",
+        "DateOfBirth": "1968-03-09",
+        "Sex": "Female",
+        "Diagnosis": "Adenocarcinoma",
+        "BodyPart": "Lung",
+        "Physician": "Dr. Duane Adams",
+        "TreatingInstitution": "Winters LLC"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Lung",
+            "CollectedDate": "2023-05-01",
+            "ReceivedDate": "2023-05-01",
+            "TumorPercentage": "30%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-05-02",
+            "ReceivedDate": "2023-05-09"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "SMO",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A374E Stopgain-LOF",
+                "VariantAlleleFraction": "39.39%"
+            },
+            {
+                "Gene": "HDAC1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.Y303H Frameshift-LOF",
+                "VariantAlleleFraction": "28.89%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R156X Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "27.05%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "HDAC2",
+            "PKLR",
+            "SDHA",
+            "PTEN",
+            "ABL1"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "24 m/Mb",
+            "Tmbpercentile": "92%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "High"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

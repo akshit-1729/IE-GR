@@ -1,0 +1,88 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "BTK",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.S163P",
+            "Exon": 4,
+            "DNA Alteration": "c.487T>C",
+            "Allele Frequency %": "18.0"
+        },
+        {
+            "Gene": "DDR2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.G370C",
+            "Exon": 19,
+            "DNA Alteration": "c.746C>G",
+            "Allele Frequency %": "21.95"
+        },
+        {
+            "Gene": "TEK",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.V49M",
+            "Exon": 19,
+            "DNA Alteration": "c.145G>A",
+            "Allele Frequency %": "11.2"
+        },
+        {
+            "Gene": "PHF6",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.G742X",
+            "Exon": 10,
+            "DNA Alteration": ".",
+            "Allele Frequency %": "11.29"
+        },
+        {
+            "Gene": "H3.3",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.S2309Cfs*10",
+            "Exon": 5,
+            "DNA Alteration": "c.4394A>G",
+            "Allele Frequency %": "4.64"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "AR",
+            "Result": "Negative| 3+, 64%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Negative| 1+, 73%"
+        },
+        {
+            "Biomarker": "MSH6",
+            "Result": "Negative| 2+, 56%"
+        },
+        {
+            "Biomarker": "ER",
+            "Result": "Negative| 1+, 94%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Negative| 3+, 57%"
+        },
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Positive| 1+, 35%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "B2M",
+        "HDAC1",
+        "MAP2K2",
+        "NTRK1",
+        "STAT5B",
+        "PKLR"
+    ]
+}

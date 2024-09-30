@@ -1,0 +1,112 @@
+{
+    "patient": {
+        "Name": "Jasmine Hood",
+        "DateOfBirth": "1960-09-25",
+        "Sex": "Male",
+        "Diagnosis": "Squamous cell carcinoma",
+        "BodyPart": "Prostate",
+        "Physician": "Dr. Rachel Wright",
+        "TreatingInstitution": "Crawford and Sons"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Prostate",
+            "CollectedDate": "2023-11-30",
+            "ReceivedDate": "2023-11-30",
+            "TumorPercentage": "65%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-12-07",
+            "ReceivedDate": "2023-12-09"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "BRCA1",
+                "DNA Alteration": "c.5265_5266insC",
+                "GeneMutation": "p.E23Vfs*17 Frameshift-LOF",
+                "VariantAlleleFraction": "15.0%"
+            },
+            {
+                "Gene": "TOP2A",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A1515S Frameshift-LOF",
+                "VariantAlleleFraction": "7.18%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": "p.A1515S Stopgain-LOF",
+                "VariantAlleleFraction": "10.79%"
+            },
+            {
+                "Gene": "ALDH2",
+                "DNA Alteration": "c.1510G>A",
+                "GeneMutation": "p.A1515S Stopgain-LOF",
+                "VariantAlleleFraction": "21.97%"
+            },
+            {
+                "Gene": "DDR2",
+                "DNA Alteration": "c.716T>G",
+                "GeneMutation": "p.L239R Stopgain-LOF",
+                "VariantAlleleFraction": "10.49%"
+            },
+            {
+                "Gene": "ERCC2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.E504K Stopgain-LOF",
+                "VariantAlleleFraction": "12.08%"
+            },
+            {
+                "Gene": "PKLR",
+                "DNA Alteration": "c.1436G>A",
+                "GeneMutation": "p.F332V Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "1.33%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "MUTYH",
+            "ALK",
+            "DNMT3A",
+            "PTEN"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "2 m/Mb",
+            "Tmbpercentile": "31%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

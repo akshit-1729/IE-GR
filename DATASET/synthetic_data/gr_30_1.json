@@ -1,0 +1,115 @@
+{
+    "patient": {
+        "Name": "Samantha Foster",
+        "DateOfBirth": "1934-04-13",
+        "Sex": "Male",
+        "Diagnosis": "Merkel cell carcinoma",
+        "BodyPart": "Skin",
+        "Physician": "Dr. Jared Brooks",
+        "TreatingInstitution": "Morgan-Carrillo"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Skin",
+            "CollectedDate": "2023-10-26",
+            "ReceivedDate": "2023-10-26",
+            "TumorPercentage": "70%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-10-30",
+            "ReceivedDate": "2023-11-01"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "NRAS",
+                "DNA Alteration": "c.181C>G",
+                "GeneMutation": "p.Q61X Nonsense-GOF",
+                "VariantAlleleFraction": "7.27%"
+            },
+            {
+                "Gene": "HDAC1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.Y303H Frameshift-GOF",
+                "VariantAlleleFraction": "32.68%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "FGFR2",
+                "DNA Alteration": "c.1124A>G",
+                "GeneMutation": "p.C382R Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "14.51%"
+            },
+            {
+                "Gene": "BRCA1",
+                "DNA Alteration": "c.5265_5266insC",
+                "GeneMutation": "p.S372C Frameshift-GOF",
+                "VariantAlleleFraction": "17.58%"
+            },
+            {
+                "Gene": "STAG2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.V679F Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "5.5%"
+            },
+            {
+                "Gene": "MYD88",
+                "DNA Alteration": "c.794T>C",
+                "GeneMutation": "p.Y375C Nonsense-GOF",
+                "VariantAlleleFraction": "9.14%"
+            },
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1092_1143del52",
+                "GeneMutation": "p.L367fs*46 Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "5.27%"
+            },
+            {
+                "Gene": "FLT3",
+                "DNA Alteration": "c.2525A>G",
+                "GeneMutation": "p.Y375C Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "2.1%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "CSF3R"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "31 m/Mb",
+            "Tmbpercentile": "1%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

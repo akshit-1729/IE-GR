@@ -1,0 +1,61 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "PTEN",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.M1V",
+            "Exon": 7,
+            "DNA Alteration": "c.1A>G",
+            "Allele Frequency %": "21.64"
+        },
+        {
+            "Gene": "KRAS",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.Y736fs*4",
+            "Exon": 8,
+            "DNA Alteration": "c.2207_2212delinsTAGATTC",
+            "Allele Frequency %": "13.75"
+        },
+        {
+            "Gene": "RNF43",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.T1195S",
+            "Exon": 15,
+            "DNA Alteration": "c.3583A>T",
+            "Allele Frequency %": "3.9"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "PR",
+            "Result": "Positive| 2+, 3%"
+        },
+        {
+            "Biomarker": "AR",
+            "Result": "Negative| 1+, 7%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Positive| 1+, 25%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Negative| 3+, 72%"
+        },
+        {
+            "Biomarker": "ER",
+            "Result": "Negative| 2+, 21%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "HDAC1",
+        "KIT",
+        "MYOD1"
+    ]
+}

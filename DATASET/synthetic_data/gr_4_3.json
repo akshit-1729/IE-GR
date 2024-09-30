@@ -1,0 +1,42 @@
+{
+    "low coverage regions": [
+        "KLF1",
+        "MAPK1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "KIT",
+                "DNA Alteration": "c.1669T>A",
+                "GeneMutation": "p.V559D Stopgain-LOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "25.44%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "BRAF",
+                "DNA Alteration": "c.1397G>C",
+                "GeneMutation": "p.K642E Frameshift-LOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "10.63%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.V600K Missensevariant(exon2)-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "28.01%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2024-03-25"
+    },
+    "other": {
+        "ReportId": "3523",
+        "ReportDate": "2024-03-29",
+        "SignedBy": "William Martin",
+        "Supervisor": "Dr. Sean Walton"
+    }
+}

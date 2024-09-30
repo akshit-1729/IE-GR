@@ -1,0 +1,273 @@
+{
+    "patient": {
+        "Name": "Kristin Sanders",
+        "DateOfBirth": "2004-03-09",
+        "Sex": "Male",
+        "Diagnosis": "Lobular carcinoma in situ (LCIS)",
+        "BodyPart": "Breast",
+        "Physician": "Dr. Beth Lopez",
+        "TreatingInstitution": "Lopez, Walters and Wilson"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Breast",
+            "CollectedDate": "2023-06-30",
+            "ReceivedDate": "2023-07-05",
+            "TumorPercentage": "31%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-07-05",
+            "ReceivedDate": "2023-07-07"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "SDHA",
+                "DNA Alteration": "c.1660C>T",
+                "GeneMutation": "p.R554W Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "28.8%"
+            },
+            {
+                "Gene": "IDH2",
+                "DNA Alteration": "c.516G>C",
+                "GeneMutation": "p.R140L Frameshift-GOF",
+                "VariantAlleleFraction": "6.47%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "MSH2",
+                "DNA Alteration": "c.1906G>C",
+                "GeneMutation": "p.R140Q Nonsense-LOF",
+                "VariantAlleleFraction": "15.91%"
+            },
+            {
+                "Gene": "HSP90B1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R172M Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "14.55%"
+            },
+            {
+                "Gene": "KRAS",
+                "DNA Alteration": "c.38_39delinsAA",
+                "GeneMutation": "p.Q61P Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "4.16%"
+            },
+            {
+                "Gene": "RNF43",
+                "DNA Alteration": "c.461C>T",
+                "GeneMutation": "p.Q61E Stopgain-LOF",
+                "VariantAlleleFraction": "9.0%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "SMO",
+            "TP53"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "32 m/Mb",
+            "Tmbpercentile": "90%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.V49M Frameshift-LOF",
+                "VariantAlleleFraction": "18.3%"
+            },
+            {
+                "Gene": "PTEN",
+                "DNA Alteration": "c.389G>C",
+                "GeneMutation": "p.R130G Nonsense-LOF",
+                "VariantAlleleFraction": "11.67%"
+            },
+            {
+                "Gene": "NT5C2",
+                "DNA Alteration": "c.1100G>A",
+                "GeneMutation": "p.R367Q Stopgain-LOF",
+                "VariantAlleleFraction": "14.59%"
+            },
+            {
+                "Gene": "FLT3",
+                "DNA Alteration": "c.1992G>C",
+                "GeneMutation": "p.F594Y Nonsense-GOF",
+                "VariantAlleleFraction": "8.8%"
+            },
+            {
+                "Gene": "SDHD",
+                "DNA Alteration": "c.34G>A",
+                "GeneMutation": "p.G12S Frameshift-LOF",
+                "VariantAlleleFraction": "7.36%"
+            },
+            {
+                "Gene": "KLF4",
+                "DNA Alteration": "c.1225A>C",
+                "GeneMutation": "p.K409Q Nonsense-GOF",
+                "VariantAlleleFraction": "8.16%"
+            },
+            {
+                "Gene": "GNAS",
+                "DNA Alteration": "c.602G>A",
+                "GeneMutation": "p.R201S Frameshift-GOF",
+                "VariantAlleleFraction": "3.09%"
+            },
+            {
+                "Gene": "TP53",
+                "DNA Alteration": "c.742C>T",
+                "GeneMutation": "p.P250L Frameshift-LOF",
+                "VariantAlleleFraction": "3.22%"
+            },
+            {
+                "Gene": "MPL",
+                "DNA Alteration": "c.1544G>T",
+                "GeneMutation": "p.W515L Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "9.97%"
+            },
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Frameshift-LOF",
+                "VariantAlleleFraction": "8.81%"
+            },
+            {
+                "Gene": "FGFR2",
+                "DNA Alteration": "c.1144T>C",
+                "GeneMutation": "p.P253R Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "1.65%"
+            },
+            {
+                "Gene": "TLR8",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N515H Nonsense-LOF",
+                "VariantAlleleFraction": "9.81%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "ABL1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "SDHA",
+                "DNA Alteration": "c.1660C>T",
+                "GeneMutation": "p.R554W Missensevariant(exon2)-GOF",
+                "description": "BCL11B encodes a C2H2-type zinc finger protein that functions as a transcriptional repressor and plays a role in T-cell development and survival. Loss of function mutations, copy number loss, and fusions resulting in the underexpression of BCL11B are associated with cancer progression.",
+                "VariantAlleleFraction": "28.8%"
+            },
+            {
+                "Gene": "IDH2",
+                "DNA Alteration": "c.516G>C",
+                "GeneMutation": "p.R140L Frameshift-GOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "6.47%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "MSH2",
+                "DNA Alteration": "c.1906G>C",
+                "GeneMutation": "p.R140Q Nonsense-LOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "15.91%"
+            },
+            {
+                "Gene": "HSP90B1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R172M Spliceregionvariant-LOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "14.55%"
+            },
+            {
+                "Gene": "KRAS",
+                "DNA Alteration": "c.38_39delinsAA",
+                "GeneMutation": "p.Q61P Missensevariant(exon2)-GOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "4.16%"
+            },
+            {
+                "Gene": "RNF43",
+                "DNA Alteration": "c.461C>T",
+                "GeneMutation": "p.Q61E Stopgain-LOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "9.0%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-06-29"
+    },
+    "other": {
+        "ReportId": "5011",
+        "ReportDate": "2023-07-05",
+        "SignedBy": "Beth Lopez",
+        "Supervisor": "Dr. Ashley Lucas"
+    }
+}

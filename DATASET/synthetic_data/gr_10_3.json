@@ -1,0 +1,56 @@
+{
+    "low coverage regions": [
+        "ALK",
+        "MAPK1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "MYD88",
+                "DNA Alteration": "c.794T>C",
+                "GeneMutation": "p.L265P Nonsense-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "9.58%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.S1982Rfs*22 Stopgain-LOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "15.84%"
+            },
+            {
+                "Gene": "MYCN",
+                "DNA Alteration": "c.131C>T",
+                "GeneMutation": "p.P44L Missensevariant(exon2)-GOF",
+                "description": "BCL11B encodes a C2H2-type zinc finger protein that functions as a transcriptional repressor and plays a role in T-cell development and survival. Loss of function mutations, copy number loss, and fusions resulting in the underexpression of BCL11B are associated with cancer progression.",
+                "VariantAlleleFraction": "19.83%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "JAK3",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.L857P Frameshift-GOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "13.22%"
+            },
+            {
+                "Gene": "ABL1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.L857P Frameshift-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "11.9%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-12-27"
+    },
+    "other": {
+        "ReportId": "5067",
+        "ReportDate": "2024-01-08",
+        "SignedBy": "Paul Thompson",
+        "Supervisor": "Dr. Miguel Richardson"
+    }
+}

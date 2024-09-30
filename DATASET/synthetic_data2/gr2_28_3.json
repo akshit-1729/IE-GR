@@ -1,0 +1,85 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "HSD3B1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.L367fs*46",
+            "Exon": 2,
+            "DNA Alteration": "c.1092_1143del52",
+            "Allele Frequency %": "25.53"
+        },
+        {
+            "Gene": "EGFR",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.E122K",
+            "Exon": 9,
+            "DNA Alteration": "c.19G>A",
+            "Allele Frequency %": "3.96"
+        },
+        {
+            "Gene": "H3.3",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.S163P",
+            "Exon": 12,
+            "DNA Alteration": "c.487T>C",
+            "Allele Frequency %": "19.22"
+        },
+        {
+            "Gene": "FOXL2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.D463H",
+            "Exon": 10,
+            "DNA Alteration": "c.1387G>C",
+            "Allele Frequency %": "14.75"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "ER",
+            "Result": "Negative| 1+, 96%"
+        },
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Positive| 3+, 6%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Negative| 3+, 42%"
+        },
+        {
+            "Biomarker": "MLH1",
+            "Result": "Negative| 3+, 10%"
+        },
+        {
+            "Biomarker": "MSH6",
+            "Result": "Negative| 3+, 86%"
+        },
+        {
+            "Biomarker": "MSH2",
+            "Result": "Negative| 1+, 32%"
+        },
+        {
+            "Biomarker": "PR",
+            "Result": "Negative| 1+, 7%"
+        },
+        {
+            "Biomarker": "AR",
+            "Result": "Negative| 1+, 76%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "HBA2",
+        "EGFR",
+        "MSH2",
+        "NTRK1",
+        "MYD88"
+    ]
+}

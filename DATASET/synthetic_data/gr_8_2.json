@@ -1,0 +1,99 @@
+{
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "KRAS",
+                "DNA Alteration": "c.34_36delinsTGG",
+                "GeneMutation": "p.A146T Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "6.02%"
+            },
+            {
+                "Gene": "MUTYH",
+                "DNA Alteration": "c.1014G>C",
+                "GeneMutation": "p.Q338H Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "3.23%"
+            },
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1092_1143del52",
+                "GeneMutation": "p.L367fs*46 Nonsense-GOF",
+                "VariantAlleleFraction": "10.1%"
+            },
+            {
+                "Gene": "BRAF",
+                "DNA Alteration": "c.1799_1800delinsAA",
+                "GeneMutation": "p.L597R Nonsense-GOF",
+                "VariantAlleleFraction": "6.8%"
+            },
+            {
+                "Gene": "MUTYH",
+                "DNA Alteration": "c.1014G>C",
+                "GeneMutation": "p.Q338H Frameshift-LOF",
+                "VariantAlleleFraction": "4.11%"
+            },
+            {
+                "Gene": "CSF3R",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G751A Frameshift-LOF",
+                "VariantAlleleFraction": "6.45%"
+            },
+            {
+                "Gene": "MPL",
+                "DNA Alteration": "c.1544G>T",
+                "GeneMutation": "p.W515K Nonsense-LOF",
+                "VariantAlleleFraction": "9.55%"
+            },
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1092_1143del52",
+                "GeneMutation": "p.L367fs*46 Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "1.37%"
+            },
+            {
+                "Gene": "SDHD",
+                "DNA Alteration": "c.34G>A",
+                "GeneMutation": "p.G12S Frameshift-GOF",
+                "VariantAlleleFraction": "4.9%"
+            },
+            {
+                "Gene": "TLR8",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N515H Nonsense-GOF",
+                "VariantAlleleFraction": "2.55%"
+            }
+        ],
+        "Germline": []
+    }
+}

@@ -1,0 +1,348 @@
+{
+    "Patient Information": {
+        "Patient ID": "7925",
+        "Patient Name": "Matthew Garner",
+        "Date of Birth": "1933-08-06",
+        "Age": 91,
+        "Gender": "Female",
+        "Contact Information": "N/A",
+        "Address": "N/A"
+    },
+    "Diagnosis Information": {
+        "Diagnosis Center": "N/A",
+        "Doctor Name": "Dr. Jessica Erickson",
+        "Accession Number": "N/A",
+        "Date of Diagnosis": "N/A",
+        "Date of Report Issuance": "N/A",
+        "CLIA Number": "N/A",
+        "Laboratory Medical Director ": "N/A",
+        "Method of Analysis": [
+            "Seq",
+            "NGS",
+            "IHC"
+        ],
+        "Pipeline Version (Report Version)": "N/A"
+    },
+    "Cancer Information": {
+        "Cancer Type": "Triple-negative breast cancer",
+        "Cancer Stage": "Not explicitly stated",
+        "Cancer Grade": "Not explicitly stated",
+        "Cancer Location in the Body": "Breast",
+        "Tumor Specimen Source": "Lymph nodes (axillary",
+        "Tumor Percentage in Sample": "N/A",
+        "Normal Specimen Source": "N/A",
+        "Date of Tumor Sample Collection": "2023-11-25",
+        "Date Tumor Sample Received": "2023-11-26",
+        "Date of Normal Sample Collection": "N/A",
+        "Date Normal Sample Received": "N/A"
+    },
+    "Biomarkers": {
+        "General Biomarkers": {
+            "Microsatellite Instability (MSI)": "Low",
+            "Tumor Mutational Burden (TMB)": "12 mutations/Mb Low",
+            "Tumor Mutational Burden Percentile": "N/A",
+            "Loss of Heterozygosity (LOH)": "Low - 8% of tested genomic segments exhibit LOH",
+            "Mismatch Repair (MMR) Status": "N/A",
+            "PDL1 Expression": [
+                "Positive| 1+, 78%"
+            ],
+            "EBV (Epstein-Barr Virus) Status": "N/A",
+            "Other Immunotherapy Markers": "N/A",
+            "Low-Coverage Regions (Indeterminate Genes)": [
+                "ALK",
+                "HBA2",
+                "PHF6",
+                "PHF6",
+                "NRAS",
+                "HRAS"
+            ]
+        },
+        "Gene Mutations": [
+            {
+                "Gene Name": "ERCC2",
+                "DNA Mutation Description": "1",
+                "Protein Variant": "p.I66T",
+                "Mutation Effect": "N/A",
+                "Functional Impact": "N/A",
+                "Exon Number": 8,
+                "Variant Allele Fraction": "23.82",
+                "Transcript ID": "N/A",
+                "Somatic or Germline": "N/A",
+                "Potentially Actionable or Biologically Relevant": "N/A",
+                "Analyte": "DNA tumor",
+                "Method of Detection ": "Seq",
+                "Pathogenicity": "Benign",
+                "Pertinent Negative Results": "N/A"
+            },
+            {
+                "Gene Name": "BTK",
+                "DNA Mutation Description": "c.394_395delinsTC",
+                "Protein Variant": "p.R132C",
+                "Mutation Effect": "N/A",
+                "Functional Impact": "N/A",
+                "Exon Number": 11,
+                "Variant Allele Fraction": "8.95",
+                "Transcript ID": "N/A",
+                "Somatic or Germline": "N/A",
+                "Potentially Actionable or Biologically Relevant": "N/A",
+                "Analyte": "DNA tumor",
+                "Method of Detection ": "Seq",
+                "Pathogenicity": "Likely Pathogenic",
+                "Pertinent Negative Results": "N/A"
+            },
+            {
+                "Gene Name": "DDR2",
+                "DNA Mutation Description": "c.1014G>C",
+                "Protein Variant": "p.Q338H",
+                "Mutation Effect": "N/A",
+                "Functional Impact": "N/A",
+                "Exon Number": 3,
+                "Variant Allele Fraction": "20.34",
+                "Transcript ID": "N/A",
+                "Somatic or Germline": "N/A",
+                "Potentially Actionable or Biologically Relevant": "N/A",
+                "Analyte": "DNA tumor",
+                "Method of Detection ": "Seq",
+                "Pathogenicity": "Likely Benign",
+                "Pertinent Negative Results": "N/A"
+            },
+            {
+                "Gene Name": "BRCA1",
+                "DNA Mutation Description": "N/A",
+                "Protein Variant": "N/A",
+                "Mutation Effect": "Mutation not detected",
+                "Functional Impact": "N/A",
+                "Exon Number": "N/A",
+                "Variant Allele Fraction": "N/A",
+                "Transcript ID": "N/A",
+                "Somatic or Germline": "N/A",
+                "Potentially Actionable or Biologically Relevant": "N/A",
+                "Analyte": "RNA-Tumor",
+                "Method of Detection ": "Seq",
+                "Pathogenicity": "N/A",
+                "Pertinent Negative Results": "N/A"
+            }
+        ],
+        "Immunochemistry Biomarkers": [
+            {
+                "Biomarker Name": "ER",
+                "Number of Stained Cells": "N/A",
+                "Percentage of Expression": "2+, 9%",
+                "Interpretation": "Negative"
+            },
+            {
+                "Biomarker Name": "PMS2",
+                "Number of Stained Cells": "N/A",
+                "Percentage of Expression": "2+, 70%",
+                "Interpretation": "Positive"
+            },
+            {
+                "Biomarker Name": "MLH1",
+                "Number of Stained Cells": "N/A",
+                "Percentage of Expression": "3+, 17%",
+                "Interpretation": "Negative"
+            },
+            {
+                "Biomarker Name": "PTEN",
+                "Number of Stained Cells": "N/A",
+                "Percentage of Expression": "3+, 66%",
+                "Interpretation": "Negative"
+            },
+            {
+                "Biomarker Name": "MSH6",
+                "Number of Stained Cells": "N/A",
+                "Percentage of Expression": "3+, 91%",
+                "Interpretation": "Positive"
+            },
+            {
+                "Biomarker Name": "MSH2",
+                "Number of Stained Cells": "N/A",
+                "Percentage of Expression": "3+, 6%",
+                "Interpretation": "Positive"
+            },
+            {
+                "Biomarker Name": "PD-L1(SP142)",
+                "Number of Stained Cells": "N/A",
+                "Percentage of Expression": "2+, 7%",
+                "Interpretation": "Positive"
+            },
+            {
+                "Biomarker Name": "AR",
+                "Number of Stained Cells": "N/A",
+                "Percentage of Expression": "2+, 72%",
+                "Interpretation": "Negative"
+            }
+        ]
+    },
+    "Therapeutic Information": {
+        "FDA-Approved Therapies for Current Diagnosis": [
+            {
+                "Therapy Name": "abemaciclib, palbociclib, ribociclib, endocrine, therapy, everolimus",
+                "Therapy Type": "targeted therapy",
+                "Evidence Source": "N/A",
+                "Associated Biomarker": {
+                    "Biomarker Name": "ER",
+                    "Biomarker level": "level 2",
+                    "Positively/Negatively Associated": "BENEFIT"
+                }
+            },
+            {
+                "Therapy Name": "abemaciclib, palbociclib, ribociclib, endocrine therapy",
+                "Therapy Type": "targeted therapy",
+                "Evidence Source": "N/A",
+                "Associated Biomarker": {
+                    "Biomarker Name": "PR",
+                    "Biomarker level": "level 2",
+                    "Positively/Negatively Associated": "BENEFIT"
+                }
+            },
+            {
+                "Therapy Name": "pembrolizumab",
+                "Therapy Type": "immunotherapy",
+                "Evidence Source": "N/A",
+                "Associated Biomarker": {
+                    "Biomarker Name": "TMB",
+                    "Biomarker level": "level 2",
+                    "Positively/Negatively Associated": "BENEFIT"
+                }
+            },
+            {
+                "Therapy Name": "trastuzumab, ado-trastuzumab emtansine, pertuzumab, fam-trastuzumab deruxtecan-nxki, lapatinib, neratinib, tucatinib",
+                "Therapy Type": "targeted therapy",
+                "Evidence Source": "N/A",
+                "Associated Biomarker": {
+                    "Biomarker Name": "ERBB2",
+                    "Biomarker level": "level 1",
+                    "Positively/Negatively Associated": "LACK OF BENEFT"
+                }
+            }
+        ],
+        "FDA-Approved Therapies for Other Indications": []
+    },
+    "Clinical Trials": [
+        {
+            "Trial Title": "Anti hormonal therapy",
+            "Clinical Trial ID": "N/A",
+            "Phase of Trial": "N/A",
+            "Trial Location": "N/A",
+            "Therapy Type": "Chemotherapy",
+            "Medication": "anastrazole, letrozole, exemestane, fulvestrant, tamoxifen, goserelin, leuprolide",
+            "Associated Mutations": [
+                "ER"
+            ]
+        },
+        {
+            "Trial Title": "Anti hormonal therapy",
+            "Clinical Trial ID": "N/A",
+            "Phase of Trial": "N/A",
+            "Trial Location": "N/A",
+            "Therapy Type": "Chemotherapy",
+            "Medication": "anastrazole, letrozole, exemestane, fulvestrant, tamoxifen, goserelin, leuprolide",
+            "Associated Mutations": [
+                "PR"
+            ]
+        },
+        {
+            "Trial Title": "Anti inflammatory agents",
+            "Clinical Trial ID": "N/A",
+            "Phase of Trial": "N/A",
+            "Trial Location": "N/A",
+            "Therapy Type": "Chemotherapy",
+            "Medication": "aspirin",
+            "Associated Mutations": [
+                "PIK3CA"
+            ]
+        },
+        {
+            "Trial Title": "Akt inhibitors",
+            "Clinical Trial ID": "N/A",
+            "Phase of Trial": "N/A",
+            "Trial Location": "N/A",
+            "Therapy Type": "Targeted therapy",
+            "Medication": "AZD5363, MK-2206, ipataserib",
+            "Associated Mutations": [
+                "ARID1A"
+            ]
+        },
+        {
+            "Trial Title": "immunomodulatory agents",
+            "Clinical Trial ID": "N/A",
+            "Phase of Trial": "N/A",
+            "Trial Location": "N/A",
+            "Therapy Type": "Targeted therapy",
+            "Medication": "avelumab, atezolizumab, durvalumab, ipilimumab, nivolumab, pembrolizumab",
+            "Associated Mutations": [
+                "TMB"
+            ]
+        },
+        {
+            "Trial Title": "PARP inhibitors",
+            "Clinical Trial ID": "N/A",
+            "Phase of Trial": "N/A",
+            "Trial Location": "N/A",
+            "Therapy Type": "Targeted therapy",
+            "Medication": "BGB-290, BMN-673, olaparib, rucaparib, talazoparib",
+            "Associated Mutations": [
+                "NBN"
+            ]
+        },
+        {
+            "Trial Title": "Akt/mTor inhibitors",
+            "Clinical Trial ID": "N/A",
+            "Phase of Trial": "N/A",
+            "Trial Location": "N/A",
+            "Therapy Type": "Targeted therapy",
+            "Medication": "AZD5363, BYL719, MK-2206, ipataserib, everolimus, temsirolimus",
+            "Associated Mutations": [
+                "PIK3CA"
+            ]
+        }
+    ],
+    "Variants of Unknown Significance (VUS)": [
+        {
+            "Gene Name": "RB1",
+            "DNA Alteration": "c.68_69delAG",
+            "Protein Variant": "p.E23Vfs*17",
+            "Mutation Effect": "N/A",
+            "Variant Allele Fraction": "13.36",
+            "Exon Number": 20,
+            "Transcript ID": "N/A",
+            "Functional Impact": "N/A",
+            "Somatic or Germline": "N/A"
+        },
+        {
+            "Gene Name": "SF3B1",
+            "DNA Alteration": "c.439G>A",
+            "Protein Variant": "p.D108H",
+            "Mutation Effect": "N/A",
+            "Variant Allele Fraction": "14.93",
+            "Exon Number": 19,
+            "Transcript ID": "N/A",
+            "Functional Impact": "N/A",
+            "Somatic or Germline": "N/A"
+        },
+        {
+            "Gene Name": "FGFR2",
+            "DNA Alteration": "c.716T>G",
+            "Protein Variant": "p.L239R",
+            "Mutation Effect": "N/A",
+            "Variant Allele Fraction": "12.4",
+            "Exon Number": 18,
+            "Transcript ID": "N/A",
+            "Functional Impact": "N/A",
+            "Somatic or Germline": "N/A"
+        },
+        {
+            "Gene Name": "JAK3",
+            "DNA Alteration": "c.1848_1849delinsCT",
+            "Protein Variant": "p.T875N",
+            "Mutation Effect": "N/A",
+            "Variant Allele Fraction": "4.35",
+            "Exon Number": 8,
+            "Transcript ID": "N/A",
+            "Functional Impact": "N/A",
+            "Somatic or Germline": "N/A"
+        }
+    ],
+    "Additional Indicators": []
+}

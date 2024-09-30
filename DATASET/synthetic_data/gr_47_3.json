@@ -1,0 +1,64 @@
+{
+    "low coverage regions": [
+        "DPYD",
+        "HDAC1",
+        "BRAF"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "CDKN2A",
+                "DNA Alteration": "c.89C>T",
+                "GeneMutation": "p.V51D Frameshift-LOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "3.48%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "FGFR2",
+                "DNA Alteration": "c.1124A>G",
+                "GeneMutation": "p.V679F Spliceregionvariant-LOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "11.12%"
+            },
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1092_1143del52",
+                "GeneMutation": "p.N549K Frameshift-LOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "16.65%"
+            },
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.Q157X Spliceregionvariant-LOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "22.15%"
+            },
+            {
+                "Gene": "STAT5B",
+                "DNA Alteration": "c.1924A>C",
+                "GeneMutation": "p.K659E Missensevariant(exon2)-GOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "5.23%"
+            },
+            {
+                "Gene": "EGFR",
+                "DNA Alteration": "c.2375T>A",
+                "GeneMutation": "p.L718X Frameshift-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "12.69%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-07-31"
+    },
+    "other": {
+        "ReportId": "3863",
+        "ReportDate": "2023-08-05",
+        "SignedBy": "Joshua Navarro",
+        "Supervisor": "Dr. Steven Stone"
+    }
+}

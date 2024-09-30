@@ -1,0 +1,136 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "TOP2A",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "PTEN",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "PD-L1(SP142)",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 2+, 90%"
+        },
+        {
+            "BioMarker": "AKT1",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "FGFR2",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "DPYD",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "BTK",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "MSH2",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "CCND3",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "BTK",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "7 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 24% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "MYOD1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.N452D",
+            "Exon": 20,
+            "DNA Alteration": "c.1354A>G",
+            "Allele Frequency %": "38.84"
+        },
+        {
+            "Gene": "PTCH1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.*143Qext*31",
+            "Exon": 11,
+            "DNA Alteration": "c.427T>C",
+            "Allele Frequency %": "9.19"
+        },
+        {
+            "Gene": "GNAS",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.S346P",
+            "Exon": 11,
+            "DNA Alteration": "3",
+            "Allele Frequency %": "28.57"
+        },
+        {
+            "Gene": "ARID2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.R479H",
+            "Exon": 18,
+            "DNA Alteration": "c.1436G>A",
+            "Allele Frequency %": "19.52"
+        },
+        {
+            "Gene": "NRAS",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.C481X",
+            "Exon": 5,
+            "DNA Alteration": ".",
+            "Allele Frequency %": "11.18"
+        }
+    ]
+}

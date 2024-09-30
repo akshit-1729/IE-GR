@@ -1,0 +1,98 @@
+{
+    "patient": {
+        "Name": "Michael Schmidt",
+        "DateOfBirth": "1992-05-25",
+        "Sex": "Male",
+        "Diagnosis": "Acinar cell carcinoma",
+        "BodyPart": "Pancreatic",
+        "Physician": "Dr. Jerome House",
+        "TreatingInstitution": "Schmidt, Gutierrez and Lynch"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Pancreatic",
+            "CollectedDate": "2023-07-03",
+            "ReceivedDate": "2023-07-03",
+            "TumorPercentage": "60%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-07-10",
+            "ReceivedDate": "2023-07-15"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "MSH2",
+                "DNA Alteration": "c.1906G>C",
+                "GeneMutation": "p.A636P Nonsense-LOF",
+                "VariantAlleleFraction": "3.22%"
+            },
+            {
+                "Gene": "PTEN",
+                "DNA Alteration": "c.389G>C",
+                "GeneMutation": "p.R130Q Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "12.8%"
+            },
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S34X Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "29.63%"
+            },
+            {
+                "Gene": "HRAS",
+                "DNA Alteration": "c.35G>A",
+                "GeneMutation": "p.G12D Nonsense-GOF",
+                "VariantAlleleFraction": "18.37%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G12X Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "4.75%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "DICER1",
+            "STAG2"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "3 m/Mb",
+            "Tmbpercentile": "90%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

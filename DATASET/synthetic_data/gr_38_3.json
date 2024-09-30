@@ -1,0 +1,43 @@
+{
+    "low coverage regions": [
+        "CSF3R",
+        "BRCA2",
+        "ARID2"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "SMO",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A374E Stopgain-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "39.39%"
+            },
+            {
+                "Gene": "HDAC1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.Y303H Frameshift-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "28.89%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R156X Missensevariant(exon2)-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "27.05%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-04-30"
+    },
+    "other": {
+        "ReportId": "1918",
+        "ReportDate": "2023-05-04",
+        "SignedBy": "Duane Adams",
+        "Supervisor": "Dr. Jason Rojas"
+    }
+}

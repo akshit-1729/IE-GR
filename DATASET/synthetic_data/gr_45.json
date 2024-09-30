@@ -1,0 +1,253 @@
+{
+    "patient": {
+        "Name": "Sarah Jackson",
+        "DateOfBirth": "1983-07-18",
+        "Sex": "Female",
+        "Diagnosis": "Medullary thyroid cancer",
+        "BodyPart": "Thyroid",
+        "Physician": "Dr. Stacy Rodriguez",
+        "TreatingInstitution": "Dunlap PLC"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Thyroid",
+            "CollectedDate": "2023-11-01",
+            "ReceivedDate": "2023-11-01",
+            "TumorPercentage": "96%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-11-02",
+            "ReceivedDate": "2023-11-03"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "MUTYH",
+                "DNA Alteration": "c.1014G>C",
+                "GeneMutation": "p.Q338H Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "6.1%"
+            },
+            {
+                "Gene": "ALK",
+                "DNA Alteration": "c.3735C>A",
+                "GeneMutation": "p.F1174V Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "5.34%"
+            },
+            {
+                "Gene": "SRSF2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.P95X Frameshift-LOF",
+                "VariantAlleleFraction": "21.07%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "CSF1R",
+                "DNA Alteration": "c.1085A>G",
+                "GeneMutation": "p.N648S Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "3.81%"
+            },
+            {
+                "Gene": "SDHA",
+                "DNA Alteration": "c.1660C>T",
+                "GeneMutation": "p.H362R Frameshift-LOF",
+                "VariantAlleleFraction": "6.16%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": []
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "26 m/Mb",
+            "Tmbpercentile": "38%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "NF1",
+                "DNA Alteration": "c.4394A>G",
+                "GeneMutation": "p.N1465S Nonsense-LOF",
+                "VariantAlleleFraction": "2.37%"
+            },
+            {
+                "Gene": "SDHA",
+                "DNA Alteration": "c.1660C>T",
+                "GeneMutation": "p.R554W Frameshift-LOF",
+                "VariantAlleleFraction": "19.27%"
+            },
+            {
+                "Gene": "RB1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.F650S Frameshift-LOF",
+                "VariantAlleleFraction": "1.17%"
+            },
+            {
+                "Gene": "FGFR3",
+                "DNA Alteration": "c.1138G>A",
+                "GeneMutation": "p.S249C Frameshift-GOF",
+                "VariantAlleleFraction": "5.27%"
+            },
+            {
+                "Gene": "B2M",
+                "DNA Alteration": "c.2T>G",
+                "GeneMutation": "p.M1R Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "9.97%"
+            },
+            {
+                "Gene": "JAK3",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.L857P Frameshift-GOF",
+                "VariantAlleleFraction": "6.86%"
+            },
+            {
+                "Gene": "FLT3",
+                "DNA Alteration": "c.2028C>G",
+                "GeneMutation": "p.V592G Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "8.89%"
+            },
+            {
+                "Gene": "KLF1",
+                "DNA Alteration": "c.892G>C",
+                "GeneMutation": "p.M39L Nonsense-GOF",
+                "VariantAlleleFraction": "9.67%"
+            },
+            {
+                "Gene": "SDHD",
+                "DNA Alteration": "c.34G>A",
+                "GeneMutation": "p.G12S Stopgain-LOF",
+                "VariantAlleleFraction": "7.45%"
+            },
+            {
+                "Gene": "RB1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.F650S Nonsense-GOF",
+                "VariantAlleleFraction": "1.01%"
+            },
+            {
+                "Gene": "HSD3B1",
+                "DNA Alteration": "c.1100=",
+                "GeneMutation": "p.T367= Frameshift-GOF",
+                "VariantAlleleFraction": "1.94%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "TLR8",
+        "SF3B1",
+        "BRCA1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "MUTYH",
+                "DNA Alteration": "c.1014G>C",
+                "GeneMutation": "p.Q338H Spliceregionvariant-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "6.1%"
+            },
+            {
+                "Gene": "ALK",
+                "DNA Alteration": "c.3735C>A",
+                "GeneMutation": "p.F1174V Spliceregionvariant-LOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "5.34%"
+            },
+            {
+                "Gene": "SRSF2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.P95X Frameshift-LOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "21.07%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "CSF1R",
+                "DNA Alteration": "c.1085A>G",
+                "GeneMutation": "p.N648S Missensevariant(exon2)-GOF",
+                "description": "BCL11B encodes a C2H2-type zinc finger protein that functions as a transcriptional repressor and plays a role in T-cell development and survival. Loss of function mutations, copy number loss, and fusions resulting in the underexpression of BCL11B are associated with cancer progression.",
+                "VariantAlleleFraction": "3.81%"
+            },
+            {
+                "Gene": "SDHA",
+                "DNA Alteration": "c.1660C>T",
+                "GeneMutation": "p.H362R Frameshift-LOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "6.16%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-10-31"
+    },
+    "other": {
+        "ReportId": "4014",
+        "ReportDate": "2023-11-02",
+        "SignedBy": "Stacy Rodriguez",
+        "Supervisor": "Dr. Eric Adkins"
+    }
+}

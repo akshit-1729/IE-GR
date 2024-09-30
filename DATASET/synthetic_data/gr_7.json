@@ -1,0 +1,252 @@
+{
+    "patient": {
+        "Name": "Rachel Anderson",
+        "DateOfBirth": "1951-07-18",
+        "Sex": "Male",
+        "Diagnosis": "Invasive lobular carcinoma",
+        "BodyPart": "Breast",
+        "Physician": "Dr. Jessica Morgan",
+        "TreatingInstitution": "Williams Ltd"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Breast",
+            "CollectedDate": "2023-12-28",
+            "ReceivedDate": "2023-12-30",
+            "TumorPercentage": "50%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-12-31",
+            "ReceivedDate": "2023-12-31"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "IDH1",
+                "DNA Alteration": "c.394_395delinsGT",
+                "GeneMutation": "p.R132S Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "35.31%"
+            },
+            {
+                "Gene": "BTK",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.C481X Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "2.98%"
+            },
+            {
+                "Gene": "PDGFRA",
+                "DNA Alteration": "c.1154_1155delinsTA",
+                "GeneMutation": "p.D842V Nonsense-LOF",
+                "VariantAlleleFraction": "1.26%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "CTNNB1",
+                "DNA Alteration": "c.122_123delinsTT",
+                "GeneMutation": "p.S37C Frameshift-LOF",
+                "VariantAlleleFraction": "12.4%"
+            },
+            {
+                "Gene": "BRAF",
+                "DNA Alteration": "c.1798G>A",
+                "GeneMutation": "p.S45P Stopgain-LOF",
+                "VariantAlleleFraction": "7.19%"
+            },
+            {
+                "Gene": "TP53",
+                "DNA Alteration": "c.638G>T",
+                "GeneMutation": "p.R248W Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "13.7%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "MPL",
+            "EGFR",
+            "JAK2"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "16 m/Mb",
+            "Tmbpercentile": "65%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "NF1",
+                "DNA Alteration": "c.6926del",
+                "GeneMutation": "p.N1465S Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "12.41%"
+            },
+            {
+                "Gene": "BRCA1",
+                "DNA Alteration": "c.68_69delAG",
+                "GeneMutation": "p.Q1756Pfs Frameshift-GOF",
+                "VariantAlleleFraction": "9.58%"
+            },
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A572G Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "10.81%"
+            },
+            {
+                "Gene": "FGFR3",
+                "DNA Alteration": "c.746C>G",
+                "GeneMutation": "p.G380R Nonsense-GOF",
+                "VariantAlleleFraction": "7.54%"
+            },
+            {
+                "Gene": "SMO",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A374E Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "6.67%"
+            },
+            {
+                "Gene": "PTPN11",
+                "DNA Alteration": "c.1508G>C",
+                "GeneMutation": "p.G503A Stopgain-LOF",
+                "VariantAlleleFraction": "7.27%"
+            },
+            {
+                "Gene": "CSF3R",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G751A Frameshift-LOF",
+                "VariantAlleleFraction": "2.92%"
+            }
+        ],
+        "Germline": [
+            {
+                "Gene": "PAX5",
+                "DNA Alteration": "c.547G>A",
+                "GeneMutation": "p.A322T Spliceregionvariant-LOF",
+                "Condition": "important"
+            }
+        ]
+    },
+    "low coverage regions": [
+        "FGFR4",
+        "HBB"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "IDH1",
+                "DNA Alteration": "c.394_395delinsGT",
+                "GeneMutation": "p.R132S Spliceregionvariant-GOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "35.31%"
+            },
+            {
+                "Gene": "BTK",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.C481X Spliceregionvariant-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "2.98%"
+            },
+            {
+                "Gene": "PDGFRA",
+                "DNA Alteration": "c.1154_1155delinsTA",
+                "GeneMutation": "p.D842V Nonsense-LOF",
+                "description": "BCL11B encodes a C2H2-type zinc finger protein that functions as a transcriptional repressor and plays a role in T-cell development and survival. Loss of function mutations, copy number loss, and fusions resulting in the underexpression of BCL11B are associated with cancer progression.",
+                "VariantAlleleFraction": "1.26%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "CTNNB1",
+                "DNA Alteration": "c.122_123delinsTT",
+                "GeneMutation": "p.S37C Frameshift-LOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "12.4%"
+            },
+            {
+                "Gene": "BRAF",
+                "DNA Alteration": "c.1798G>A",
+                "GeneMutation": "p.S45P Stopgain-LOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "7.19%"
+            },
+            {
+                "Gene": "TP53",
+                "DNA Alteration": "c.638G>T",
+                "GeneMutation": "p.R248W Spliceregionvariant-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "13.7%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-12-20"
+    },
+    "other": {
+        "ReportId": "4816",
+        "ReportDate": "2024-01-06",
+        "SignedBy": "Jessica Morgan",
+        "Supervisor": "Dr. Christina Forbes"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "MYO1G",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.M1R",
+            "Exon": 11,
+            "DNA Alteration": "c.2T>G",
+            "Allele Frequency %": "4.74"
+        },
+        {
+            "Gene": "PDGFRA",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.N515H",
+            "Exon": 6,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "17.18"
+        },
+        {
+            "Gene": "ALDH2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.G12X",
+            "Exon": 2,
+            "DNA Alteration": "c.35G>T",
+            "Allele Frequency %": "19.76"
+        },
+        {
+            "Gene": "BRCA1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.C481X",
+            "Exon": 8,
+            "DNA Alteration": "c",
+            "Allele Frequency %": "9.36"
+        },
+        {
+            "Gene": "JAK3",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.G503A",
+            "Exon": 12,
+            "DNA Alteration": "c.1508G>C",
+            "Allele Frequency %": "3.86"
+        },
+        {
+            "Gene": "MYO1G",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.K666X",
+            "Exon": 14,
+            "DNA Alteration": "c",
+            "Allele Frequency %": "1.64"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "MSH6",
+            "Result": "Negative| 1+, 53%"
+        },
+        {
+            "Biomarker": "PR",
+            "Result": "Positive| 3+, 98%"
+        },
+        {
+            "Biomarker": "ER",
+            "Result": "Negative| 2+, 32%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "CDKN2A",
+        "CALR",
+        "ABL1"
+    ]
+}

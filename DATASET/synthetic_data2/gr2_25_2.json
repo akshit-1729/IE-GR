@@ -1,0 +1,116 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "MYO1G",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "FBXW7",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "PIK3CA",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "BLM",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "TP53",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "6 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 38% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "ARID2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.G34V",
+            "Exon": 7,
+            "DNA Alteration": "c.94G>A",
+            "Allele Frequency %": "1.44"
+        },
+        {
+            "Gene": "TOP2A",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.G12V",
+            "Exon": 2,
+            "DNA Alteration": "c.35_36delinsAT",
+            "Allele Frequency %": "14.01"
+        },
+        {
+            "Gene": "CHEK2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.P904L",
+            "Exon": 8,
+            "DNA Alteration": "c.2711C>T",
+            "Allele Frequency %": "22.15"
+        },
+        {
+            "Gene": "NT5C2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.G12S",
+            "Exon": 17,
+            "DNA Alteration": "c.38G>T",
+            "Allele Frequency %": "20.12"
+        },
+        {
+            "Gene": "NRAS",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.R256fs*64",
+            "Exon": 19,
+            "DNA Alteration": "c.766_776del11",
+            "Allele Frequency %": "2.36"
+        },
+        {
+            "Gene": "BRCA1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": " p.W266*",
+            "Exon": 14,
+            "DNA Alteration": " c.798G>A",
+            "Allele Frequency %": "5.25"
+        }
+    ]
+}

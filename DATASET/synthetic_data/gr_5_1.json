@@ -1,0 +1,85 @@
+{
+    "patient": {
+        "Name": "Anthony Wilson Jr.",
+        "DateOfBirth": "1953-07-11",
+        "Sex": "Female",
+        "Diagnosis": "Pancreatic neuroendocrine tumors",
+        "BodyPart": "Pancreatic",
+        "Physician": "Dr. Kathryn Frost",
+        "TreatingInstitution": "Hunter, Williams and Walker"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Pancreatic",
+            "CollectedDate": "2023-05-22",
+            "ReceivedDate": "2023-05-23",
+            "TumorPercentage": "60%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-05-23",
+            "ReceivedDate": "2023-05-24"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "MET",
+                "DNA Alteration": "c.3209T>G",
+                "GeneMutation": "p.Y1230C Nonsense-GOF",
+                "VariantAlleleFraction": "16.4%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "CHEK2",
+                "DNA Alteration": "c.1283C>T",
+                "GeneMutation": "p.L1205V Nonsense-GOF",
+                "VariantAlleleFraction": "10.81%"
+            },
+            {
+                "Gene": "PIK3CA",
+                "DNA Alteration": "c.1624G>C",
+                "GeneMutation": "p.S428F Stopgain-LOF",
+                "VariantAlleleFraction": "4.22%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "ARID2"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "9 m/Mb",
+            "Tmbpercentile": "5%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

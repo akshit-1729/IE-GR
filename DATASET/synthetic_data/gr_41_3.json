@@ -1,0 +1,50 @@
+{
+    "low coverage regions": [
+        "HSD3B1",
+        "HRAS",
+        "ARID2"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "XPC",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S346P Spliceregionvariant-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "25.15%"
+            },
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N159Y Spliceregionvariant-GOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "4.33%"
+            },
+            {
+                "Gene": "DICER1",
+                "DNA Alteration": "c.5438A>G",
+                "GeneMutation": "p.E1813K Missensevariant(exon2)-GOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "19.02%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "APC",
+                "DNA Alteration": "c.3920T>A",
+                "GeneMutation": "p.D1810H Spliceregionvariant-GOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "23.36%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-09-01"
+    },
+    "other": {
+        "ReportId": "8532",
+        "ReportDate": "2023-09-09",
+        "SignedBy": "Beth Wang",
+        "Supervisor": "Dr. Jonathan Romero"
+    }
+}

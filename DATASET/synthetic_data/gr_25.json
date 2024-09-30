@@ -1,0 +1,274 @@
+{
+    "patient": {
+        "Name": "Julia Chambers",
+        "DateOfBirth": "1987-02-13",
+        "Sex": "Female",
+        "Diagnosis": "Merkel cell carcinoma",
+        "BodyPart": "Skin",
+        "Physician": "Dr. Jennifer Knight",
+        "TreatingInstitution": "Becker, Adams and Nelson"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Skin",
+            "CollectedDate": "2023-05-07",
+            "ReceivedDate": "2023-05-14",
+            "TumorPercentage": "6%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-05-14",
+            "ReceivedDate": "2023-05-16"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": " p.W266* Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "33.12%"
+            },
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1154_1155insTTGTC",
+                "GeneMutation": "p.K385fs*47 Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "34.25%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "NOTCH1",
+                "DNA Alteration": "c.7398_7407del",
+                "GeneMutation": "p.S2467Afs*15 Nonsense-GOF",
+                "VariantAlleleFraction": "9.15%"
+            },
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.G1196D Frameshift-LOF",
+                "VariantAlleleFraction": "1.3%"
+            },
+            {
+                "Gene": "PTEN",
+                "DNA Alteration": "c.389G>A",
+                "GeneMutation": "p.G1196D Nonsense-GOF",
+                "VariantAlleleFraction": "2.36%"
+            },
+            {
+                "Gene": "HBA2",
+                "DNA Alteration": "c.427T>C",
+                "GeneMutation": "p.S2467Gfs*11 Frameshift-LOF",
+                "VariantAlleleFraction": "4.49%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "B2M",
+            "PAX5",
+            "FGFR1"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "33 m/Mb",
+            "Tmbpercentile": "47%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "KLF4",
+                "DNA Alteration": "c.1225A>C",
+                "GeneMutation": "p.K409Q Frameshift-LOF",
+                "VariantAlleleFraction": "5.63%"
+            },
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R156X Nonsense-GOF",
+                "VariantAlleleFraction": "7.36%"
+            },
+            {
+                "Gene": "DNMT3A",
+                "DNA Alteration": "c.2711C>T",
+                "GeneMutation": "p.P904L Nonsense-LOF",
+                "VariantAlleleFraction": "7.03%"
+            },
+            {
+                "Gene": "BRAF",
+                "DNA Alteration": "c.1798_1799delinsAG",
+                "GeneMutation": "p.V600A Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "5.63%"
+            },
+            {
+                "Gene": "RB1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.F650S Nonsense-LOF",
+                "VariantAlleleFraction": "4.38%"
+            },
+            {
+                "Gene": "ZEB2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.H1038R Frameshift-LOF",
+                "VariantAlleleFraction": "9.93%"
+            },
+            {
+                "Gene": "ZEB2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.H1038R Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "4.81%"
+            },
+            {
+                "Gene": "MTOR",
+                "DNA Alteration": "c.5662T>C",
+                "GeneMutation": "p.G1954R Nonsense-LOF",
+                "VariantAlleleFraction": "4.41%"
+            },
+            {
+                "Gene": "BRAF",
+                "DNA Alteration": "c.1405G>C",
+                "GeneMutation": "p.L597V Nonsense-LOF",
+                "VariantAlleleFraction": "3.01%"
+            },
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S34X Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "1.45%"
+            },
+            {
+                "Gene": "FGFR3",
+                "DNA Alteration": "c.1138G>A",
+                "GeneMutation": "p.G380R Frameshift-GOF",
+                "VariantAlleleFraction": "1.09%"
+            },
+            {
+                "Gene": "KIT",
+                "DNA Alteration": "c.2492T>C",
+                "GeneMutation": "p.D820Y Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "2.89%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "CDKN2A"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": " p.W266* Spliceregionvariant-LOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "33.12%"
+            },
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1154_1155insTTGTC",
+                "GeneMutation": "p.K385fs*47 Missensevariant(exon2)-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "34.25%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "NOTCH1",
+                "DNA Alteration": "c.7398_7407del",
+                "GeneMutation": "p.S2467Afs*15 Nonsense-GOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "9.15%"
+            },
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.G1196D Frameshift-LOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "1.3%"
+            },
+            {
+                "Gene": "PTEN",
+                "DNA Alteration": "c.389G>A",
+                "GeneMutation": "p.G1196D Nonsense-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "2.36%"
+            },
+            {
+                "Gene": "HBA2",
+                "DNA Alteration": "c.427T>C",
+                "GeneMutation": "p.S2467Gfs*11 Frameshift-LOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "4.49%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-05-06"
+    },
+    "other": {
+        "ReportId": "7434",
+        "ReportDate": "2023-05-13",
+        "SignedBy": "Jennifer Knight",
+        "Supervisor": "Dr. Erin Davidson"
+    }
+}

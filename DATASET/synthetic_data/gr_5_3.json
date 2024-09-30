@@ -1,0 +1,43 @@
+{
+    "low coverage regions": [
+        "HBB",
+        "XPC",
+        "HBA2"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "MET",
+                "DNA Alteration": "c.3209T>G",
+                "GeneMutation": "p.Y1230C Nonsense-GOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "16.4%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "CHEK2",
+                "DNA Alteration": "c.1283C>T",
+                "GeneMutation": "p.L1205V Nonsense-GOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "10.81%"
+            },
+            {
+                "Gene": "PIK3CA",
+                "DNA Alteration": "c.1624G>C",
+                "GeneMutation": "p.S428F Stopgain-LOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "4.22%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-05-21"
+    },
+    "other": {
+        "ReportId": "2437",
+        "ReportDate": "2023-05-25",
+        "SignedBy": "Kathryn Frost",
+        "Supervisor": "Dr. Tonya Moore"
+    }
+}

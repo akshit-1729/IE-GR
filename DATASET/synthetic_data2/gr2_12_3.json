@@ -1,0 +1,77 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "SIX1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.R479H",
+            "Exon": 12,
+            "DNA Alteration": "c.1436G>A",
+            "Allele Frequency %": "25.86"
+        },
+        {
+            "Gene": "SIX1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.G607V",
+            "Exon": 18,
+            "DNA Alteration": "c.1820G>T",
+            "Allele Frequency %": "16.85"
+        },
+        {
+            "Gene": "NRAS",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.E455fs*7",
+            "Exon": 9,
+            "DNA Alteration": ">",
+            "Allele Frequency %": "13.57"
+        },
+        {
+            "Gene": "DNMT3A",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.D463H",
+            "Exon": 15,
+            "DNA Alteration": "c.1387G>C",
+            "Allele Frequency %": "9.24"
+        },
+        {
+            "Gene": "STAG2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.E23Vfs*17",
+            "Exon": 20,
+            "DNA Alteration": "c.5265_5266insC",
+            "Allele Frequency %": "1.27"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "PR",
+            "Result": "Negative| 1+, 26%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Negative| 3+, 11%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Positive| 2+, 32%"
+        },
+        {
+            "Biomarker": "MLH1",
+            "Result": "Negative| 2+, 10%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "MAPK1",
+        "FGFR1",
+        "CALR"
+    ]
+}

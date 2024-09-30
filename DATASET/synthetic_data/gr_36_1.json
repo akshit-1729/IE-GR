@@ -1,0 +1,104 @@
+{
+    "patient": {
+        "Name": "Brittany Munoz",
+        "DateOfBirth": "1933-09-18",
+        "Sex": "Female",
+        "Diagnosis": "Adenocarcinoma",
+        "BodyPart": "Pancreatic",
+        "Physician": "Dr. Timothy Lee",
+        "TreatingInstitution": "Collins-Wilson"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Pancreatic",
+            "CollectedDate": "2024-02-21",
+            "ReceivedDate": "2024-02-23",
+            "TumorPercentage": "23%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2024-02-24",
+            "ReceivedDate": "2024-02-29"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "CCND3",
+                "DNA Alteration": "c.766_776del11",
+                "GeneMutation": "p.R256fs*64 Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "30.5%"
+            },
+            {
+                "Gene": "XPC",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S346P Frameshift-LOF",
+                "VariantAlleleFraction": "32.25%"
+            },
+            {
+                "Gene": "TEK",
+                "DNA Alteration": "c.1354A>G",
+                "GeneMutation": "p.N452D Nonsense-LOF",
+                "VariantAlleleFraction": "13.57%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "JAK3",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N452D Nonsense-GOF",
+                "VariantAlleleFraction": "9.82%"
+            },
+            {
+                "Gene": "ZEB2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.L857P Frameshift-LOF",
+                "VariantAlleleFraction": "5.12%"
+            },
+            {
+                "Gene": "STAG2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N452D Nonsense-GOF",
+                "VariantAlleleFraction": "12.0%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "PTPN11",
+            "IDH1"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "42 m/Mb",
+            "Tmbpercentile": "30%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

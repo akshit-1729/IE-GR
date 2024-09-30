@@ -1,0 +1,140 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "ARID2",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "FBXW7",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "ER",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 2+, 63%"
+        },
+        {
+            "BioMarker": "ALK",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "MUTYH",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "DNMT3A",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "PD-L1(SP142)",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 1+, 73%"
+        },
+        {
+            "BioMarker": "RNF43",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "Mismatch repair status",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 1+, 55%"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "17 mutations/Mb High"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low - 6% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "DPYD",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.C481X",
+            "Exon": 2,
+            "DNA Alteration": "3",
+            "Allele Frequency %": "9.29"
+        },
+        {
+            "Gene": "MYOD1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.G12X",
+            "Exon": 16,
+            "DNA Alteration": "c.436G>A",
+            "Allele Frequency %": "11.46"
+        },
+        {
+            "Gene": "FBXW7",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.N515H",
+            "Exon": 2,
+            "DNA Alteration": "c",
+            "Allele Frequency %": "19.26"
+        },
+        {
+            "Gene": "CSF1R",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.A298P",
+            "Exon": 15,
+            "DNA Alteration": "c.115A>C",
+            "Allele Frequency %": "20.19"
+        },
+        {
+            "Gene": "JAK2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.A298P",
+            "Exon": 16,
+            "DNA Alteration": "c.892G>C",
+            "Allele Frequency %": "7.41"
+        },
+        {
+            "Gene": "IKZF1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.S2309Cfs*10",
+            "Exon": 2,
+            "DNA Alteration": "c.4394A>G",
+            "Allele Frequency %": "11.91"
+        }
+    ]
+}

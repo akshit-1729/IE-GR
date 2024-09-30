@@ -1,0 +1,106 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "RNF43",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "SDHD",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "ARID2",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 3+, 95%"
+        },
+        {
+            "BioMarker": "ERBB2",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "18 mutations/Mb High"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 36% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "PKLR",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.S1982Rfs*22",
+            "Exon": 20,
+            "DNA Alteration": "c.5946delT",
+            "Allele Frequency %": "25.14"
+        },
+        {
+            "Gene": "JAK2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.I1600M",
+            "Exon": 2,
+            "DNA Alteration": "c.4800C>G",
+            "Allele Frequency %": "20.83"
+        },
+        {
+            "Gene": "IKZF1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.E545K",
+            "Exon": 11,
+            "DNA Alteration": "c.1625A>T",
+            "Allele Frequency %": "9.3"
+        },
+        {
+            "Gene": "HRAS",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.R465H",
+            "Exon": 5,
+            "DNA Alteration": "c.1394G>A",
+            "Allele Frequency %": "14.11"
+        },
+        {
+            "Gene": "ALDH2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.A34V",
+            "Exon": 14,
+            "DNA Alteration": "G",
+            "Allele Frequency %": "3.63"
+        }
+    ]
+}

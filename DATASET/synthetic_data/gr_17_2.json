@@ -1,0 +1,94 @@
+{
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A572G Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "17.94%"
+            },
+            {
+                "Gene": "PKLR",
+                "DNA Alteration": "c.1436G>A",
+                "GeneMutation": "p.R479H Nonsense-GOF",
+                "VariantAlleleFraction": "13.68%"
+            },
+            {
+                "Gene": "MYOD1",
+                "DNA Alteration": "c.365T>G",
+                "GeneMutation": "p.L122R Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "9.76%"
+            },
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A572G Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "9.74%"
+            },
+            {
+                "Gene": "SDHB",
+                "DNA Alteration": "c.487T>C",
+                "GeneMutation": "p.S163P Nonsense-GOF",
+                "VariantAlleleFraction": "1.76%"
+            },
+            {
+                "Gene": "CHD6",
+                "DNA Alteration": "c.4800C>G",
+                "GeneMutation": "p.I1600M Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "3.37%"
+            },
+            {
+                "Gene": "PKLR",
+                "DNA Alteration": "c.1436G>A",
+                "GeneMutation": "p.R479H Nonsense-LOF",
+                "VariantAlleleFraction": "4.14%"
+            }
+        ],
+        "Germline": [
+            {
+                "Gene": "EZH2",
+                "DNA Alteration": "c.1937A>G",
+                "GeneMutation": "p.Y646D Spliceregionvariant-LOF",
+                "Condition": "score"
+            },
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N159Y Spliceregionvariant-GOF",
+                "Condition": "energy"
+            }
+        ]
+    }
+}

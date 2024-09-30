@@ -1,0 +1,83 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "HRAS",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.I543V",
+            "Exon": 17,
+            "DNA Alteration": "c.1905+1G>A",
+            "Allele Frequency %": "2.92"
+        },
+        {
+            "Gene": "FGFR4",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.K741X",
+            "Exon": 7,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "2.31"
+        },
+        {
+            "Gene": "SDHD",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.A572G",
+            "Exon": 20,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "1.23"
+        },
+        {
+            "Gene": "KLF1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.V49M",
+            "Exon": 9,
+            "DNA Alteration": "c.145G>A",
+            "Allele Frequency %": "2.34"
+        },
+        {
+            "Gene": "MYD88",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.D769Y",
+            "Exon": 6,
+            "DNA Alteration": "c.2329G>C",
+            "Allele Frequency %": "4.75"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "MSH2",
+            "Result": "Negative| 2+, 98%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Negative| 1+, 52%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Positive| 2+, 25%"
+        },
+        {
+            "Biomarker": "ER",
+            "Result": "Negative| 2+, 54%"
+        },
+        {
+            "Biomarker": "MLH1",
+            "Result": "Negative| 2+, 20%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "KIT",
+        "BRAF",
+        "SMO",
+        "SIX1",
+        "MYCN"
+    ]
+}

@@ -1,0 +1,234 @@
+{
+    "patient": {
+        "Name": "Jennifer Castillo",
+        "DateOfBirth": "1963-12-08",
+        "Sex": "Female",
+        "Diagnosis": "Acute lymphocytic leukemia (ALL)",
+        "BodyPart": "Leukemia",
+        "Physician": "Dr. William Martin",
+        "TreatingInstitution": "Young, Thomas and Watkins"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Leukemia",
+            "CollectedDate": "2024-03-26",
+            "ReceivedDate": "2024-03-26",
+            "TumorPercentage": "8%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2024-03-29",
+            "ReceivedDate": "2024-03-31"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "KIT",
+                "DNA Alteration": "c.1669T>A",
+                "GeneMutation": "p.V559D Stopgain-LOF",
+                "VariantAlleleFraction": "25.44%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "BRAF",
+                "DNA Alteration": "c.1397G>C",
+                "GeneMutation": "p.K642E Frameshift-LOF",
+                "VariantAlleleFraction": "10.63%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.V600K Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "28.01%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "HRAS"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "9 m/Mb",
+            "Tmbpercentile": "43%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "High"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "XPC",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S346P Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "3.25%"
+            },
+            {
+                "Gene": "ARHGAP45",
+                "DNA Alteration": "c.416G>A",
+                "GeneMutation": "p.R139H Nonsense-LOF",
+                "VariantAlleleFraction": "14.86%"
+            },
+            {
+                "Gene": "GNAS",
+                "DNA Alteration": "c.680A>G",
+                "GeneMutation": "p.R201H Frameshift-LOF",
+                "VariantAlleleFraction": "5.1%"
+            },
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.V49M Frameshift-GOF",
+                "VariantAlleleFraction": "4.24%"
+            },
+            {
+                "Gene": "CSF1R",
+                "DNA Alteration": "c.1085A>G",
+                "GeneMutation": "p.H362R Frameshift-LOF",
+                "VariantAlleleFraction": "9.17%"
+            },
+            {
+                "Gene": "SMO",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A374E Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "1.1%"
+            },
+            {
+                "Gene": "ERBB2",
+                "DNA Alteration": "c.926G>A",
+                "GeneMutation": "p.G776C Frameshift-GOF",
+                "VariantAlleleFraction": "4.82%"
+            },
+            {
+                "Gene": "H3.3",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G35L Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "7.72%"
+            },
+            {
+                "Gene": "HBB",
+                "DNA Alteration": "c.79G>A",
+                "GeneMutation": "p.E7V Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "7.18%"
+            },
+            {
+                "Gene": "MET",
+                "DNA Alteration": "c.3749T>C",
+                "GeneMutation": "p.V1070G Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "2.35%"
+            },
+            {
+                "Gene": "PDGFRA",
+                "DNA Alteration": "c.1154_1155delinsTA",
+                "GeneMutation": "p.D842V Nonsense-LOF",
+                "VariantAlleleFraction": "5.15%"
+            },
+            {
+                "Gene": "SIX1",
+                "DNA Alteration": "c.530A>G",
+                "GeneMutation": "p.Q177R Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "8.91%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "KLF1",
+        "MAPK1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "KIT",
+                "DNA Alteration": "c.1669T>A",
+                "GeneMutation": "p.V559D Stopgain-LOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "25.44%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "BRAF",
+                "DNA Alteration": "c.1397G>C",
+                "GeneMutation": "p.K642E Frameshift-LOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "10.63%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.V600K Missensevariant(exon2)-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "28.01%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2024-03-25"
+    },
+    "other": {
+        "ReportId": "3523",
+        "ReportDate": "2024-03-29",
+        "SignedBy": "William Martin",
+        "Supervisor": "Dr. Sean Walton"
+    }
+}

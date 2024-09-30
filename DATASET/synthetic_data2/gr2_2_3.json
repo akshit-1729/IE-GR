@@ -1,0 +1,96 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "ABL1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": " p.W266*",
+            "Exon": 19,
+            "DNA Alteration": " c.798G>A",
+            "Allele Frequency %": "26.64"
+        },
+        {
+            "Gene": "MYCN",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.G1954R",
+            "Exon": 16,
+            "DNA Alteration": "c.5664C>A",
+            "Allele Frequency %": "15.29"
+        },
+        {
+            "Gene": "NCSTN",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.A572G",
+            "Exon": 13,
+            "DNA Alteration": "3",
+            "Allele Frequency %": "15.9"
+        },
+        {
+            "Gene": "RB1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.V49M",
+            "Exon": 3,
+            "DNA Alteration": "c.145G>A",
+            "Allele Frequency %": "14.48"
+        },
+        {
+            "Gene": "CDC73",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.C134W",
+            "Exon": 6,
+            "DNA Alteration": "c.402C>G",
+            "Allele Frequency %": "5.45"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "PR",
+            "Result": "Positive| 1+, 62%"
+        },
+        {
+            "Biomarker": "AR",
+            "Result": "Negative| 3+, 100%"
+        },
+        {
+            "Biomarker": "MSH6",
+            "Result": "Negative| 3+, 40%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Positive| 2+, 65%"
+        },
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Positive| 3+, 82%"
+        },
+        {
+            "Biomarker": "MLH1",
+            "Result": "Positive| 3+, 94%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Positive| 3+, 42%"
+        },
+        {
+            "Biomarker": "ER",
+            "Result": "Positive| 2+, 2%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "HSP90B1",
+        "ERBB2",
+        "HBB",
+        "DPYD",
+        "CALR",
+        "MSH2"
+    ]
+}

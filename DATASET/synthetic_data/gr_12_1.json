@@ -1,0 +1,87 @@
+{
+    "patient": {
+        "Name": "Jose Petty",
+        "DateOfBirth": "1969-10-10",
+        "Sex": "Male",
+        "Diagnosis": "Acute lymphocytic leukemia (ALL)",
+        "BodyPart": "Leukemia",
+        "Physician": "Dr. Carla Bird",
+        "TreatingInstitution": "Lee-Ramirez"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Leukemia",
+            "CollectedDate": "2023-08-10",
+            "ReceivedDate": "2023-08-13",
+            "TumorPercentage": "37%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-08-12",
+            "ReceivedDate": "2023-08-13"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "PRKCA",
+                "DNA Alteration": "c.1387G>C",
+                "GeneMutation": "p.D463H Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "24.12%"
+            },
+            {
+                "Gene": "JAK2",
+                "DNA Alteration": "c.2792A>G",
+                "GeneMutation": "p.M929I Nonsense-GOF",
+                "VariantAlleleFraction": "27.28%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "FGFR1",
+                "DNA Alteration": "c.1966A>G",
+                "GeneMutation": "p.K656E Nonsense-GOF",
+                "VariantAlleleFraction": "25.83%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "FGFR2",
+            "IDH1",
+            "TOP2A"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "9 m/Mb",
+            "Tmbpercentile": "5%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

@@ -1,0 +1,221 @@
+{
+    "patient": {
+        "Name": "Jennifer Houston",
+        "DateOfBirth": "1996-08-11",
+        "Sex": "Female",
+        "Diagnosis": "Chronic myeloid leukemia (CML)",
+        "BodyPart": "Leukemia",
+        "Physician": "Dr. Christopher Reynolds",
+        "TreatingInstitution": "White, Jones and Carlson"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Leukemia",
+            "CollectedDate": "2024-03-08",
+            "ReceivedDate": "2024-03-14",
+            "TumorPercentage": "50%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2024-03-12",
+            "ReceivedDate": "2024-03-12"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": " p.W266* Stopgain-LOF",
+                "VariantAlleleFraction": "5.87%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1154_1155insTTGTC",
+                "GeneMutation": "p.L367fs*46 Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "10.76%"
+            },
+            {
+                "Gene": "CSF3R",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": " p.W266* Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "25.98%"
+            },
+            {
+                "Gene": "CDC73",
+                "DNA Alteration": "c.1A>G",
+                "GeneMutation": " p.W266* Stopgain-LOF",
+                "VariantAlleleFraction": "17.65%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "PTCH1",
+            "PDGFRB",
+            "SF3B1",
+            "CALR"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "41 m/Mb",
+            "Tmbpercentile": "23%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "SRSF2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.P95X Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "21.92%"
+            },
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": " p.W266* Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "6.58%"
+            },
+            {
+                "Gene": "CDC73",
+                "DNA Alteration": "c.1A>G",
+                "GeneMutation": "p.M1V Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "2.18%"
+            },
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Frameshift-LOF",
+                "VariantAlleleFraction": "3.56%"
+            },
+            {
+                "Gene": "IDH1",
+                "DNA Alteration": "c.356G>A",
+                "GeneMutation": "p.R132X Nonsense-LOF",
+                "VariantAlleleFraction": "7.26%"
+            },
+            {
+                "Gene": "JAK3",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.L857P Nonsense-LOF",
+                "VariantAlleleFraction": "2.48%"
+            }
+        ],
+        "Germline": [
+            {
+                "Gene": "GNAS",
+                "DNA Alteration": "c.679C>G",
+                "GeneMutation": "p.Q227R Spliceregionvariant-LOF",
+                "Condition": "report"
+            }
+        ]
+    },
+    "low coverage regions": [
+        "ERCC2",
+        "IDH1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": " p.W266* Stopgain-LOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "5.87%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1154_1155insTTGTC",
+                "GeneMutation": "p.L367fs*46 Spliceregionvariant-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "10.76%"
+            },
+            {
+                "Gene": "CSF3R",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": " p.W266* Missensevariant(exon2)-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "25.98%"
+            },
+            {
+                "Gene": "CDC73",
+                "DNA Alteration": "c.1A>G",
+                "GeneMutation": " p.W266* Stopgain-LOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "17.65%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2024-03-07"
+    },
+    "other": {
+        "ReportId": "9048",
+        "ReportDate": "2024-03-10",
+        "SignedBy": "Christopher Reynolds",
+        "Supervisor": "Dr. Allison Owens"
+    }
+}

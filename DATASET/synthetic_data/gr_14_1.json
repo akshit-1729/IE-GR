@@ -1,0 +1,98 @@
+{
+    "patient": {
+        "Name": "Heather Ellison",
+        "DateOfBirth": "1952-11-07",
+        "Sex": "Male",
+        "Diagnosis": "Pancreatic neuroendocrine tumors",
+        "BodyPart": "Pancreatic",
+        "Physician": "Dr. Hector Flores",
+        "TreatingInstitution": "Jackson, Herrera and Anderson"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Pancreatic",
+            "CollectedDate": "2023-12-09",
+            "ReceivedDate": "2023-12-12",
+            "TumorPercentage": "72%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-12-13",
+            "ReceivedDate": "2023-12-16"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "BLM",
+                "DNA Alteration": "c.2207_2212delinsTAGATTC",
+                "GeneMutation": "p.Y736fs*4 Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "19.6%"
+            },
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A572G Stopgain-LOF",
+                "VariantAlleleFraction": "23.45%"
+            },
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A572G Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "25.26%"
+            },
+            {
+                "Gene": "FLT3",
+                "DNA Alteration": "c.1775T>G",
+                "GeneMutation": "p.V592A Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "4.84%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "MYOD1",
+                "DNA Alteration": "c.365T>G",
+                "GeneMutation": "p.V592G Frameshift-LOF",
+                "VariantAlleleFraction": "10.31%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "SIX1",
+            "FGFR3"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "31 m/Mb",
+            "Tmbpercentile": "49%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

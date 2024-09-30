@@ -1,0 +1,80 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "MPL",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.P98S",
+            "Exon": 3,
+            "DNA Alteration": "A",
+            "Allele Frequency %": "6.73"
+        },
+        {
+            "Gene": "HBB",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.G469S",
+            "Exon": 3,
+            "DNA Alteration": "c.1799_1800delinsAA",
+            "Allele Frequency %": "20.76"
+        },
+        {
+            "Gene": "ABL1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.R222C",
+            "Exon": 20,
+            "DNA Alteration": "c.866C>A",
+            "Allele Frequency %": "3.05"
+        },
+        {
+            "Gene": "PIK3CA",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.G607V",
+            "Exon": 4,
+            "DNA Alteration": "c.1792C>T",
+            "Allele Frequency %": "6.26"
+        },
+        {
+            "Gene": "ERCC2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.A322T",
+            "Exon": 14,
+            "DNA Alteration": "c.239C>G",
+            "Allele Frequency %": "9.19"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Negative| 2+, 49%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Positive| 1+, 50%"
+        },
+        {
+            "Biomarker": "PR",
+            "Result": "Negative| 3+, 36%"
+        },
+        {
+            "Biomarker": "AR",
+            "Result": "Positive| 1+, 55%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "PIK3CA",
+        "XPC",
+        "PTPN11",
+        "SMO",
+        "B2M",
+        "SRSF2"
+    ]
+}

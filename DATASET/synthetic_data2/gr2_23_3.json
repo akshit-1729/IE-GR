@@ -1,0 +1,86 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "RB1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.E23Vfs*17",
+            "Exon": 20,
+            "DNA Alteration": "c.68_69delAG",
+            "Allele Frequency %": "13.36"
+        },
+        {
+            "Gene": "SF3B1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.D108H",
+            "Exon": 19,
+            "DNA Alteration": "c.439G>A",
+            "Allele Frequency %": "14.93"
+        },
+        {
+            "Gene": "FGFR2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.L239R",
+            "Exon": 18,
+            "DNA Alteration": "c.716T>G",
+            "Allele Frequency %": "12.4"
+        },
+        {
+            "Gene": "JAK3",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.T875N",
+            "Exon": 8,
+            "DNA Alteration": "c.1848_1849delinsCT",
+            "Allele Frequency %": "4.35"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "ER",
+            "Result": "Negative| 2+, 9%"
+        },
+        {
+            "Biomarker": "PMS2",
+            "Result": "Positive| 2+, 70%"
+        },
+        {
+            "Biomarker": "MLH1",
+            "Result": "Negative| 3+, 17%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Negative| 3+, 66%"
+        },
+        {
+            "Biomarker": "MSH6",
+            "Result": "Positive| 3+, 91%"
+        },
+        {
+            "Biomarker": "MSH2",
+            "Result": "Positive| 3+, 6%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Positive| 2+, 7%"
+        },
+        {
+            "Biomarker": "AR",
+            "Result": "Negative| 2+, 72%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "ALK",
+        "HBA2",
+        "PHF6",
+        "PHF6",
+        "NRAS",
+        "HRAS"
+    ]
+}

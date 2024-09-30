@@ -1,0 +1,100 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "ER",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 1+, 88%"
+        },
+        {
+            "BioMarker": "ZEB2",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "NRAS",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "SIX1",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "9 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low - 5% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "KLF1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.M1R",
+            "Exon": 12,
+            "DNA Alteration": "c.2T>G",
+            "Allele Frequency %": "35.1"
+        },
+        {
+            "Gene": "BRCA2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.W515L",
+            "Exon": 18,
+            "DNA Alteration": "c.1543_1545delinsAAA",
+            "Allele Frequency %": "28.2"
+        },
+        {
+            "Gene": "TEK",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.E27K",
+            "Exon": 10,
+            "DNA Alteration": "c.19G>A",
+            "Allele Frequency %": "16.96"
+        },
+        {
+            "Gene": "U2AF1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.V49M",
+            "Exon": 2,
+            "DNA Alteration": "c.145G>A",
+            "Allele Frequency %": "21.39"
+        },
+        {
+            "Gene": "CDC73",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.S1982Rfs*22",
+            "Exon": 10,
+            "DNA Alteration": "c.5946delT",
+            "Allele Frequency %": "1.33"
+        }
+    ]
+}

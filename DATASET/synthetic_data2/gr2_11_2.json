@@ -1,0 +1,134 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "MYO1G",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "PDGFRA",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "PR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 2+, 88%"
+        },
+        {
+            "BioMarker": "DPYD",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "PD-L1(SP142)",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 1+, 70%"
+        },
+        {
+            "BioMarker": "TP53",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 3+, 57%"
+        },
+        {
+            "BioMarker": "CDC73",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "12 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 18% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "ABL1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.R130G",
+            "Exon": 18,
+            "DNA Alteration": "c.545T>G",
+            "Allele Frequency %": "35.59"
+        },
+        {
+            "Gene": "CDKN2A",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.R1012X",
+            "Exon": 14,
+            "DNA Alteration": ".",
+            "Allele Frequency %": "17.72"
+        },
+        {
+            "Gene": "KLF4",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.L239R",
+            "Exon": 2,
+            "DNA Alteration": "c.716T>G",
+            "Allele Frequency %": "12.63"
+        },
+        {
+            "Gene": "FGFR1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.G503A",
+            "Exon": 4,
+            "DNA Alteration": "c.1508G>C",
+            "Allele Frequency %": "4.16"
+        },
+        {
+            "Gene": "SF3B1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.H362R",
+            "Exon": 12,
+            "DNA Alteration": "c.1085A>G",
+            "Allele Frequency %": "6.17"
+        },
+        {
+            "Gene": "SDHD",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.N452D",
+            "Exon": 18,
+            "DNA Alteration": "c.1354A>G",
+            "Allele Frequency %": "2.53"
+        }
+    ]
+}

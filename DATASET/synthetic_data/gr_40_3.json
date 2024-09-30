@@ -1,0 +1,56 @@
+{
+    "low coverage regions": [
+        "ARHGAP45",
+        "PAX5"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "CTNNB1",
+                "DNA Alteration": "c.101G>T",
+                "GeneMutation": "p.T41I Stopgain-LOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "20.35%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "IDH1",
+                "DNA Alteration": "c.395G>T",
+                "GeneMutation": "p.S45P Missensevariant(exon2)-GOF",
+                "description": "BCL11B encodes a C2H2-type zinc finger protein that functions as a transcriptional repressor and plays a role in T-cell development and survival. Loss of function mutations, copy number loss, and fusions resulting in the underexpression of BCL11B are associated with cancer progression.",
+                "VariantAlleleFraction": "7.96%"
+            },
+            {
+                "Gene": "JAK2",
+                "DNA Alteration": "c.1848_1849delinsCT",
+                "GeneMutation": "p.S37C Spliceregionvariant-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "12.16%"
+            },
+            {
+                "Gene": "NOTCH1",
+                "DNA Alteration": "c.3587G>A",
+                "GeneMutation": "p.R132L Spliceregionvariant-LOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "17.91%"
+            },
+            {
+                "Gene": "MPL",
+                "DNA Alteration": "c.1544G>T",
+                "GeneMutation": "p.T875N Missensevariant(exon2)-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "8.17%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-12-18"
+    },
+    "other": {
+        "ReportId": "5903",
+        "ReportDate": "2023-12-25",
+        "SignedBy": "Michelle Wilson",
+        "Supervisor": "Dr. Christopher Perez"
+    }
+}

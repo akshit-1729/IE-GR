@@ -1,0 +1,94 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "HBB",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "ALK",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "Mismatch repair status",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 2+, 100%"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "10 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low - 11% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "TEK",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.T367N",
+            "Exon": 6,
+            "DNA Alteration": "c.1100C>A",
+            "Allele Frequency %": "3.09"
+        },
+        {
+            "Gene": "TEK",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.S34X",
+            "Exon": 19,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "21.84"
+        },
+        {
+            "Gene": "AKT1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.H362R",
+            "Exon": 20,
+            "DNA Alteration": "c.1085A>G",
+            "Allele Frequency %": "27.9"
+        },
+        {
+            "Gene": "IDH2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.Y303H",
+            "Exon": 15,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "4.71"
+        },
+        {
+            "Gene": "PDGFRB",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.G466E",
+            "Exon": 6,
+            "DNA Alteration": "c.1790T>A",
+            "Allele Frequency %": "16.37"
+        }
+    ]
+}

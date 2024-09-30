@@ -1,0 +1,63 @@
+{
+    "low coverage regions": [
+        "FGFR4",
+        "HBB"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "IDH1",
+                "DNA Alteration": "c.394_395delinsGT",
+                "GeneMutation": "p.R132S Spliceregionvariant-GOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "35.31%"
+            },
+            {
+                "Gene": "BTK",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.C481X Spliceregionvariant-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "2.98%"
+            },
+            {
+                "Gene": "PDGFRA",
+                "DNA Alteration": "c.1154_1155delinsTA",
+                "GeneMutation": "p.D842V Nonsense-LOF",
+                "description": "BCL11B encodes a C2H2-type zinc finger protein that functions as a transcriptional repressor and plays a role in T-cell development and survival. Loss of function mutations, copy number loss, and fusions resulting in the underexpression of BCL11B are associated with cancer progression.",
+                "VariantAlleleFraction": "1.26%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "CTNNB1",
+                "DNA Alteration": "c.122_123delinsTT",
+                "GeneMutation": "p.S37C Frameshift-LOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "12.4%"
+            },
+            {
+                "Gene": "BRAF",
+                "DNA Alteration": "c.1798G>A",
+                "GeneMutation": "p.S45P Stopgain-LOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "7.19%"
+            },
+            {
+                "Gene": "TP53",
+                "DNA Alteration": "c.638G>T",
+                "GeneMutation": "p.R248W Spliceregionvariant-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "13.7%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-12-20"
+    },
+    "other": {
+        "ReportId": "4816",
+        "ReportDate": "2024-01-06",
+        "SignedBy": "Jessica Morgan",
+        "Supervisor": "Dr. Christina Forbes"
+    }
+}

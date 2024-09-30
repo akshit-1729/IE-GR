@@ -1,0 +1,96 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "HBA2",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "Mismatch repair status",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 3+, 76%"
+        },
+        {
+            "BioMarker": "PD-L1(SP142)",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 1+, 25%"
+        },
+        {
+            "BioMarker": "CSF1R",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "JAK3",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Equivocal"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "6 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low - 8% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "EGFR",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.H1038R",
+            "Exon": 6,
+            "DNA Alteration": "c.3113A>G",
+            "Allele Frequency %": "20.25"
+        },
+        {
+            "Gene": "NT5C2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.G503A",
+            "Exon": 8,
+            "DNA Alteration": "c.1508G>C",
+            "Allele Frequency %": "11.15"
+        },
+        {
+            "Gene": "APC",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.G388R",
+            "Exon": 7,
+            "DNA Alteration": "c.1162G>A",
+            "Allele Frequency %": "21.7"
+        },
+        {
+            "Gene": "PKLR",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.R367Q",
+            "Exon": 6,
+            "DNA Alteration": "c.1100G>A",
+            "Allele Frequency %": "16.25"
+        }
+    ]
+}

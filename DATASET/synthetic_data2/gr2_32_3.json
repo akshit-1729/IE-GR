@@ -1,0 +1,60 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "KRAS",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.H1038R",
+            "Exon": 7,
+            "DNA Alteration": "c.3113A>G",
+            "Allele Frequency %": "3.49"
+        },
+        {
+            "Gene": "STAG2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.R683G",
+            "Exon": 18,
+            "DNA Alteration": "c.1849G>T",
+            "Allele Frequency %": "20.84"
+        },
+        {
+            "Gene": "IKZF1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.R256fs*64",
+            "Exon": 3,
+            "DNA Alteration": "c.766_776del11",
+            "Allele Frequency %": "7.01"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "AR",
+            "Result": "Positive| 3+, 58%"
+        },
+        {
+            "Biomarker": "ER",
+            "Result": "Positive| 3+, 85%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Positive| 3+, 68%"
+        },
+        {
+            "Biomarker": "MLH1",
+            "Result": "Negative| 1+, 72%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "CHD6",
+        "PTCH1",
+        "KLF1",
+        "SRSF2",
+        "HRAS",
+        "TOP2A"
+    ]
+}

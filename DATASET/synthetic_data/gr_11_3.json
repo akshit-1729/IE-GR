@@ -1,0 +1,42 @@
+{
+    "low coverage regions": [
+        "MAPK1",
+        "PIK3CA"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "NF1",
+                "DNA Alteration": "c.4394A>G",
+                "GeneMutation": "p.S2309Cfs*10 Frameshift-LOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "3.51%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N1465S Missensevariant(exon2)-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "18.76%"
+            },
+            {
+                "Gene": "MPL",
+                "DNA Alteration": "c.1543_1545delinsAAA",
+                "GeneMutation": "p.W515K Spliceregionvariant-GOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "21.92%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-12-27"
+    },
+    "other": {
+        "ReportId": "5191",
+        "ReportDate": "2024-01-05",
+        "SignedBy": "Jennifer Johnson",
+        "Supervisor": "Dr. Tammy Farley"
+    }
+}

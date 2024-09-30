@@ -1,0 +1,274 @@
+{
+    "patient": {
+        "Name": "Susan Barton",
+        "DateOfBirth": "1934-06-10",
+        "Sex": "Male",
+        "Diagnosis": "Invasive ductal carcinoma",
+        "BodyPart": "Breast",
+        "Physician": "Dr. Elizabeth Wolfe",
+        "TreatingInstitution": "Ellis Inc"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Breast",
+            "CollectedDate": "2024-03-28",
+            "ReceivedDate": "2024-03-28",
+            "TumorPercentage": "77%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2024-03-29",
+            "ReceivedDate": "2024-03-30"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "MET",
+                "DNA Alteration": "c.3209T>G",
+                "GeneMutation": "p.I639L Frameshift-LOF",
+                "VariantAlleleFraction": "4.03%"
+            },
+            {
+                "Gene": "MAP2K2",
+                "DNA Alteration": "c.383C>T",
+                "GeneMutation": "p.P128L Stopgain-LOF",
+                "VariantAlleleFraction": "13.41%"
+            },
+            {
+                "Gene": "PAX5",
+                "DNA Alteration": "c.239C>G",
+                "GeneMutation": "p.A322T Frameshift-LOF",
+                "VariantAlleleFraction": "8.64%"
+            },
+            {
+                "Gene": "SDHB",
+                "DNA Alteration": "c.487T>C",
+                "GeneMutation": "p.S163P Nonsense-GOF",
+                "VariantAlleleFraction": "20.88%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "SIX1",
+                "DNA Alteration": "c.530A>G",
+                "GeneMutation": "p.S163P Nonsense-LOF",
+                "VariantAlleleFraction": "6.19%"
+            },
+            {
+                "Gene": "SDHA",
+                "DNA Alteration": "c.1660C>T",
+                "GeneMutation": "p.S163P Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "11.74%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "MSH2",
+            "FGFR2"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "27 m/Mb",
+            "Tmbpercentile": "90%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "High"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "NTRK1",
+                "DNA Alteration": "c.1792C>T",
+                "GeneMutation": "p.G607V Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "7.48%"
+            },
+            {
+                "Gene": "FGFR3",
+                "DNA Alteration": "c.746C>G",
+                "GeneMutation": "p.K650E Nonsense-LOF",
+                "VariantAlleleFraction": "12.77%"
+            },
+            {
+                "Gene": "TEK",
+                "DNA Alteration": "c.1354A>G",
+                "GeneMutation": "p.N452D Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "12.68%"
+            },
+            {
+                "Gene": "PAX5",
+                "DNA Alteration": "c.547G>A",
+                "GeneMutation": "p.A322T Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "8.76%"
+            },
+            {
+                "Gene": "BRCA1",
+                "DNA Alteration": "c.5265_5266insC",
+                "GeneMutation": "p.E23Vfs*17 Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "2.29%"
+            },
+            {
+                "Gene": "BLM",
+                "DNA Alteration": "c.2207_2212delinsTAGATTC",
+                "GeneMutation": "p.Y736fs*4 Stopgain-LOF",
+                "VariantAlleleFraction": "8.0%"
+            },
+            {
+                "Gene": "HBA2",
+                "DNA Alteration": "c.427T>C",
+                "GeneMutation": "p.*143Qext*31 Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "2.92%"
+            },
+            {
+                "Gene": "STAG2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R1012X Frameshift-LOF",
+                "VariantAlleleFraction": "6.99%"
+            },
+            {
+                "Gene": "CTNNB1",
+                "DNA Alteration": "c.110C>T",
+                "GeneMutation": "p.S45F Nonsense-GOF",
+                "VariantAlleleFraction": "2.83%"
+            },
+            {
+                "Gene": "CDKN2A",
+                "DNA Alteration": "c.151G>A",
+                "GeneMutation": "p.H83Y Frameshift-GOF",
+                "VariantAlleleFraction": "6.99%"
+            },
+            {
+                "Gene": "KLF1",
+                "DNA Alteration": "c.892G>C",
+                "GeneMutation": "p.M39L Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "3.39%"
+            },
+            {
+                "Gene": "ERBB2",
+                "DNA Alteration": "c.2089G>T",
+                "GeneMutation": "p.I655V Frameshift-GOF",
+                "VariantAlleleFraction": "3.46%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "NRAS",
+        "JAK3"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "MET",
+                "DNA Alteration": "c.3209T>G",
+                "GeneMutation": "p.I639L Frameshift-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "4.03%"
+            },
+            {
+                "Gene": "MAP2K2",
+                "DNA Alteration": "c.383C>T",
+                "GeneMutation": "p.P128L Stopgain-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "13.41%"
+            },
+            {
+                "Gene": "PAX5",
+                "DNA Alteration": "c.239C>G",
+                "GeneMutation": "p.A322T Frameshift-LOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "8.64%"
+            },
+            {
+                "Gene": "SDHB",
+                "DNA Alteration": "c.487T>C",
+                "GeneMutation": "p.S163P Nonsense-GOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "20.88%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "SIX1",
+                "DNA Alteration": "c.530A>G",
+                "GeneMutation": "p.S163P Nonsense-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "6.19%"
+            },
+            {
+                "Gene": "SDHA",
+                "DNA Alteration": "c.1660C>T",
+                "GeneMutation": "p.S163P Missensevariant(exon2)-GOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "11.74%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2024-03-28"
+    },
+    "other": {
+        "ReportId": "4835",
+        "ReportDate": "2024-03-31",
+        "SignedBy": "Elizabeth Wolfe",
+        "Supervisor": "Dr. Daniel Turner"
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "patient": {
+        "Name": "Eric Rogers",
+        "DateOfBirth": "1953-01-19",
+        "Sex": "Female",
+        "Diagnosis": "Small cell carcinoma",
+        "BodyPart": "Prostate",
+        "Physician": "Dr. Michelle Anderson",
+        "TreatingInstitution": "Dorsey-Robertson"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Prostate",
+            "CollectedDate": "2023-07-13",
+            "ReceivedDate": "2023-07-16",
+            "TumorPercentage": "34%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-07-18",
+            "ReceivedDate": "2023-07-18"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "FGFR1",
+                "DNA Alteration": "c.1966A>G",
+                "GeneMutation": "p.K656E Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "33.56%"
+            },
+            {
+                "Gene": "HRAS",
+                "DNA Alteration": "c.35G>T",
+                "GeneMutation": "p.G12V Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "9.39%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "HBB",
+                "DNA Alteration": "c.79G>A",
+                "GeneMutation": "p.E122Q Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "10.29%"
+            },
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G12X Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "5.71%"
+            },
+            {
+                "Gene": "SRSF2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R156X Nonsense-LOF",
+                "VariantAlleleFraction": "14.59%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": []
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "40 m/Mb",
+            "Tmbpercentile": "92%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "High"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

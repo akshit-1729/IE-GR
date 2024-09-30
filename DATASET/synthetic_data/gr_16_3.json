@@ -1,0 +1,43 @@
+{
+    "low coverage regions": [
+        "STAT5B",
+        "ARID2",
+        "MYOD1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "FOXL2",
+                "DNA Alteration": "c.402C>G",
+                "GeneMutation": "p.C134W Nonsense-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "15.4%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "NF1",
+                "DNA Alteration": "c.6926del",
+                "GeneMutation": "p.C134W Spliceregionvariant-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "33.58%"
+            },
+            {
+                "Gene": "CDKN2A",
+                "DNA Alteration": "c.151G>A",
+                "GeneMutation": "p.N1465S Frameshift-GOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "24.97%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-09-09"
+    },
+    "other": {
+        "ReportId": "1109",
+        "ReportDate": "2023-09-25",
+        "SignedBy": "Donald Fowler",
+        "Supervisor": "Dr. Donna Calderon"
+    }
+}

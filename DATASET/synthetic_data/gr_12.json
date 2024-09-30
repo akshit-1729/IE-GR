@@ -1,0 +1,212 @@
+{
+    "patient": {
+        "Name": "Jose Petty",
+        "DateOfBirth": "1969-10-10",
+        "Sex": "Male",
+        "Diagnosis": "Acute lymphocytic leukemia (ALL)",
+        "BodyPart": "Leukemia",
+        "Physician": "Dr. Carla Bird",
+        "TreatingInstitution": "Lee-Ramirez"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Leukemia",
+            "CollectedDate": "2023-08-10",
+            "ReceivedDate": "2023-08-13",
+            "TumorPercentage": "37%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-08-12",
+            "ReceivedDate": "2023-08-13"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "PRKCA",
+                "DNA Alteration": "c.1387G>C",
+                "GeneMutation": "p.D463H Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "24.12%"
+            },
+            {
+                "Gene": "JAK2",
+                "DNA Alteration": "c.2792A>G",
+                "GeneMutation": "p.M929I Nonsense-GOF",
+                "VariantAlleleFraction": "27.28%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "FGFR1",
+                "DNA Alteration": "c.1966A>G",
+                "GeneMutation": "p.K656E Nonsense-GOF",
+                "VariantAlleleFraction": "25.83%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "FGFR2",
+            "IDH1",
+            "TOP2A"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "9 m/Mb",
+            "Tmbpercentile": "5%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "HSP90B1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.I66T Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "8.77%"
+            },
+            {
+                "Gene": "BLM",
+                "DNA Alteration": "c.2207_2212delinsTAGATTC",
+                "GeneMutation": "p.Y736fs*4 Nonsense-GOF",
+                "VariantAlleleFraction": "15.44%"
+            },
+            {
+                "Gene": "PHF6",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R225X Nonsense-LOF",
+                "VariantAlleleFraction": "8.08%"
+            },
+            {
+                "Gene": "MYCN",
+                "DNA Alteration": "c.131_132delinsTT",
+                "GeneMutation": "p.P44L Frameshift-GOF",
+                "VariantAlleleFraction": "1.52%"
+            },
+            {
+                "Gene": "KLF1",
+                "DNA Alteration": "c.892G>C",
+                "GeneMutation": "p.M39L Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "5.52%"
+            },
+            {
+                "Gene": "PTCH1",
+                "DNA Alteration": "c.3583A>T",
+                "GeneMutation": "p.T1195S Frameshift-GOF",
+                "VariantAlleleFraction": "3.41%"
+            }
+        ],
+        "Germline": [
+            {
+                "Gene": "NOTCH1",
+                "DNA Alteration": "c.7398_7399insAGGGACCG",
+                "GeneMutation": "p.G1196D Nonsense-GOF",
+                "Condition": "realize"
+            },
+            {
+                "Gene": "KLF1",
+                "DNA Alteration": "c.892G>C",
+                "GeneMutation": "p.M39L Stopgain-LOF",
+                "Condition": "deal"
+            }
+        ]
+    },
+    "low coverage regions": [
+        "SDHB"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "PRKCA",
+                "DNA Alteration": "c.1387G>C",
+                "GeneMutation": "p.D463H Spliceregionvariant-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "24.12%"
+            },
+            {
+                "Gene": "JAK2",
+                "DNA Alteration": "c.2792A>G",
+                "GeneMutation": "p.M929I Nonsense-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "27.28%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "FGFR1",
+                "DNA Alteration": "c.1966A>G",
+                "GeneMutation": "p.K656E Nonsense-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "25.83%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-08-10"
+    },
+    "other": {
+        "ReportId": "9846",
+        "ReportDate": "2023-08-16",
+        "SignedBy": "Carla Bird",
+        "Supervisor": "Dr. Kevin Thompson"
+    }
+}

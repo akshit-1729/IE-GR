@@ -1,0 +1,41 @@
+{
+    "low coverage regions": [
+        "SDHB"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "PRKCA",
+                "DNA Alteration": "c.1387G>C",
+                "GeneMutation": "p.D463H Spliceregionvariant-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "24.12%"
+            },
+            {
+                "Gene": "JAK2",
+                "DNA Alteration": "c.2792A>G",
+                "GeneMutation": "p.M929I Nonsense-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "27.28%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "FGFR1",
+                "DNA Alteration": "c.1966A>G",
+                "GeneMutation": "p.K656E Nonsense-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "25.83%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-08-10"
+    },
+    "other": {
+        "ReportId": "9846",
+        "ReportDate": "2023-08-16",
+        "SignedBy": "Carla Bird",
+        "Supervisor": "Dr. Kevin Thompson"
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "XPC",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.K656E",
+            "Exon": 3,
+            "DNA Alteration": "c.1966A>G",
+            "Allele Frequency %": "18.49"
+        },
+        {
+            "Gene": "STAT5B",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.N515H",
+            "Exon": 17,
+            "DNA Alteration": ">",
+            "Allele Frequency %": "10.19"
+        },
+        {
+            "Gene": "DNMT3A",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.M1R",
+            "Exon": 20,
+            "DNA Alteration": "c.2T>G",
+            "Allele Frequency %": "10.51"
+        },
+        {
+            "Gene": "SDHA",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.R225X",
+            "Exon": 17,
+            "DNA Alteration": "3",
+            "Allele Frequency %": "8.8"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Positive| 2+, 13%"
+        },
+        {
+            "Biomarker": "PR",
+            "Result": "Negative| 1+, 88%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Negative| 3+, 88%"
+        },
+        {
+            "Biomarker": "ER",
+            "Result": "Negative| 3+, 65%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Negative| 2+, 82%"
+        },
+        {
+            "Biomarker": "AR",
+            "Result": "Negative| 1+, 84%"
+        },
+        {
+            "Biomarker": "MLH1",
+            "Result": "Negative| 2+, 43%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "HSP90B1",
+        "EZH2",
+        "NF1",
+        "RB1",
+        "NOTCH1"
+    ]
+}

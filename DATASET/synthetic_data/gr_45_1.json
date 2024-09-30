@@ -1,0 +1,95 @@
+{
+    "patient": {
+        "Name": "Sarah Jackson",
+        "DateOfBirth": "1983-07-18",
+        "Sex": "Female",
+        "Diagnosis": "Medullary thyroid cancer",
+        "BodyPart": "Thyroid",
+        "Physician": "Dr. Stacy Rodriguez",
+        "TreatingInstitution": "Dunlap PLC"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Thyroid",
+            "CollectedDate": "2023-11-01",
+            "ReceivedDate": "2023-11-01",
+            "TumorPercentage": "96%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-11-02",
+            "ReceivedDate": "2023-11-03"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "MUTYH",
+                "DNA Alteration": "c.1014G>C",
+                "GeneMutation": "p.Q338H Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "6.1%"
+            },
+            {
+                "Gene": "ALK",
+                "DNA Alteration": "c.3735C>A",
+                "GeneMutation": "p.F1174V Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "5.34%"
+            },
+            {
+                "Gene": "SRSF2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.P95X Frameshift-LOF",
+                "VariantAlleleFraction": "21.07%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "CSF1R",
+                "DNA Alteration": "c.1085A>G",
+                "GeneMutation": "p.N648S Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "3.81%"
+            },
+            {
+                "Gene": "SDHA",
+                "DNA Alteration": "c.1660C>T",
+                "GeneMutation": "p.H362R Frameshift-LOF",
+                "VariantAlleleFraction": "6.16%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": []
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "26 m/Mb",
+            "Tmbpercentile": "38%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

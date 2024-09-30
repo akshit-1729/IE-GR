@@ -1,0 +1,99 @@
+{
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.V49M Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "3.55%"
+            },
+            {
+                "Gene": "APC",
+                "DNA Alteration": "c.3920T>A",
+                "GeneMutation": "p.I1307K Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "6.03%"
+            },
+            {
+                "Gene": "KRAS",
+                "DNA Alteration": "c.38G>C",
+                "GeneMutation": "p.Q61H Stopgain-LOF",
+                "VariantAlleleFraction": "2.78%"
+            },
+            {
+                "Gene": "MAPK1",
+                "DNA Alteration": "c.964G>A",
+                "GeneMutation": "p.E322K Stopgain-LOF",
+                "VariantAlleleFraction": "1.87%"
+            },
+            {
+                "Gene": "BLM",
+                "DNA Alteration": "c.2207_2212delinsTAGATTC",
+                "GeneMutation": "p.Y736fs*4 Nonsense-LOF",
+                "VariantAlleleFraction": "8.75%"
+            },
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.V49M Nonsense-GOF",
+                "VariantAlleleFraction": "9.39%"
+            },
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A572G Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "7.86%"
+            },
+            {
+                "Gene": "FBXW7",
+                "DNA Alteration": "c.1394G>A",
+                "GeneMutation": "p.R465H Nonsense-GOF",
+                "VariantAlleleFraction": "5.07%"
+            },
+            {
+                "Gene": "HBB",
+                "DNA Alteration": "c.20A>T",
+                "GeneMutation": "p.E7V Frameshift-LOF",
+                "VariantAlleleFraction": "2.41%"
+            },
+            {
+                "Gene": "ZEB2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.H1038R Nonsense-GOF",
+                "VariantAlleleFraction": "3.73%"
+            }
+        ],
+        "Germline": []
+    }
+}

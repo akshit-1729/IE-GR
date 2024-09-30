@@ -1,0 +1,116 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "PR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 1+, 1%"
+        },
+        {
+            "BioMarker": "TOP2A",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "MYO1G",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "ABL1",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "FGFR2",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Equivocal"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "12 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low - 4% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "CTNNB1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.A169T",
+            "Exon": 15,
+            "DNA Alteration": "c.505G>A",
+            "Allele Frequency %": "22.31"
+        },
+        {
+            "Gene": "ALDH2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.R479H",
+            "Exon": 14,
+            "DNA Alteration": "c.1436G>A",
+            "Allele Frequency %": "28.56"
+        },
+        {
+            "Gene": "ARID2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.P95X",
+            "Exon": 17,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "2.49"
+        },
+        {
+            "Gene": "KLF4",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.H598T",
+            "Exon": 20,
+            "DNA Alteration": "c.1792C>T",
+            "Allele Frequency %": "23.64"
+        },
+        {
+            "Gene": "ALK",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.T367N",
+            "Exon": 20,
+            "DNA Alteration": "c.1100C>A",
+            "Allele Frequency %": "1.08"
+        },
+        {
+            "Gene": "EGFR",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.W515L",
+            "Exon": 17,
+            "DNA Alteration": "c.1544G>T",
+            "Allele Frequency %": "2.29"
+        }
+    ]
+}

@@ -1,0 +1,226 @@
+{
+    "patient": {
+        "Name": "Emily Rogers",
+        "DateOfBirth": "1950-11-13",
+        "Sex": "Male",
+        "Diagnosis": "Merkel cell carcinoma",
+        "BodyPart": "Skin",
+        "Physician": "Dr. Anthony Reed",
+        "TreatingInstitution": "Miller, Johnson and Chen"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Skin",
+            "CollectedDate": "2023-07-12",
+            "ReceivedDate": "2023-07-13",
+            "TumorPercentage": "98%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-07-15",
+            "ReceivedDate": "2023-07-21"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "PKLR",
+                "DNA Alteration": "c.1436G>A",
+                "GeneMutation": "p.R479H Nonsense-GOF",
+                "VariantAlleleFraction": "34.47%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Frameshift-LOF",
+                "VariantAlleleFraction": "24.67%"
+            },
+            {
+                "Gene": "BTK",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Nonsense-GOF",
+                "VariantAlleleFraction": "11.33%"
+            },
+            {
+                "Gene": "PRKCA",
+                "DNA Alteration": "c.1387G>C",
+                "GeneMutation": "p.R479H Stopgain-LOF",
+                "VariantAlleleFraction": "17.88%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "CDKN2A",
+            "BRCA1",
+            "IKZF1"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "8 m/Mb",
+            "Tmbpercentile": "90%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "NT5C2",
+                "DNA Alteration": "c.1100G>A",
+                "GeneMutation": "p.R367Q Frameshift-LOF",
+                "VariantAlleleFraction": "3.28%"
+            },
+            {
+                "Gene": "FOXL2",
+                "DNA Alteration": "c.402C>G",
+                "GeneMutation": "p.C134W Frameshift-GOF",
+                "VariantAlleleFraction": "17.3%"
+            },
+            {
+                "Gene": "PTCH1",
+                "DNA Alteration": "c.3583A>T",
+                "GeneMutation": "p.T1195S Nonsense-GOF",
+                "VariantAlleleFraction": "6.22%"
+            },
+            {
+                "Gene": "AKT1",
+                "DNA Alteration": "c.49G>A",
+                "GeneMutation": "p.E17K Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "9.05%"
+            },
+            {
+                "Gene": "CHEK2",
+                "DNA Alteration": "c.470T>C",
+                "GeneMutation": "p.I157T Nonsense-GOF",
+                "VariantAlleleFraction": "8.56%"
+            },
+            {
+                "Gene": "ARHGAP45",
+                "DNA Alteration": "c.416G>A",
+                "GeneMutation": "p.R139H Frameshift-GOF",
+                "VariantAlleleFraction": "5.47%"
+            }
+        ],
+        "Germline": [
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.V49M Missensevariant(exon2)-GOF",
+                "Condition": "west"
+            },
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.Q157X Spliceregionvariant-GOF",
+                "Condition": "nice"
+            }
+        ]
+    },
+    "low coverage regions": [
+        "KIT",
+        "MTOR"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "PKLR",
+                "DNA Alteration": "c.1436G>A",
+                "GeneMutation": "p.R479H Nonsense-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "34.47%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Frameshift-LOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "24.67%"
+            },
+            {
+                "Gene": "BTK",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Nonsense-GOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "11.33%"
+            },
+            {
+                "Gene": "PRKCA",
+                "DNA Alteration": "c.1387G>C",
+                "GeneMutation": "p.R479H Stopgain-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "17.88%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-07-09"
+    },
+    "other": {
+        "ReportId": "3060",
+        "ReportDate": "2023-07-17",
+        "SignedBy": "Anthony Reed",
+        "Supervisor": "Dr. Katherine Johnson"
+    }
+}

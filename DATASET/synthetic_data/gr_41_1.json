@@ -1,0 +1,94 @@
+{
+    "patient": {
+        "Name": "Jamie Watson",
+        "DateOfBirth": "1935-08-03",
+        "Sex": "Female",
+        "Diagnosis": "Follicular lymphoma",
+        "BodyPart": "Lymphoma",
+        "Physician": "Dr. Beth Wang",
+        "TreatingInstitution": "Thomas-Kirk"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Lymphoma",
+            "CollectedDate": "2023-09-05",
+            "ReceivedDate": "2023-09-05",
+            "TumorPercentage": "62%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-09-07",
+            "ReceivedDate": "2023-09-07"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "XPC",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S346P Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "25.15%"
+            },
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N159Y Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "4.33%"
+            },
+            {
+                "Gene": "DICER1",
+                "DNA Alteration": "c.5438A>G",
+                "GeneMutation": "p.E1813K Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "19.02%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "APC",
+                "DNA Alteration": "c.3920T>A",
+                "GeneMutation": "p.D1810H Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "23.36%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "DICER1",
+            "JAK2",
+            "NTRK1",
+            "DDR2"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "49 m/Mb",
+            "Tmbpercentile": "82%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

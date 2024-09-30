@@ -1,0 +1,250 @@
+{
+    "patient": {
+        "Name": "Lisa Robinson",
+        "DateOfBirth": "1970-04-29",
+        "Sex": "Male",
+        "Diagnosis": "Hodgkin lymphoma",
+        "BodyPart": "Lymphoma",
+        "Physician": "Dr. Lisa Garrett",
+        "TreatingInstitution": "Williams, Sherman and Carr"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Lymphoma",
+            "CollectedDate": "2023-07-30",
+            "ReceivedDate": "2023-08-01",
+            "TumorPercentage": "15%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-08-05",
+            "ReceivedDate": "2023-08-05"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "FOXL2",
+                "DNA Alteration": "c.402C>G",
+                "GeneMutation": "p.C134W Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "5.64%"
+            },
+            {
+                "Gene": "AKT1",
+                "DNA Alteration": "c.49G>A",
+                "GeneMutation": "p.E17K Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "7.82%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "CSF3R",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G751A Nonsense-GOF",
+                "VariantAlleleFraction": "23.83%"
+            },
+            {
+                "Gene": "CTNNB1",
+                "DNA Alteration": "c.94G>A",
+                "GeneMutation": "p.D32G Stopgain-LOF",
+                "VariantAlleleFraction": "4.13%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "MUTYH",
+            "SRSF2",
+            "EZH2",
+            "DDR2"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "4 m/Mb",
+            "Tmbpercentile": "45%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "MYOD1",
+                "DNA Alteration": "c.365T>G",
+                "GeneMutation": "p.L122R Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "7.83%"
+            },
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "16.05%"
+            },
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": " p.W266* Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "6.51%"
+            },
+            {
+                "Gene": "MSH2",
+                "DNA Alteration": "c.1906G>C",
+                "GeneMutation": "p.A636P Nonsense-GOF",
+                "VariantAlleleFraction": "5.65%"
+            },
+            {
+                "Gene": "TP53",
+                "DNA Alteration": "c.523C>T",
+                "GeneMutation": "p.R213L Frameshift-LOF",
+                "VariantAlleleFraction": "9.0%"
+            },
+            {
+                "Gene": "KIT",
+                "DNA Alteration": "c.1676T>A",
+                "GeneMutation": "p.Y846C Nonsense-GOF",
+                "VariantAlleleFraction": "5.54%"
+            },
+            {
+                "Gene": "NRAS",
+                "DNA Alteration": "c.181_182delinsTT",
+                "GeneMutation": "p.G13X Frameshift-LOF",
+                "VariantAlleleFraction": "5.36%"
+            },
+            {
+                "Gene": "TOP2A",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G1386D Nonsense-LOF",
+                "VariantAlleleFraction": "4.57%"
+            },
+            {
+                "Gene": "FGFR2",
+                "DNA Alteration": "c.758C>G",
+                "GeneMutation": "p.N549H Stopgain-LOF",
+                "VariantAlleleFraction": "1.96%"
+            },
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A572G Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "7.42%"
+            },
+            {
+                "Gene": "PIK3CA",
+                "DNA Alteration": "c.1633G>A",
+                "GeneMutation": "p.H1047Q Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "8.87%"
+            },
+            {
+                "Gene": "STAT5B",
+                "DNA Alteration": "c.1924A>C",
+                "GeneMutation": "p.N713_A714insKGKGGG Stopgain-LOF",
+                "VariantAlleleFraction": "9.42%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "FOXL2",
+        "PDGFRA"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "FOXL2",
+                "DNA Alteration": "c.402C>G",
+                "GeneMutation": "p.C134W Spliceregionvariant-LOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "5.64%"
+            },
+            {
+                "Gene": "AKT1",
+                "DNA Alteration": "c.49G>A",
+                "GeneMutation": "p.E17K Missensevariant(exon2)-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "7.82%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "CSF3R",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G751A Nonsense-GOF",
+                "description": "BCL11B encodes a C2H2-type zinc finger protein that functions as a transcriptional repressor and plays a role in T-cell development and survival. Loss of function mutations, copy number loss, and fusions resulting in the underexpression of BCL11B are associated with cancer progression.",
+                "VariantAlleleFraction": "23.83%"
+            },
+            {
+                "Gene": "CTNNB1",
+                "DNA Alteration": "c.94G>A",
+                "GeneMutation": "p.D32G Stopgain-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "4.13%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-07-29"
+    },
+    "other": {
+        "ReportId": "8439",
+        "ReportDate": "2023-07-30",
+        "SignedBy": "Lisa Garrett",
+        "Supervisor": "Dr. Michael Scott"
+    }
+}

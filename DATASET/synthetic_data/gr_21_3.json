@@ -1,0 +1,62 @@
+{
+    "low coverage regions": [
+        "ABL1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "SDHA",
+                "DNA Alteration": "c.1660C>T",
+                "GeneMutation": "p.R554W Missensevariant(exon2)-GOF",
+                "description": "BCL11B encodes a C2H2-type zinc finger protein that functions as a transcriptional repressor and plays a role in T-cell development and survival. Loss of function mutations, copy number loss, and fusions resulting in the underexpression of BCL11B are associated with cancer progression.",
+                "VariantAlleleFraction": "28.8%"
+            },
+            {
+                "Gene": "IDH2",
+                "DNA Alteration": "c.516G>C",
+                "GeneMutation": "p.R140L Frameshift-GOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "6.47%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "MSH2",
+                "DNA Alteration": "c.1906G>C",
+                "GeneMutation": "p.R140Q Nonsense-LOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "15.91%"
+            },
+            {
+                "Gene": "HSP90B1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R172M Spliceregionvariant-LOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "14.55%"
+            },
+            {
+                "Gene": "KRAS",
+                "DNA Alteration": "c.38_39delinsAA",
+                "GeneMutation": "p.Q61P Missensevariant(exon2)-GOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "4.16%"
+            },
+            {
+                "Gene": "RNF43",
+                "DNA Alteration": "c.461C>T",
+                "GeneMutation": "p.Q61E Stopgain-LOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "9.0%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-06-29"
+    },
+    "other": {
+        "ReportId": "5011",
+        "ReportDate": "2023-07-05",
+        "SignedBy": "Beth Lopez",
+        "Supervisor": "Dr. Ashley Lucas"
+    }
+}

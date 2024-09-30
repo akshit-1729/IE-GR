@@ -1,0 +1,71 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "ARID2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.V49M",
+            "Exon": 2,
+            "DNA Alteration": "c.145G>A",
+            "Allele Frequency %": "20.17"
+        },
+        {
+            "Gene": "CSF1R",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.G751A",
+            "Exon": 3,
+            "DNA Alteration": "c",
+            "Allele Frequency %": "20.43"
+        },
+        {
+            "Gene": "PTCH1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.R367Q",
+            "Exon": 3,
+            "DNA Alteration": "c.1100G>A",
+            "Allele Frequency %": "16.02"
+        },
+        {
+            "Gene": "HBB",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.F332V",
+            "Exon": 6,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "10.89"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "ER",
+            "Result": "Negative| 3+, 7%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Positive| 1+, 64%"
+        },
+        {
+            "Biomarker": "MLH1",
+            "Result": "Negative| 1+, 66%"
+        },
+        {
+            "Biomarker": "PMS2",
+            "Result": "Negative| 2+, 82%"
+        },
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Negative| 2+, 86%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "MAPK1",
+        "HSP90B1",
+        "MSH2"
+    ]
+}

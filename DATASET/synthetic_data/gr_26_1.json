@@ -1,0 +1,93 @@
+{
+    "patient": {
+        "Name": "Emily Rogers",
+        "DateOfBirth": "1950-11-13",
+        "Sex": "Male",
+        "Diagnosis": "Merkel cell carcinoma",
+        "BodyPart": "Skin",
+        "Physician": "Dr. Anthony Reed",
+        "TreatingInstitution": "Miller, Johnson and Chen"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Skin",
+            "CollectedDate": "2023-07-12",
+            "ReceivedDate": "2023-07-13",
+            "TumorPercentage": "98%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-07-15",
+            "ReceivedDate": "2023-07-21"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "PKLR",
+                "DNA Alteration": "c.1436G>A",
+                "GeneMutation": "p.R479H Nonsense-GOF",
+                "VariantAlleleFraction": "34.47%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Frameshift-LOF",
+                "VariantAlleleFraction": "24.67%"
+            },
+            {
+                "Gene": "BTK",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Nonsense-GOF",
+                "VariantAlleleFraction": "11.33%"
+            },
+            {
+                "Gene": "PRKCA",
+                "DNA Alteration": "c.1387G>C",
+                "GeneMutation": "p.R479H Stopgain-LOF",
+                "VariantAlleleFraction": "17.88%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "CDKN2A",
+            "BRCA1",
+            "IKZF1"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "8 m/Mb",
+            "Tmbpercentile": "90%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

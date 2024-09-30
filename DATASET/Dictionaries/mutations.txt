@@ -1,0 +1,6 @@
+Missensevariant(exon2)-GOF
+Stopgain-LOF
+Frameshift-LOF
+Frameshift-GOF
+Spliceregionvariant-LOF
+Spliceregionvariant-GOF

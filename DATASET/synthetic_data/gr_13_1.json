@@ -1,0 +1,117 @@
+{
+    "patient": {
+        "Name": "Tyler Mason",
+        "DateOfBirth": "1982-05-02",
+        "Sex": "Male",
+        "Diagnosis": "Merkel cell carcinoma",
+        "BodyPart": "Skin",
+        "Physician": "Dr. Cheryl Santos",
+        "TreatingInstitution": "Contreras LLC"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Skin",
+            "CollectedDate": "2023-09-23",
+            "ReceivedDate": "2023-09-23",
+            "TumorPercentage": "33%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-09-24",
+            "ReceivedDate": "2023-09-29"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "FLT3",
+                "DNA Alteration": "c.2039C>T",
+                "GeneMutation": "p.V592A Nonsense-LOF",
+                "VariantAlleleFraction": "3.72%"
+            },
+            {
+                "Gene": "HDAC1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.Y303H Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "12.51%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "PTEN",
+                "DNA Alteration": "c.389G>C",
+                "GeneMutation": "p.L182* Nonsense-LOF",
+                "VariantAlleleFraction": "29.33%"
+            },
+            {
+                "Gene": "FGFR4",
+                "DNA Alteration": "c.1162G>A",
+                "GeneMutation": "p.G388R Frameshift-LOF",
+                "VariantAlleleFraction": "2.8%"
+            },
+            {
+                "Gene": "PTPN11",
+                "DNA Alteration": "c.1508G>C",
+                "GeneMutation": "p.R130G Frameshift-GOF",
+                "VariantAlleleFraction": "1.35%"
+            },
+            {
+                "Gene": "MSH2",
+                "DNA Alteration": "c.1906G>C",
+                "GeneMutation": "p.R130Q Frameshift-LOF",
+                "VariantAlleleFraction": "10.1%"
+            },
+            {
+                "Gene": "MTOR",
+                "DNA Alteration": "c.5664C>G",
+                "GeneMutation": "p.R130P Nonsense-LOF",
+                "VariantAlleleFraction": "5.02%"
+            },
+            {
+                "Gene": "CTNNB1",
+                "DNA Alteration": "c.121A>G",
+                "GeneMutation": "p.S37F Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "1.29%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "MYCN",
+            "PTCH1",
+            "HSP90B1"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "43 m/Mb",
+            "Tmbpercentile": "92%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

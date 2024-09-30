@@ -1,0 +1,94 @@
+{
+    "patient": {
+        "Name": "Jason Summers",
+        "DateOfBirth": "1995-02-28",
+        "Sex": "Female",
+        "Diagnosis": "Invasive ductal carcinoma",
+        "BodyPart": "Breast",
+        "Physician": "Dr. Patricia Burgess MD",
+        "TreatingInstitution": "Henry LLC"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Breast",
+            "CollectedDate": "2023-11-28",
+            "ReceivedDate": "2023-11-28",
+            "TumorPercentage": "10%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-11-30",
+            "ReceivedDate": "2023-11-30"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "BLM",
+                "DNA Alteration": "c.2207_2212delinsTAGATTC",
+                "GeneMutation": "p.Y736fs*4 Frameshift-GOF",
+                "VariantAlleleFraction": "29.51%"
+            },
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "7.47%"
+            },
+            {
+                "Gene": "CHD6",
+                "DNA Alteration": "c.4800C>G",
+                "GeneMutation": "p.I1600M Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "11.65%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": "p.I1600M Nonsense-LOF",
+                "VariantAlleleFraction": "15.67%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "ERCC2",
+            "KIT",
+            "KLF4",
+            "FBXW7"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "46 m/Mb",
+            "Tmbpercentile": "53%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

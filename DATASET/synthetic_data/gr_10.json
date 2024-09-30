@@ -1,0 +1,251 @@
+{
+    "patient": {
+        "Name": "Sarah Hall",
+        "DateOfBirth": "1968-05-23",
+        "Sex": "Male",
+        "Diagnosis": "Hodgkin lymphoma",
+        "BodyPart": "Lymphoma",
+        "Physician": "Dr. Paul Thompson",
+        "TreatingInstitution": "Perez Group"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Lymphoma",
+            "CollectedDate": "2024-01-01",
+            "ReceivedDate": "2024-01-01",
+            "TumorPercentage": "72%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2024-01-06",
+            "ReceivedDate": "2024-01-09"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "MYD88",
+                "DNA Alteration": "c.794T>C",
+                "GeneMutation": "p.L265P Nonsense-LOF",
+                "VariantAlleleFraction": "9.58%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.S1982Rfs*22 Stopgain-LOF",
+                "VariantAlleleFraction": "15.84%"
+            },
+            {
+                "Gene": "MYCN",
+                "DNA Alteration": "c.131C>T",
+                "GeneMutation": "p.P44L Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "19.83%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "JAK3",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.L857P Frameshift-GOF",
+                "VariantAlleleFraction": "13.22%"
+            },
+            {
+                "Gene": "ABL1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.L857P Frameshift-LOF",
+                "VariantAlleleFraction": "11.9%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "HDAC1",
+            "PTPN11",
+            "ERBB2"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "26 m/Mb",
+            "Tmbpercentile": "50%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A572G Nonsense-LOF",
+                "VariantAlleleFraction": "9.21%"
+            },
+            {
+                "Gene": "HBA2",
+                "DNA Alteration": "c.427T>C",
+                "GeneMutation": "p.*143Qext*31 Frameshift-GOF",
+                "VariantAlleleFraction": "10.38%"
+            },
+            {
+                "Gene": "FGFR1",
+                "DNA Alteration": "c.1966A>G",
+                "GeneMutation": "p.K656E Frameshift-GOF",
+                "VariantAlleleFraction": "5.53%"
+            },
+            {
+                "Gene": "HDAC1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.Y303H Frameshift-GOF",
+                "VariantAlleleFraction": "5.11%"
+            },
+            {
+                "Gene": "KLF1",
+                "DNA Alteration": "c.892G>C",
+                "GeneMutation": "p.M39L Stopgain-LOF",
+                "VariantAlleleFraction": "3.02%"
+            },
+            {
+                "Gene": "BRCA1",
+                "DNA Alteration": "c.68_69delAG",
+                "GeneMutation": "p.E23Vfs*17 Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "5.62%"
+            },
+            {
+                "Gene": "MET",
+                "DNA Alteration": "c.3688T>C",
+                "GeneMutation": "p.Y1230H Nonsense-LOF",
+                "VariantAlleleFraction": "2.51%"
+            },
+            {
+                "Gene": "KLF1",
+                "DNA Alteration": "c.892G>C",
+                "GeneMutation": "p.A298P Nonsense-LOF",
+                "VariantAlleleFraction": "4.25%"
+            }
+        ],
+        "Germline": [
+            {
+                "Gene": "MTOR",
+                "DNA Alteration": "c.5664C>A",
+                "GeneMutation": "p.F1888L Missensevariant(exon2)-GOF",
+                "Condition": "doctor"
+            },
+            {
+                "Gene": "ZEB2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.H1038R Missensevariant(exon2)-GOF",
+                "Condition": "decade"
+            }
+        ]
+    },
+    "low coverage regions": [
+        "ALK",
+        "MAPK1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "MYD88",
+                "DNA Alteration": "c.794T>C",
+                "GeneMutation": "p.L265P Nonsense-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "9.58%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.S1982Rfs*22 Stopgain-LOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "15.84%"
+            },
+            {
+                "Gene": "MYCN",
+                "DNA Alteration": "c.131C>T",
+                "GeneMutation": "p.P44L Missensevariant(exon2)-GOF",
+                "description": "BCL11B encodes a C2H2-type zinc finger protein that functions as a transcriptional repressor and plays a role in T-cell development and survival. Loss of function mutations, copy number loss, and fusions resulting in the underexpression of BCL11B are associated with cancer progression.",
+                "VariantAlleleFraction": "19.83%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "JAK3",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.L857P Frameshift-GOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "13.22%"
+            },
+            {
+                "Gene": "ABL1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.L857P Frameshift-LOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "11.9%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-12-27"
+    },
+    "other": {
+        "ReportId": "5067",
+        "ReportDate": "2024-01-08",
+        "SignedBy": "Paul Thompson",
+        "Supervisor": "Dr. Miguel Richardson"
+    }
+}

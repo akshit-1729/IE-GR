@@ -1,0 +1,94 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "NOTCH1",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "PD-L1(SP142)",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 3+, 63%"
+        },
+        {
+            "BioMarker": "KLF1",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "13 mutations/Mb High"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 37% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "PDGFRB",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.H598T",
+            "Exon": 10,
+            "DNA Alteration": "c.1820G>T",
+            "Allele Frequency %": "36.67"
+        },
+        {
+            "Gene": "JAK2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.R1192P",
+            "Exon": 12,
+            "DNA Alteration": "c.3260C>T",
+            "Allele Frequency %": "19.88"
+        },
+        {
+            "Gene": "FGFR2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": " p.W266*",
+            "Exon": 14,
+            "DNA Alteration": " c.798G>A",
+            "Allele Frequency %": "9.09"
+        },
+        {
+            "Gene": "MTOR",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.P95X",
+            "Exon": 12,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "14.91"
+        },
+        {
+            "Gene": "MYD88",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.E7K",
+            "Exon": 7,
+            "DNA Alteration": "c.20A>T",
+            "Allele Frequency %": "12.35"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "low coverage regions": [
+        "BRAF",
+        "KRAS"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "FBXW7",
+                "DNA Alteration": "c.1394G>A",
+                "GeneMutation": "p.R465H Missensevariant(exon2)-GOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "25.84%"
+            },
+            {
+                "Gene": "B2M",
+                "DNA Alteration": "c.2T>G",
+                "GeneMutation": "p.M1R Spliceregionvariant-LOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "7.14%"
+            },
+            {
+                "Gene": "NOTCH1",
+                "DNA Alteration": "c.7398_7399insGG",
+                "GeneMutation": "p.S2467Pfs*7 Frameshift-LOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "15.36%"
+            },
+            {
+                "Gene": "PHF6",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R225X Nonsense-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "13.59%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "PTEN",
+                "DNA Alteration": "c.389G>T",
+                "GeneMutation": "p.R130L Missensevariant(exon2)-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "2.92%"
+            },
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R130L Nonsense-LOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "14.44%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-11-06"
+    },
+    "other": {
+        "ReportId": "3950",
+        "ReportDate": "2023-11-13",
+        "SignedBy": "Kimberly Lee",
+        "Supervisor": "Dr. Carl Perez"
+    }
+}

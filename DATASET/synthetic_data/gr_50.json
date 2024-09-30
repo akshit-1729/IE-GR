@@ -1,0 +1,262 @@
+{
+    "patient": {
+        "Name": "Michael Schmidt",
+        "DateOfBirth": "1992-05-25",
+        "Sex": "Male",
+        "Diagnosis": "Acinar cell carcinoma",
+        "BodyPart": "Pancreatic",
+        "Physician": "Dr. Jerome House",
+        "TreatingInstitution": "Schmidt, Gutierrez and Lynch"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Pancreatic",
+            "CollectedDate": "2023-07-03",
+            "ReceivedDate": "2023-07-03",
+            "TumorPercentage": "60%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-07-10",
+            "ReceivedDate": "2023-07-15"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "MSH2",
+                "DNA Alteration": "c.1906G>C",
+                "GeneMutation": "p.A636P Nonsense-LOF",
+                "VariantAlleleFraction": "3.22%"
+            },
+            {
+                "Gene": "PTEN",
+                "DNA Alteration": "c.389G>C",
+                "GeneMutation": "p.R130Q Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "12.8%"
+            },
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S34X Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "29.63%"
+            },
+            {
+                "Gene": "HRAS",
+                "DNA Alteration": "c.35G>A",
+                "GeneMutation": "p.G12D Nonsense-GOF",
+                "VariantAlleleFraction": "18.37%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G12X Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "4.75%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "DICER1",
+            "STAG2"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "3 m/Mb",
+            "Tmbpercentile": "90%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "HRAS",
+                "DNA Alteration": "c.35_36delinsAT",
+                "GeneMutation": "p.G12X Nonsense-LOF",
+                "VariantAlleleFraction": "15.88%"
+            },
+            {
+                "Gene": "PHF6",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R225X Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "18.85%"
+            },
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Nonsense-GOF",
+                "VariantAlleleFraction": "4.67%"
+            },
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "6.65%"
+            },
+            {
+                "Gene": "FBXW7",
+                "DNA Alteration": "c.1394G>A",
+                "GeneMutation": "p.R465H Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "2.73%"
+            },
+            {
+                "Gene": "KIT",
+                "DNA Alteration": "c.2458G>T",
+                "GeneMutation": "p.G648D Frameshift-LOF",
+                "VariantAlleleFraction": "5.95%"
+            },
+            {
+                "Gene": "SDHD",
+                "DNA Alteration": "c.34G>A",
+                "GeneMutation": "p.G12S Nonsense-GOF",
+                "VariantAlleleFraction": "2.19%"
+            },
+            {
+                "Gene": "BLM",
+                "DNA Alteration": "c.2207_2212delinsTAGATTC",
+                "GeneMutation": "p.Y736fs*4 Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "6.96%"
+            },
+            {
+                "Gene": "KIT",
+                "DNA Alteration": "c.1676T>A",
+                "GeneMutation": "p.L813P Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "2.61%"
+            },
+            {
+                "Gene": "CTNNB1",
+                "DNA Alteration": "c.94G>A",
+                "GeneMutation": "p.G34E Nonsense-LOF",
+                "VariantAlleleFraction": "4.01%"
+            },
+            {
+                "Gene": "ARHGAP45",
+                "DNA Alteration": "c.416G>A",
+                "GeneMutation": "p.R139H Nonsense-GOF",
+                "VariantAlleleFraction": "6.73%"
+            },
+            {
+                "Gene": "HDAC2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.E455fs*7 Frameshift-LOF",
+                "VariantAlleleFraction": "3.19%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "NF1",
+        "FBXW7",
+        "ARID2"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "MSH2",
+                "DNA Alteration": "c.1906G>C",
+                "GeneMutation": "p.A636P Nonsense-LOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "3.22%"
+            },
+            {
+                "Gene": "PTEN",
+                "DNA Alteration": "c.389G>C",
+                "GeneMutation": "p.R130Q Spliceregionvariant-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "12.8%"
+            },
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S34X Spliceregionvariant-GOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "29.63%"
+            },
+            {
+                "Gene": "HRAS",
+                "DNA Alteration": "c.35G>A",
+                "GeneMutation": "p.G12D Nonsense-GOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "18.37%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G12X Spliceregionvariant-GOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "4.75%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-07-02"
+    },
+    "other": {
+        "ReportId": "9628",
+        "ReportDate": "2023-07-04",
+        "SignedBy": "Jerome House",
+        "Supervisor": "Dr. Roberto Gordon"
+    }
+}

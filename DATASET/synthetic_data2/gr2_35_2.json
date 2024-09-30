@@ -1,0 +1,110 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "ERCC2",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 1+, 87%"
+        },
+        {
+            "BioMarker": "B2M",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 1+, 3%"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Equivocal"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "10 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low - 1% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "STAG2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.G1386D",
+            "Exon": 5,
+            "DNA Alteration": ">",
+            "Allele Frequency %": "2.3"
+        },
+        {
+            "Gene": "MYCN",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.E318D",
+            "Exon": 12,
+            "DNA Alteration": "c.380G>C",
+            "Allele Frequency %": "6.8"
+        },
+        {
+            "Gene": "PKLR",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.G607V",
+            "Exon": 2,
+            "DNA Alteration": "c.1792C>T",
+            "Allele Frequency %": "15.47"
+        },
+        {
+            "Gene": "CDKN2A",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.Y736fs*4",
+            "Exon": 2,
+            "DNA Alteration": "c.2207_2212delinsTAGATTC",
+            "Allele Frequency %": "9.33"
+        },
+        {
+            "Gene": "EZH2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.A572G",
+            "Exon": 7,
+            "DNA Alteration": "A",
+            "Allele Frequency %": "8.03"
+        },
+        {
+            "Gene": "KIT",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.S163P",
+            "Exon": 12,
+            "DNA Alteration": "c.487T>C",
+            "Allele Frequency %": "5.57"
+        }
+    ]
+}

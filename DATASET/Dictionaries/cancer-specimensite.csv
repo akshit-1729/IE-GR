@@ -1,0 +1,38 @@
+cancer,specimen site
+Breast Cancer,Breast tissue
+Breast Cancer,Lymph nodes (axillary, sentinel, or internal mammary)
+Lung Cancer,Lung lobes (upper, middle, lower)
+Lung Cancer,Bronchus
+Lung Cancer,Pleura
+Lung Cancer,Mediastinal lymph nodes
+Colorectal Cancer,Colon segments (ascending, transverse, descending, sigmoid)
+Colorectal Cancer,Rectum
+Colorectal Cancer,Mesentery
+Colorectal Cancer,Perirectal lymph nodes
+Prostate Cancer,Prostate gland
+Prostate Cancer,Seminal vesicles
+Prostate Cancer,Periprostatic tissue
+Prostate Cancer,Pelvic lymph nodes
+Leukemia,Bone marrow
+Leukemia,Peripheral blood
+Leukemia,Spleen
+Leukemia,Lymph nodes
+Skin Cancer,Skin (site of visible lesion)
+Skin Cancer,Sentinel lymph node
+Skin Cancer,Subcutaneous tissue
+Skin Cancer,Regional lymph nodes
+Ovarian Cancer,Ovaries
+Ovarian Cancer,Fallopian tubes
+Ovarian Cancer,Peritoneal surfaces
+Ovarian Cancer,Pelvic and para-aortic lymph nodes
+Pancreatic Cancer,Pancreas (head, body, tail)
+Pancreatic Cancer,Duodenum (for periampullary tumors)
+Pancreatic Cancer,Bile duct
+Pancreatic Cancer,Regional lymph nodes
+Thyroid Cancer,Thyroid gland
+Thyroid Cancer,Perithyroidal tissue
+Thyroid Cancer,Central and lateral cervical lymph nodes
+Lymphoma,Lymph nodes (cervical, axillary, inguinal, mediastinal, abdominal)
+Lymphoma,Spleen
+Lymphoma,Bone marrow
+Lymphoma,Other extranodal sites (gastrointestinal tract, skin, brain)

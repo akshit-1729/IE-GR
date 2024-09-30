@@ -1,0 +1,100 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "KLF1",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Stable"
+        },
+        {
+            "BioMarker": "AR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 2+, 33%"
+        },
+        {
+            "BioMarker": "PD-L1(SP142)",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 2+, 82%"
+        },
+        {
+            "BioMarker": "IDH2",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "7 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 40% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "ALK",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.G1954R",
+            "Exon": 5,
+            "DNA Alteration": "c.5664C>G",
+            "Allele Frequency %": "32.11"
+        },
+        {
+            "Gene": "FGFR1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.I1600M",
+            "Exon": 12,
+            "DNA Alteration": "c.4800C>G",
+            "Allele Frequency %": "31.45"
+        },
+        {
+            "Gene": "SF3B1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.E322K",
+            "Exon": 16,
+            "DNA Alteration": "c.964G>A",
+            "Allele Frequency %": "9.73"
+        },
+        {
+            "Gene": "ARHGAP45",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.I1600M",
+            "Exon": 18,
+            "DNA Alteration": "c.4800C>G",
+            "Allele Frequency %": "24.34"
+        },
+        {
+            "Gene": "HBA2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.L576P",
+            "Exon": 18,
+            "DNA Alteration": "c.1669T>C",
+            "Allele Frequency %": "8.35"
+        }
+    ]
+}

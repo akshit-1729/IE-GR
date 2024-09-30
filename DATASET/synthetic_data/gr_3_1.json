@@ -1,0 +1,107 @@
+{
+    "patient": {
+        "Name": "Zachary Novak",
+        "DateOfBirth": "1965-09-25",
+        "Sex": "Male",
+        "Diagnosis": "Adenocarcinoma",
+        "BodyPart": "Colorectal",
+        "Physician": "Dr. Jennifer Walker",
+        "TreatingInstitution": "Doyle PLC"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Colorectal",
+            "CollectedDate": "2024-03-23",
+            "ReceivedDate": "2024-03-30",
+            "TumorPercentage": "47%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2024-03-30",
+            "ReceivedDate": "2024-04-01"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "DNMT3A",
+                "DNA Alteration": "c.2711C>T",
+                "GeneMutation": "p.P904L Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "32.67%"
+            },
+            {
+                "Gene": "STAT5B",
+                "DNA Alteration": "c.1924A>C",
+                "GeneMutation": "p.N642H Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "15.84%"
+            },
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1092_1143del52",
+                "GeneMutation": "p.K385fs*47 Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "21.4%"
+            },
+            {
+                "Gene": "BRCA1",
+                "DNA Alteration": "c.68_69delAG",
+                "GeneMutation": "p.Q1756Pfs Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "11.34%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "BTK",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.Q1756Pfs Frameshift-GOF",
+                "VariantAlleleFraction": "6.24%"
+            },
+            {
+                "Gene": "XPC",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S346P Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "6.23%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "NRAS",
+            "MUTYH",
+            "MYCN",
+            "ERBB2",
+            "MET"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "37 m/Mb",
+            "Tmbpercentile": "32%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

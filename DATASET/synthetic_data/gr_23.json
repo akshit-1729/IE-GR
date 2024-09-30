@@ -1,0 +1,231 @@
+{
+    "patient": {
+        "Name": "Jason Summers",
+        "DateOfBirth": "1995-02-28",
+        "Sex": "Female",
+        "Diagnosis": "Invasive ductal carcinoma",
+        "BodyPart": "Breast",
+        "Physician": "Dr. Patricia Burgess MD",
+        "TreatingInstitution": "Henry LLC"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Breast",
+            "CollectedDate": "2023-11-28",
+            "ReceivedDate": "2023-11-28",
+            "TumorPercentage": "10%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-11-30",
+            "ReceivedDate": "2023-11-30"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "BLM",
+                "DNA Alteration": "c.2207_2212delinsTAGATTC",
+                "GeneMutation": "p.Y736fs*4 Frameshift-GOF",
+                "VariantAlleleFraction": "29.51%"
+            },
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "7.47%"
+            },
+            {
+                "Gene": "CHD6",
+                "DNA Alteration": "c.4800C>G",
+                "GeneMutation": "p.I1600M Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "11.65%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": "p.I1600M Nonsense-LOF",
+                "VariantAlleleFraction": "15.67%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "ERCC2",
+            "KIT",
+            "KLF4",
+            "FBXW7"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "46 m/Mb",
+            "Tmbpercentile": "53%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "ALDH2",
+                "DNA Alteration": "c.1510G>A",
+                "GeneMutation": "p.E504K Nonsense-LOF",
+                "VariantAlleleFraction": "24.57%"
+            },
+            {
+                "Gene": "RNF43",
+                "DNA Alteration": "c.505G>A",
+                "GeneMutation": "p.E318D Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "15.53%"
+            },
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.V49M Stopgain-LOF",
+                "VariantAlleleFraction": "2.42%"
+            },
+            {
+                "Gene": "CSF3R",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G751A Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "4.39%"
+            },
+            {
+                "Gene": "FGFR2",
+                "DNA Alteration": "c.755C>G",
+                "GeneMutation": "p.C382R Nonsense-LOF",
+                "VariantAlleleFraction": "5.58%"
+            },
+            {
+                "Gene": "EGFR",
+                "DNA Alteration": "c.2239_2256del18",
+                "GeneMutation": "p.L747_P753del Frameshift-LOF",
+                "VariantAlleleFraction": "2.96%"
+            },
+            {
+                "Gene": "ALDH2",
+                "DNA Alteration": "c.1510G>A",
+                "GeneMutation": "p.E504K Frameshift-LOF",
+                "VariantAlleleFraction": "7.78%"
+            },
+            {
+                "Gene": "CDC73",
+                "DNA Alteration": "c.1A>G",
+                "GeneMutation": "p.M1V Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "5.71%"
+            },
+            {
+                "Gene": "IDH2",
+                "DNA Alteration": "c.419G>A",
+                "GeneMutation": "p.R172K Nonsense-LOF",
+                "VariantAlleleFraction": "7.38%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "BRCA1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "BLM",
+                "DNA Alteration": "c.2207_2212delinsTAGATTC",
+                "GeneMutation": "p.Y736fs*4 Frameshift-GOF",
+                "description": "BCL11B encodes a C2H2-type zinc finger protein that functions as a transcriptional repressor and plays a role in T-cell development and survival. Loss of function mutations, copy number loss, and fusions resulting in the underexpression of BCL11B are associated with cancer progression.",
+                "VariantAlleleFraction": "29.51%"
+            },
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Spliceregionvariant-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "7.47%"
+            },
+            {
+                "Gene": "CHD6",
+                "DNA Alteration": "c.4800C>G",
+                "GeneMutation": "p.I1600M Spliceregionvariant-LOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "11.65%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": "p.I1600M Nonsense-LOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "15.67%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-11-26"
+    },
+    "other": {
+        "ReportId": "4989",
+        "ReportDate": "2023-12-06",
+        "SignedBy": "Patricia Burgess MD",
+        "Supervisor": "Dr. Megan Frey"
+    }
+}

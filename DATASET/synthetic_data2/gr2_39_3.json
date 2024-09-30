@@ -1,0 +1,71 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "XPC",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.L1196M",
+            "Exon": 11,
+            "DNA Alteration": "c.3522C>G",
+            "Allele Frequency %": "16.17"
+        },
+        {
+            "Gene": "APC",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.R140W",
+            "Exon": 2,
+            "DNA Alteration": "c.515G>T",
+            "Allele Frequency %": "9.22"
+        },
+        {
+            "Gene": "U2AF1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.A374E",
+            "Exon": 9,
+            "DNA Alteration": "G",
+            "Allele Frequency %": "14.2"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "PR",
+            "Result": "Positive| 3+, 62%"
+        },
+        {
+            "Biomarker": "MSH6",
+            "Result": "Negative| 2+, 49%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Negative| 1+, 95%"
+        },
+        {
+            "Biomarker": "AR",
+            "Result": "Negative| 1+, 29%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Positive| 1+, 52%"
+        },
+        {
+            "Biomarker": "MSH2",
+            "Result": "Positive| 3+, 1%"
+        },
+        {
+            "Biomarker": "PMS2",
+            "Result": "Negative| 1+, 40%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "BRAF",
+        "STAT5B",
+        "CD74",
+        "PRKCA",
+        "SIX1"
+    ]
+}

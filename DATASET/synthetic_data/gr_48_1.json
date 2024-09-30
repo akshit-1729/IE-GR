@@ -1,0 +1,119 @@
+{
+    "patient": {
+        "Name": "Charles Turner",
+        "DateOfBirth": "1972-09-21",
+        "Sex": "Male",
+        "Diagnosis": "Medullary thyroid cancer",
+        "BodyPart": "Thyroid",
+        "Physician": "Dr. Rebecca Flynn",
+        "TreatingInstitution": "Fletcher PLC"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Thyroid",
+            "CollectedDate": "2023-04-28",
+            "ReceivedDate": "2023-04-29",
+            "TumorPercentage": "68%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-05-04",
+            "ReceivedDate": "2023-05-06"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Frameshift-GOF",
+                "VariantAlleleFraction": "22.86%"
+            },
+            {
+                "Gene": "CCND3",
+                "DNA Alteration": "c.766_776del11",
+                "GeneMutation": "p.R256fs*64 Nonsense-GOF",
+                "VariantAlleleFraction": "5.48%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "ERBB2",
+                "DNA Alteration": "c.2584A>G",
+                "GeneMutation": "p.R896C Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "1.03%"
+            },
+            {
+                "Gene": "MAPK1",
+                "DNA Alteration": "c.964G>A",
+                "GeneMutation": "p.L755P Nonsense-LOF",
+                "VariantAlleleFraction": "6.25%"
+            },
+            {
+                "Gene": "CDC73",
+                "DNA Alteration": "c.1A>G",
+                "GeneMutation": "p.L755S Nonsense-GOF",
+                "VariantAlleleFraction": "10.39%"
+            },
+            {
+                "Gene": "SDHA",
+                "DNA Alteration": "c.1660C>T",
+                "GeneMutation": "p.R256fs*64 Frameshift-GOF",
+                "VariantAlleleFraction": "13.38%"
+            },
+            {
+                "Gene": "ABL1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G660D Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "7.63%"
+            },
+            {
+                "Gene": "KRAS",
+                "DNA Alteration": "c.36T>C",
+                "GeneMutation": "p.G12C Nonsense-GOF",
+                "VariantAlleleFraction": "4.59%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "SRSF2",
+            "PAX5",
+            "CCND3",
+            "HDAC2",
+            "PDGFRA"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "40 m/Mb",
+            "Tmbpercentile": "97%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

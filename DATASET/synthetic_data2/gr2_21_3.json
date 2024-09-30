@@ -1,0 +1,79 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "U2AF1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.Y623X",
+            "Exon": 14,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "17.94"
+        },
+        {
+            "Gene": "HSP90B1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.H362R",
+            "Exon": 12,
+            "DNA Alteration": "c.1085A>G",
+            "Allele Frequency %": "23.3"
+        },
+        {
+            "Gene": "TOP2A",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.K385I",
+            "Exon": 19,
+            "DNA Alteration": "c.2525A>T",
+            "Allele Frequency %": "6.1"
+        },
+        {
+            "Gene": "ERBB2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.I66T",
+            "Exon": 10,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "2.2"
+        },
+        {
+            "Gene": "MET",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.T367N",
+            "Exon": 16,
+            "DNA Alteration": "c.1100=",
+            "Allele Frequency %": "7.67"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "ER",
+            "Result": "Negative| 1+, 4%"
+        },
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Positive| 3+, 37%"
+        },
+        {
+            "Biomarker": "PMS2",
+            "Result": "Negative| 1+, 35%"
+        },
+        {
+            "Biomarker": "MLH1",
+            "Result": "Positive| 1+, 69%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "SRSF2",
+        "PTCH1",
+        "KIT",
+        "NT5C2",
+        "EGFR"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "low coverage regions": [
+        "ZEB2",
+        "TOP2A"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "ARID2",
+                "GeneMutation": " p.W266* Stopgain-LOF",
+                "DNA Alteration": " c.798G>A",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "35.9%"
+            },
+            {
+                "Gene": "IDH1",
+                "GeneMutation": "p.R132H Nonsense-GOF",
+                "VariantAlleleFraction": "32.59%",
+                "DNA Alteration": "c.394_395delinsTC",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression."
+            },
+            {
+                "Gene": "TOP2A",
+                "GeneMutation": "p.A1515S Stopgain-LOF",
+                "VariantAlleleFraction": "25.8%",
+                "DNA Alteration": "c.3113A>G",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression."
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "FGFR3",
+                "GeneMutation": "p.A1515S Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "15.97%",
+                "DNA Alteration": "c.1111A>T",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression."
+            },
+            {
+                "Gene": "IDH1",
+                "GeneMutation": "p.R132C Nonsense-LOF",
+                "VariantAlleleFraction": "2.0%",
+                "DNA Alteration": "c.394_395delinsTC",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression."
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-05-06"
+    },
+    "other": {
+        "ReportId": "7682",
+        "ReportDate": "2023-05-13",
+        "SignedBy": "Philip Marquez",
+        "Supervisor": "Dr. David Medina"
+    }
+}

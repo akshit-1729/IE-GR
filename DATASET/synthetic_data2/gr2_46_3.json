@@ -1,0 +1,75 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "MYCN",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.K385fs*47",
+            "Exon": 6,
+            "DNA Alteration": "c.1154_1155insTTGTC",
+            "Allele Frequency %": "7.02"
+        },
+        {
+            "Gene": "GNAS",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.R175C",
+            "Exon": 8,
+            "DNA Alteration": "c.396G>C",
+            "Allele Frequency %": "21.2"
+        },
+        {
+            "Gene": "CHD6",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.H1038R",
+            "Exon": 14,
+            "DNA Alteration": "c.3113A>G",
+            "Allele Frequency %": "8.38"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "PMS2",
+            "Result": "Positive| 2+, 40%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Positive| 3+, 19%"
+        },
+        {
+            "Biomarker": "MSH6",
+            "Result": "Positive| 2+, 21%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Negative| 2+, 25%"
+        },
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Negative| 3+, 82%"
+        },
+        {
+            "Biomarker": "PR",
+            "Result": "Negative| 3+, 77%"
+        },
+        {
+            "Biomarker": "MSH2",
+            "Result": "Negative| 1+, 17%"
+        },
+        {
+            "Biomarker": "MLH1",
+            "Result": "Positive| 3+, 33%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "PAX5",
+        "NF1",
+        "PKLR",
+        "DPYD",
+        "EGFR"
+    ]
+}

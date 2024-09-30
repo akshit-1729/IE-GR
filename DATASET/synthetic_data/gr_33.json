@@ -1,0 +1,255 @@
+{
+    "patient": {
+        "Name": "Richard Nguyen",
+        "DateOfBirth": "1933-09-30",
+        "Sex": "Male",
+        "Diagnosis": "Lobular carcinoma in situ (LCIS)",
+        "BodyPart": "Breast",
+        "Physician": "Dr. Kimberly Jenkins",
+        "TreatingInstitution": "Payne PLC"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Breast",
+            "CollectedDate": "2023-07-24",
+            "ReceivedDate": "2023-07-27",
+            "TumorPercentage": "17%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-07-31",
+            "ReceivedDate": "2023-07-31"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Frameshift-GOF",
+                "VariantAlleleFraction": "15.31%"
+            },
+            {
+                "Gene": "XPC",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S346P Nonsense-GOF",
+                "VariantAlleleFraction": "26.74%"
+            },
+            {
+                "Gene": "GNAS",
+                "DNA Alteration": "c.680A>T",
+                "GeneMutation": "p.Q227L Nonsense-GOF",
+                "VariantAlleleFraction": "12.4%"
+            },
+            {
+                "Gene": "JAK3",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.L857P Frameshift-GOF",
+                "VariantAlleleFraction": "22.42%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "JAK2",
+                "DNA Alteration": "c.1849G>T",
+                "GeneMutation": "p.L857P Stopgain-LOF",
+                "VariantAlleleFraction": "11.56%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "SIX1",
+            "MSH2"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "15 m/Mb",
+            "Tmbpercentile": "27%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "SMO",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A374E Stopgain-LOF",
+                "VariantAlleleFraction": "9.99%"
+            },
+            {
+                "Gene": "BRAF",
+                "DNA Alteration": "c.1405_1407delinsAGC",
+                "GeneMutation": "p.V600X Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "8.65%"
+            },
+            {
+                "Gene": "FLT3",
+                "DNA Alteration": "c.1992G>T",
+                "GeneMutation": "p.Y842X Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "6.5%"
+            },
+            {
+                "Gene": "NF1",
+                "DNA Alteration": "c.4394A>G",
+                "GeneMutation": "p.N1465S Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "7.56%"
+            },
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A572G Nonsense-GOF",
+                "VariantAlleleFraction": "3.79%"
+            },
+            {
+                "Gene": "BRAF",
+                "DNA Alteration": "c.1789_1790delinsTC",
+                "GeneMutation": "p.G469E Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "4.65%"
+            },
+            {
+                "Gene": "MET",
+                "DNA Alteration": "c.3749T>C",
+                "GeneMutation": "p.V1092I Nonsense-LOF",
+                "VariantAlleleFraction": "9.13%"
+            },
+            {
+                "Gene": "NOTCH1",
+                "DNA Alteration": "c.7507C>T",
+                "GeneMutation": "p.S2467Rfs*13 Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "7.71%"
+            },
+            {
+                "Gene": "GNAS",
+                "DNA Alteration": "c.374A>G",
+                "GeneMutation": "p.Q227L Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "4.38%"
+            },
+            {
+                "Gene": "HSP90B1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.I66T Frameshift-LOF",
+                "VariantAlleleFraction": "2.32%"
+            },
+            {
+                "Gene": "MET",
+                "DNA Alteration": "c.1510G>C",
+                "GeneMutation": "p.Y1003X Nonsense-LOF",
+                "VariantAlleleFraction": "5.87%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "FGFR1",
+        "JAK2"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "PDGFRB",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.T681I Frameshift-GOF",
+                "description": "BCL11B encodes a C2H2-type zinc finger protein that functions as a transcriptional repressor and plays a role in T-cell development and survival. Loss of function mutations, copy number loss, and fusions resulting in the underexpression of BCL11B are associated with cancer progression.",
+                "VariantAlleleFraction": "15.31%"
+            },
+            {
+                "Gene": "XPC",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.S346P Nonsense-GOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "26.74%"
+            },
+            {
+                "Gene": "GNAS",
+                "DNA Alteration": "c.680A>T",
+                "GeneMutation": "p.Q227L Nonsense-GOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "12.4%"
+            },
+            {
+                "Gene": "JAK3",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.L857P Frameshift-GOF",
+                "description": "BCL11B encodes a C2H2-type zinc finger protein that functions as a transcriptional repressor and plays a role in T-cell development and survival. Loss of function mutations, copy number loss, and fusions resulting in the underexpression of BCL11B are associated with cancer progression.",
+                "VariantAlleleFraction": "22.42%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "JAK2",
+                "DNA Alteration": "c.1849G>T",
+                "GeneMutation": "p.L857P Stopgain-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "11.56%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-07-23"
+    },
+    "other": {
+        "ReportId": "3006",
+        "ReportDate": "2023-08-02",
+        "SignedBy": "Kimberly Jenkins",
+        "Supervisor": "Dr. Matthew Kirk"
+    }
+}

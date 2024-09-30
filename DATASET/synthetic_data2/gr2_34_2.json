@@ -1,0 +1,122 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "Mismatch repair status",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Negative| 2+, 72%"
+        },
+        {
+            "BioMarker": "PHF6",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "ER",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 2+, 16%"
+        },
+        {
+            "BioMarker": "NTRK1",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "TP53",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "U2AF1",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Stable"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Equivocal"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "9 mutations/Mb Low"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low - 12% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "MYD88",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.N1465S",
+            "Exon": 20,
+            "DNA Alteration": "c.6926del",
+            "Allele Frequency %": "37.49"
+        },
+        {
+            "Gene": "PTCH1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.N452D",
+            "Exon": 8,
+            "DNA Alteration": "c.1354A>G",
+            "Allele Frequency %": "34.69"
+        },
+        {
+            "Gene": "BRAF",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.P98S",
+            "Exon": 7,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "18.25"
+        },
+        {
+            "Gene": "MYO1G",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.L576P",
+            "Exon": 3,
+            "DNA Alteration": "c.1669T>A",
+            "Allele Frequency %": "13.08"
+        },
+        {
+            "Gene": "SDHA",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.H598T",
+            "Exon": 13,
+            "DNA Alteration": "c.1820G>T",
+            "Allele Frequency %": "8.6"
+        },
+        {
+            "Gene": "MPL",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.E542Q",
+            "Exon": 11,
+            "DNA Alteration": "c.1624G>A",
+            "Allele Frequency %": "8.69"
+        }
+    ]
+}

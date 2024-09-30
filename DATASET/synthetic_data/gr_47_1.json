@@ -1,0 +1,106 @@
+{
+    "patient": {
+        "Name": "Megan Nguyen",
+        "DateOfBirth": "1984-04-09",
+        "Sex": "Female",
+        "Diagnosis": "Squamous cell carcinoma",
+        "BodyPart": "Skin",
+        "Physician": "Dr. Joshua Navarro",
+        "TreatingInstitution": "Delgado Ltd"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Skin",
+            "CollectedDate": "2023-08-01",
+            "ReceivedDate": "2023-08-06",
+            "TumorPercentage": "53%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-08-04",
+            "ReceivedDate": "2023-08-07"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "CDKN2A",
+                "DNA Alteration": "c.89C>T",
+                "GeneMutation": "p.V51D Frameshift-LOF",
+                "VariantAlleleFraction": "3.48%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "FGFR2",
+                "DNA Alteration": "c.1124A>G",
+                "GeneMutation": "p.V679F Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "11.12%"
+            },
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1092_1143del52",
+                "GeneMutation": "p.N549K Frameshift-LOF",
+                "VariantAlleleFraction": "16.65%"
+            },
+            {
+                "Gene": "U2AF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.Q157X Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "22.15%"
+            },
+            {
+                "Gene": "STAT5B",
+                "DNA Alteration": "c.1924A>C",
+                "GeneMutation": "p.K659E Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "5.23%"
+            },
+            {
+                "Gene": "EGFR",
+                "DNA Alteration": "c.2375T>A",
+                "GeneMutation": "p.L718X Frameshift-LOF",
+                "VariantAlleleFraction": "12.69%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "PTPN11",
+            "FGFR3",
+            "ARID2",
+            "MET"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "48 m/Mb",
+            "Tmbpercentile": "96%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

@@ -1,0 +1,235 @@
+{
+    "patient": {
+        "Name": "Anthony Wilson Jr.",
+        "DateOfBirth": "1953-07-11",
+        "Sex": "Female",
+        "Diagnosis": "Pancreatic neuroendocrine tumors",
+        "BodyPart": "Pancreatic",
+        "Physician": "Dr. Kathryn Frost",
+        "TreatingInstitution": "Hunter, Williams and Walker"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Pancreatic",
+            "CollectedDate": "2023-05-22",
+            "ReceivedDate": "2023-05-23",
+            "TumorPercentage": "60%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-05-23",
+            "ReceivedDate": "2023-05-24"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "MET",
+                "DNA Alteration": "c.3209T>G",
+                "GeneMutation": "p.Y1230C Nonsense-GOF",
+                "VariantAlleleFraction": "16.4%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "CHEK2",
+                "DNA Alteration": "c.1283C>T",
+                "GeneMutation": "p.L1205V Nonsense-GOF",
+                "VariantAlleleFraction": "10.81%"
+            },
+            {
+                "Gene": "PIK3CA",
+                "DNA Alteration": "c.1624G>C",
+                "GeneMutation": "p.S428F Stopgain-LOF",
+                "VariantAlleleFraction": "4.22%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "ARID2"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "9 m/Mb",
+            "Tmbpercentile": "5%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "MAP2K2",
+                "DNA Alteration": "c.383C>T",
+                "GeneMutation": "p.P128L Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "10.37%"
+            },
+            {
+                "Gene": "NT5C2",
+                "DNA Alteration": "c.1100G>A",
+                "GeneMutation": "p.R367Q Frameshift-GOF",
+                "VariantAlleleFraction": "11.12%"
+            },
+            {
+                "Gene": "PHF6",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R225X Nonsense-GOF",
+                "VariantAlleleFraction": "6.78%"
+            },
+            {
+                "Gene": "HSP90B1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.I66T Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "6.16%"
+            },
+            {
+                "Gene": "FBXW7",
+                "DNA Alteration": "c.1394G>A",
+                "GeneMutation": "p.R465H Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "3.01%"
+            },
+            {
+                "Gene": "CD74",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.P98S Stopgain-LOF",
+                "VariantAlleleFraction": "3.42%"
+            },
+            {
+                "Gene": "FGFR3",
+                "DNA Alteration": "c.1118A>G",
+                "GeneMutation": "p.R248C Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "8.43%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.S1982Rfs*22 Frameshift-GOF",
+                "VariantAlleleFraction": "7.83%"
+            },
+            {
+                "Gene": "DNMT3A",
+                "DNA Alteration": "c.2711C>T",
+                "GeneMutation": "p.P904L Stopgain-LOF",
+                "VariantAlleleFraction": "1.5%"
+            },
+            {
+                "Gene": "PTPN11",
+                "DNA Alteration": "c.1508G>C",
+                "GeneMutation": "p.G503A Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "5.07%"
+            },
+            {
+                "Gene": "MTOR",
+                "DNA Alteration": "c.5662T>C",
+                "GeneMutation": "p.F1888L Frameshift-LOF",
+                "VariantAlleleFraction": "7.91%"
+            },
+            {
+                "Gene": "MTOR",
+                "DNA Alteration": "c.5662T>C",
+                "GeneMutation": "p.F1888L Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "4.59%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "HBB",
+        "XPC",
+        "HBA2"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "MET",
+                "DNA Alteration": "c.3209T>G",
+                "GeneMutation": "p.Y1230C Nonsense-GOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "16.4%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "CHEK2",
+                "DNA Alteration": "c.1283C>T",
+                "GeneMutation": "p.L1205V Nonsense-GOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "10.81%"
+            },
+            {
+                "Gene": "PIK3CA",
+                "DNA Alteration": "c.1624G>C",
+                "GeneMutation": "p.S428F Stopgain-LOF",
+                "description": "TP53 encodes a protein that is a transcription factor that regulates the expression of genes involved in cell cycle arrest, apoptosis, and DNA repair. TP53 is a tumor suppressor gene that is mutated in many cancers. Mutations in TP53 are associated with cancer progression.",
+                "VariantAlleleFraction": "4.22%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-05-21"
+    },
+    "other": {
+        "ReportId": "2437",
+        "ReportDate": "2023-05-25",
+        "SignedBy": "Kathryn Frost",
+        "Supervisor": "Dr. Tonya Moore"
+    }
+}

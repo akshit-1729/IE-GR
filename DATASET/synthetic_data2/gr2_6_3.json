@@ -1,0 +1,87 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "NOTCH1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.Y303H",
+            "Exon": 18,
+            "DNA Alteration": "A",
+            "Allele Frequency %": "21.07"
+        },
+        {
+            "Gene": "TP53",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.A322T",
+            "Exon": 7,
+            "DNA Alteration": "c.964G>A",
+            "Allele Frequency %": "18.07"
+        },
+        {
+            "Gene": "ZEB2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.I1600M",
+            "Exon": 11,
+            "DNA Alteration": "c.4800C>G",
+            "Allele Frequency %": "18.04"
+        },
+        {
+            "Gene": "FGFR2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.D32G",
+            "Exon": 9,
+            "DNA Alteration": "c.94G>T",
+            "Allele Frequency %": "8.53"
+        },
+        {
+            "Gene": "SDHA",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.V49M",
+            "Exon": 8,
+            "DNA Alteration": "c.145G>A",
+            "Allele Frequency %": "4.75"
+        },
+        {
+            "Gene": "BTK",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.A34V",
+            "Exon": 15,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "3.94"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Negative| 3+, 35%"
+        },
+        {
+            "Biomarker": "AR",
+            "Result": "Positive| 1+, 94%"
+        },
+        {
+            "Biomarker": "ER",
+            "Result": "Positive| 2+, 99%"
+        },
+        {
+            "Biomarker": "MSH2",
+            "Result": "Positive| 3+, 94%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "IDH1",
+        "NF1",
+        "SF3B1"
+    ]
+}

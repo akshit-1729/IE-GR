@@ -1,0 +1,98 @@
+{
+    "patient": {
+        "Name": "Daniel Flores",
+        "DateOfBirth": "1978-12-04",
+        "Sex": "Male",
+        "Diagnosis": "Pancreatic neuroendocrine tumors",
+        "BodyPart": "Pancreatic",
+        "Physician": "Dr. Philip Marquez",
+        "TreatingInstitution": "Bishop-Thompson"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Pancreatic",
+            "CollectedDate": "2023-05-09",
+            "ReceivedDate": "2023-05-09",
+            "TumorPercentage": "5%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-05-11",
+            "ReceivedDate": "2023-05-11"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": "p.W266* Stopgain-LOF",
+                "VariantAlleleFraction": "35.9%"
+            },
+            {
+                "Gene": "IDH1",
+                "DNA Alteration": "c.394_395delinsTC",
+                "GeneMutation": "p.R132H Nonsense-GOF",
+                "VariantAlleleFraction": "32.59%"
+            },
+            {
+                "Gene": "TOP2A",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A1515S Stopgain-LOF",
+                "VariantAlleleFraction": "25.8%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "FGFR3",
+                "DNA Alteration": "c.1111A>T",
+                "GeneMutation": "p.A1515S Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "15.97%"
+            },
+            {
+                "Gene": "IDH1",
+                "DNA Alteration": "c.394_395delinsTC",
+                "GeneMutation": "p.R132C Nonsense-LOF",
+                "VariantAlleleFraction": "2.0%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "PKLR",
+            "BRCA1"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "48 m/Mb",
+            "Tmbpercentile": "17%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

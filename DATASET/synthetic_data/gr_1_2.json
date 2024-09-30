@@ -1,0 +1,94 @@
+{
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "MYD88",
+                "DNA Alteration": "c.794T>C",
+                "GeneMutation": "p.L265P Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "11.73%"
+            },
+            {
+                "Gene": "ERCC2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.F332V Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "11.11%"
+            },
+            {
+                "Gene": "PAX5",
+                "DNA Alteration": "c.547G>A",
+                "GeneMutation": "p.P80R Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "5.47%"
+            },
+            {
+                "Gene": "PAX5",
+                "DNA Alteration": "c.964G>A",
+                "GeneMutation": "p.G183S Frameshift-GOF",
+                "VariantAlleleFraction": "9.02%"
+            },
+            {
+                "Gene": "H3.3",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.G35W Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "8.69%"
+            },
+            {
+                "Gene": "HSP90B1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.I66T Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "5.96%"
+            },
+            {
+                "Gene": "PKLR",
+                "DNA Alteration": "c.1436G>A",
+                "GeneMutation": "p.R479H Stopgain-LOF",
+                "VariantAlleleFraction": "4.81%"
+            },
+            {
+                "Gene": "EZH2",
+                "DNA Alteration": "c.1936T>A",
+                "GeneMutation": "p.Y646F Nonsense-LOF",
+                "VariantAlleleFraction": "3.14%"
+            }
+        ],
+        "Germline": [
+            {
+                "Gene": "JAK3",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.L857P Missensevariant(exon2)-GOF",
+                "Condition": "anyone"
+            }
+        ]
+    }
+}

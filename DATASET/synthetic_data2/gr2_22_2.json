@@ -1,0 +1,100 @@
+{
+    "Relevant Biomarkers": [
+        {
+            "BioMarker": "MSH2",
+            "Method": "Seq",
+            "Analyte": "RNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "HDAC2",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Fusion not detected"
+        },
+        {
+            "BioMarker": "PRKCA",
+            "Method": "Seq",
+            "Analyte": "DNA-Tumor",
+            "Result": "Mutation not detected"
+        },
+        {
+            "BioMarker": "PR",
+            "Method": "IHC",
+            "Analyte": "Protien",
+            "Result": "Positive| 3+, 34%"
+        }
+    ],
+    "Genomic Signatures": [
+        {
+            "BioMarker": "Microsatellite instability",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "Low"
+        },
+        {
+            "BioMarker": "Tumor mutational burden",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "15 mutations/Mb High"
+        },
+        {
+            "BioMarker": "Genomic loss of heterozygosity (LOH)",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Result": "High - 35% of tested genmoic segments exhibit LOH"
+        }
+    ],
+    "Genes Tested with Pathogenic Alterations": [
+        {
+            "Gene": "TOP2A",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.G1386D",
+            "Exon": 20,
+            "DNA Alteration": "3",
+            "Allele Frequency %": "9.05"
+        },
+        {
+            "Gene": "CDKN2A",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Benign",
+            "Protien Alteration": "p.T1195S",
+            "Exon": 9,
+            "DNA Alteration": "c.3583A>T",
+            "Allele Frequency %": "18.91"
+        },
+        {
+            "Gene": "CDKN2A",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Benign",
+            "Protien Alteration": "p.S1982Rfs*22",
+            "Exon": 20,
+            "DNA Alteration": "c.5946delT",
+            "Allele Frequency %": "29.59"
+        },
+        {
+            "Gene": "CHEK2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Pathogenic",
+            "Protien Alteration": "p.R282G",
+            "Exon": 7,
+            "DNA Alteration": "c.815T>C",
+            "Allele Frequency %": "14.56"
+        },
+        {
+            "Gene": "ALDH2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Likely Pathogenic",
+            "Protien Alteration": "p.N713_A714insKGKGGG",
+            "Exon": 3,
+            "DNA Alteration": "c.1924A>C",
+            "Allele Frequency %": "13.47"
+        }
+    ]
+}

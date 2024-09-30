@@ -1,0 +1,257 @@
+{
+    "patient": {
+        "Name": "Tanner Harris",
+        "DateOfBirth": "1988-04-26",
+        "Sex": "Female",
+        "Diagnosis": "Chronic lymphocytic leukemia (CLL)",
+        "BodyPart": "Leukemia",
+        "Physician": "Dr. Kimberly Lee",
+        "TreatingInstitution": "Austin and Sons"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Leukemia",
+            "CollectedDate": "2023-11-07",
+            "ReceivedDate": "2023-11-07",
+            "TumorPercentage": "39%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-11-09",
+            "ReceivedDate": "2023-11-10"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "FBXW7",
+                "DNA Alteration": "c.1394G>A",
+                "GeneMutation": "p.R465H Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "25.84%"
+            },
+            {
+                "Gene": "B2M",
+                "DNA Alteration": "c.2T>G",
+                "GeneMutation": "p.M1R Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "7.14%"
+            },
+            {
+                "Gene": "NOTCH1",
+                "DNA Alteration": "c.7398_7399insGG",
+                "GeneMutation": "p.S2467Pfs*7 Frameshift-LOF",
+                "VariantAlleleFraction": "15.36%"
+            },
+            {
+                "Gene": "PHF6",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R225X Nonsense-LOF",
+                "VariantAlleleFraction": "13.59%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "PTEN",
+                "DNA Alteration": "c.389G>T",
+                "GeneMutation": "p.R130L Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "2.92%"
+            },
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R130L Nonsense-LOF",
+                "VariantAlleleFraction": "14.44%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "SDHD",
+            "SF3B1",
+            "PRKCA"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "15 m/Mb",
+            "Tmbpercentile": "77%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N159Y Frameshift-GOF",
+                "VariantAlleleFraction": "6.53%"
+            },
+            {
+                "Gene": "JAK2",
+                "DNA Alteration": "c.2047A>G",
+                "GeneMutation": "p.G996R Stopgain-LOF",
+                "VariantAlleleFraction": "9.92%"
+            },
+            {
+                "Gene": "FGFR4",
+                "DNA Alteration": "c.1162G>A",
+                "GeneMutation": "p.G388R Nonsense-GOF",
+                "VariantAlleleFraction": "11.06%"
+            },
+            {
+                "Gene": "PHF6",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R225X Frameshift-GOF",
+                "VariantAlleleFraction": "3.28%"
+            },
+            {
+                "Gene": "CCND3",
+                "DNA Alteration": "c.766_776del11",
+                "GeneMutation": "p.R256fs*64 Frameshift-LOF",
+                "VariantAlleleFraction": "3.82%"
+            },
+            {
+                "Gene": "PTEN",
+                "DNA Alteration": "c.389G>C",
+                "GeneMutation": "p.R130P Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "7.65%"
+            },
+            {
+                "Gene": "PIK3CA",
+                "DNA Alteration": "c.1634A>T",
+                "GeneMutation": "p.E545V Frameshift-GOF",
+                "VariantAlleleFraction": "3.3%"
+            },
+            {
+                "Gene": "FOXL2",
+                "DNA Alteration": "c.402C>G",
+                "GeneMutation": "p.C134W Frameshift-GOF",
+                "VariantAlleleFraction": "4.96%"
+            },
+            {
+                "Gene": "PIK3CA",
+                "DNA Alteration": "c.3139C>T",
+                "GeneMutation": "p.E545K Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "8.81%"
+            }
+        ],
+        "Germline": []
+    },
+    "low coverage regions": [
+        "BRAF",
+        "KRAS"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "FBXW7",
+                "DNA Alteration": "c.1394G>A",
+                "GeneMutation": "p.R465H Missensevariant(exon2)-GOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "25.84%"
+            },
+            {
+                "Gene": "B2M",
+                "DNA Alteration": "c.2T>G",
+                "GeneMutation": "p.M1R Spliceregionvariant-LOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "7.14%"
+            },
+            {
+                "Gene": "NOTCH1",
+                "DNA Alteration": "c.7398_7399insGG",
+                "GeneMutation": "p.S2467Pfs*7 Frameshift-LOF",
+                "description": "ARID2 encodes a protein that is a subunit of the SWI/SNF chromatin remodeling complex SWI/SNF-B or PBAF. This complex functions in ligand-dependent transcriptional activation. Loss of function mutations and copy number loss of ARID2 are associated with cancer progression.",
+                "VariantAlleleFraction": "15.36%"
+            },
+            {
+                "Gene": "PHF6",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R225X Nonsense-LOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "13.59%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "PTEN",
+                "DNA Alteration": "c.389G>T",
+                "GeneMutation": "p.R130L Missensevariant(exon2)-GOF",
+                "description": "PTEN encodes a phosphatase that acts as a tumor suppressor by negatively regulating the PI3K-AKT-mTOR pathway. Loss of function mutations, copy number loss, and underexpression of PTEN are associated with cancer progression.",
+                "VariantAlleleFraction": "2.92%"
+            },
+            {
+                "Gene": "NCSTN",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.R130L Nonsense-LOF",
+                "description": "FAT1 encodes a transmembrane protein involved in tumor suppressor signaling. FAT1 protein can regulate transcriptional activity by sequestering beta-catenin, thereby preventing it from entering the nucleus. Loss of function mutations and copy number loss of FAT1 are associated with cancer progression.",
+                "VariantAlleleFraction": "14.44%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-11-06"
+    },
+    "other": {
+        "ReportId": "3950",
+        "ReportDate": "2023-11-13",
+        "SignedBy": "Kimberly Lee",
+        "Supervisor": "Dr. Carl Perez"
+    }
+}

@@ -1,0 +1,26 @@
+FGFR3: Fibroblast growth factor receptor 3, involved in bone development and repair. Mutations in FGFR3 are associated with skeletal disorders and some cancers.
+PDGFRB: Platelet-derived growth factor receptor beta, a cell surface tyrosine kinase receptor involved in cellular growth and division. Mutations are linked to various diseases including cancer.
+CHEK2: Checkpoint kinase 2, a tumor suppressor that plays a role in DNA repair. Mutations in CHEK2 are linked to increased risk of various cancers.
+SF3B1: Splicing factor 3b subunit 1, involved in pre-mRNA splicing. Mutations are associated with myelodysplastic syndromes and other hematologic diseases.
+DDR2: Discoidin domain receptor tyrosine kinase 2, involved in cell adhesion and migration. Mutations can lead to skeletal disorders and cancers.
+HSP90B1: Heat shock protein 90 beta family member 1, involved in protein folding and stress response. Mutations and alterations can affect cancer cell survival.
+CDKN2A: Cyclin-dependent kinase inhibitor 2A, a tumor suppressor gene involved in cell cycle regulation. Mutations are linked to increased risk of several cancers.
+EGFR: Epidermal growth factor receptor, a cell surface protein that stimulates cell growth. Mutations and overexpression are common in various cancers.
+PHF6: PHD finger protein 6, involved in transcription regulation and cell cycle progression. Mutations are implicated in T-cell leukemia.
+KLF1: Kruppel-like factor 1, a transcription factor important in red blood cell development. Mutations can cause blood disorders.
+HBB: Hemoglobin subunit beta, the major component of adult hemoglobin. Mutations result in sickle cell disease and beta-thalassemia.
+AKT1: AKT serine/threonine kinase 1, involved in cell survival pathways, such as PI3K-AKT. Mutations are linked to various cancers.
+IDH1: Isocitrate dehydrogenase 1, involved in metabolic processes. Mutations are common in gliomas and other cancers.
+ALDH2: Aldehyde dehydrogenase 2, key in alcohol metabolism. Deficient activity due to mutations is linked to alcohol intolerance and increased cancer risk.
+FOXL2: Forkhead box L2, a transcription factor critical in ovarian development and function. Mutations lead to blepharophimosis syndrome and ovarian failure.
+FBXW7: F-box and WD repeat domain containing 7, a protein involved in protein degradation and cell cycle control. Mutations are associated with cancer.
+BLM: Bloom syndrome protein, involved in DNA repair and maintenance of genomic stability. Mutations cause Bloom syndrome, characterized by increased cancer risk.
+MSH2: MutS homolog 2, a key component in DNA mismatch repair. Mutations are linked to Lynch syndrome, increasing the risk of colorectal and other cancers.
+NOTCH1: Notch receptor 1, involved in cell differentiation pathways. Mutations are implicated in various cancers, including T-cell acute lymphoblastic leukemia.
+MTOR: Mechanistic target of rapamycin, a central regulator of cell growth and metabolism. Mutations and dysregulation are linked to cancer and metabolic disorders.
+DNMT3A: DNA methyltransferase 3 alpha, involved in DNA methylation, a crucial epigenetic modification. Mutations are linked to hematological malignancies.
+SDHD: Succinate dehydrogenase complex subunit D, involved in the mitochondrial respiratory chain. Mutations cause paragangliomas and pheochromocytomas.
+IDH2: Isocitrate dehydrogenase 2, similar to IDH1, important in the Krebs cycle. Mutations are associated with certain cancers, including acute myeloid leukemia.
+H3.3: Histone H3.3, a variant of the histone protein H3, involved in the regulation of gene expression. Mutations are associated with pediatric gliomas.
+XPC: Xeroderma pigmentosum, complementation group C, involved in nucleotide excision repair of DNA. Mutations lead to xeroderma pigmentosum, increasing cancer risk.
+MYCN: N-myc proto-oncogene protein, a transcription factor involved in cell growth and development. Amplification is associated with neuroblastoma and other cancers.

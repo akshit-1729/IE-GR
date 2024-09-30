@@ -1,0 +1,105 @@
+{
+    "patient": {
+        "Name": "Bryan Bishop",
+        "DateOfBirth": "1985-09-14",
+        "Sex": "Female",
+        "Diagnosis": "Hodgkin lymphoma",
+        "BodyPart": "Lymphoma",
+        "Physician": "Dr. Laura Ballard",
+        "TreatingInstitution": "Mcintosh, Garcia and Davis"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Lymphoma",
+            "CollectedDate": "2023-07-16",
+            "ReceivedDate": "2023-07-17",
+            "TumorPercentage": "26%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-07-23",
+            "ReceivedDate": "2023-07-23"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "MPL",
+                "DNA Alteration": "c.1543_1545delinsAAA",
+                "GeneMutation": "p.W515L Stopgain-LOF",
+                "VariantAlleleFraction": "10.36%"
+            },
+            {
+                "Gene": "TP53",
+                "DNA Alteration": "c.742C>T",
+                "GeneMutation": "p.K132N Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "7.97%"
+            },
+            {
+                "Gene": "ABL1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A34V Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "27.51%"
+            },
+            {
+                "Gene": "BRCA2",
+                "DNA Alteration": "c.5946delT",
+                "GeneMutation": "p.S1982Rfs*22 Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "1.82%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "MSH2",
+                "DNA Alteration": "c.1906G>C",
+                "GeneMutation": "p.S1982Rfs*22 Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "17.94%"
+            },
+            {
+                "Gene": "BLM",
+                "DNA Alteration": "c.2207_2212delinsTAGATTC",
+                "GeneMutation": "p.S1982Rfs*22 Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "5.16%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "APC",
+            "CCND3",
+            "CALR"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "18 m/Mb",
+            "Tmbpercentile": "23%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Stable"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

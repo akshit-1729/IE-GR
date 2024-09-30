@@ -1,0 +1,48 @@
+Breast Cancer
+Invasive ductal carcinoma
+Invasive lobular carcinoma
+Ductal carcinoma in situ (DCIS)
+Lobular carcinoma in situ (LCIS)
+Triple-negative breast cancer
+Lung Cancer
+Adenocarcinoma
+Squamous cell carcinoma
+Large cell carcinoma
+Small cell lung cancer
+Colorectal Cancer
+Adenocarcinoma
+Gastrointestinal stromal tumors (GIST)
+Lymphoma
+Neuroendocrine tumors
+Prostate Cancer
+Adenocarcinoma
+Small cell carcinoma
+Squamous cell carcinoma
+Leukemia
+Acute myeloid leukemia (AML)
+Acute lymphocytic leukemia (ALL)
+Chronic myeloid leukemia (CML)
+Chronic lymphocytic leukemia (CLL)
+Skin Cancer
+Basal cell carcinoma
+Squamous cell carcinoma
+Melanoma
+Merkel cell carcinoma
+Ovarian Cancer
+Epithelial ovarian carcinoma
+Germ cell tumors
+Stromal tumors
+Pancreatic Cancer
+Adenocarcinoma
+Pancreatic neuroendocrine tumors
+Acinar cell carcinoma
+Thyroid Cancer
+Papillary thyroid cancer
+Follicular thyroid cancer
+Medullary thyroid cancer
+Anaplastic thyroid cancer
+Lymphoma
+Hodgkin lymphoma
+Non-Hodgkin lymphoma
+Follicular lymphoma
+Diffuse large B-cell lymphoma

@@ -1,0 +1,251 @@
+{
+    "patient": {
+        "Name": "Gloria Potter",
+        "DateOfBirth": "1998-09-08",
+        "Sex": "Male",
+        "Diagnosis": "Lymphoma",
+        "BodyPart": "Colorectal",
+        "Physician": "Dr. Laurie Clark",
+        "TreatingInstitution": "Soto-Norris"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Colorectal",
+            "CollectedDate": "2023-09-09",
+            "ReceivedDate": "2023-09-09",
+            "TumorPercentage": "51%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-09-14",
+            "ReceivedDate": "2023-09-14"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "TEK",
+                "DNA Alteration": "c.1354A>G",
+                "GeneMutation": "p.N452D Frameshift-GOF",
+                "VariantAlleleFraction": "31.81%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N159Y Frameshift-LOF",
+                "VariantAlleleFraction": "33.51%"
+            },
+            {
+                "Gene": "IDH2",
+                "DNA Alteration": "c.419G>A",
+                "GeneMutation": "p.R172W Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "16.96%"
+            },
+            {
+                "Gene": "ALK",
+                "DNA Alteration": "c.3512_3513delinsAT",
+                "GeneMutation": "p.R172S Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "22.44%"
+            },
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.T1087I Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "13.92%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "KRAS",
+            "HDAC2",
+            "MET",
+            "B2M"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "45 m/Mb",
+            "Tmbpercentile": "67%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    },
+    "Additional Indicators": [
+        {
+            "description": "Unfavorable Prognosis",
+            "therapy": "NCCN, Consensus, Non-Small Cell Lung Cancer",
+            "mutation": "KRASp.G12C Gain-of-function"
+        }
+    ],
+    "Clinical trials": [
+        {
+            "description": "A Study of VS-6766 v. VS-6766 + Defactinib in Recurrent G12V, Other KRAS and BRAF Non-Small Cell Lung Cancer ",
+            "phase": "Phase 2",
+            "mutations": [
+                "KRAS"
+            ]
+        },
+        {
+            "description": "A Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "KRAS",
+                "STK11"
+            ]
+        },
+        {
+            "description": "First-in-human Study of DRP-104 (Sirpiglenastat) as Single Agent and in Combination With Atezolizumab in Patients With Advanced Solid Tumors. (NCT04471415)",
+            "phase": "Phase 1/2",
+            "mutations": [
+                "NFE2L2",
+                "STK11"
+            ]
+        }
+    ],
+    "variants of unknown significance": {
+        "Somatic": [
+            {
+                "Gene": "ARID2",
+                "DNA Alteration": " c.798G>A",
+                "GeneMutation": " p.W266* Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "19.15%"
+            },
+            {
+                "Gene": "TEK",
+                "DNA Alteration": "c.1354A>G",
+                "GeneMutation": "p.N452D Frameshift-GOF",
+                "VariantAlleleFraction": "5.15%"
+            },
+            {
+                "Gene": "PTPN11",
+                "DNA Alteration": "c.1508G>C",
+                "GeneMutation": "p.G503A Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "6.83%"
+            },
+            {
+                "Gene": "SRSF2",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.P95X Nonsense-LOF",
+                "VariantAlleleFraction": "3.86%"
+            },
+            {
+                "Gene": "SMO",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.A374E Spliceregionvariant-GOF",
+                "VariantAlleleFraction": "2.5%"
+            },
+            {
+                "Gene": "KIT",
+                "DNA Alteration": "c.2576T>C",
+                "GeneMutation": "p.L813P Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "9.5%"
+            },
+            {
+                "Gene": "PDGFRA",
+                "DNA Alteration": "c.1153_1154delinsTC",
+                "GeneMutation": "p.K385X Stopgain-LOF",
+                "VariantAlleleFraction": "5.29%"
+            },
+            {
+                "Gene": "MYCN",
+                "DNA Alteration": "c.131C>T",
+                "GeneMutation": "p.P44L Frameshift-LOF",
+                "VariantAlleleFraction": "8.11%"
+            }
+        ],
+        "Germline": [
+            {
+                "Gene": "FLT3",
+                "DNA Alteration": "c.1992G>A",
+                "GeneMutation": "p.V592A Nonsense-LOF",
+                "Condition": "may"
+            },
+            {
+                "Gene": "CALR",
+                "DNA Alteration": "c.1154_1155insTTGTC",
+                "GeneMutation": "p.L367fs*46 Stopgain-LOF",
+                "Condition": "value"
+            }
+        ]
+    },
+    "low coverage regions": [
+        "FGFR1"
+    ],
+    "genomic variants details": {
+        "Somatic Variant Details - Potentially Actionable": [
+            {
+                "Gene": "TEK",
+                "DNA Alteration": "c.1354A>G",
+                "GeneMutation": "p.N452D Frameshift-GOF",
+                "description": "RBM10 encodes a protein that contains a RNA-binding motif and interacts with RNA homopolymers, and is thought to function in regulating alternative splicing. Loss of function mutations and copy number loss of RBM10 are associated with cancer progression.",
+                "VariantAlleleFraction": "31.81%"
+            }
+        ],
+        "Somatic Variant Details - Biologically Relevant": [
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N159Y Frameshift-LOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "33.51%"
+            },
+            {
+                "Gene": "IDH2",
+                "DNA Alteration": "c.419G>A",
+                "GeneMutation": "p.R172W Spliceregionvariant-LOF",
+                "description": "KRAS is a GDP/GTP binding protein that acts as an intracellular signal transducer. KRAS is involved in several pathways involved in cellular proliferation and survival, including the PI3K-AKT-mTOR pathway and the Ras-Raf-MEK-ERK pathway. Activating mutations, copy number gains, and overexpression of KRAS are associated with cancer progression.",
+                "VariantAlleleFraction": "16.96%"
+            },
+            {
+                "Gene": "ALK",
+                "DNA Alteration": "c.3512_3513delinsAT",
+                "GeneMutation": "p.R172S Spliceregionvariant-LOF",
+                "description": "NFE2L2 acts as a transcription factor for proteins that contain an antioxidant response element (ARE) within their promoter sequence. Genes that contain ARE are involved in injury and inflammation response. Activating mutations and overexpression of NFE2L2 are associated with cancer progression.",
+                "VariantAlleleFraction": "22.44%"
+            },
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.T1087I Spliceregionvariant-LOF",
+                "description": "STK11 (LKB1) encodes an enzyme in the serine/threonine kinase family that is responsible for maintaining energy metabolism and cellular polarization through the activation of AMP-activated protein kinase and other members of the AMPK family. The enzyme also acts as a tumor suppressor by regulating cell growth. Loss of function mutations, copy number loss, epigenetic variation, and underexpression of STK11 are associated with cancer progression.",
+                "VariantAlleleFraction": "13.92%"
+            }
+        ]
+    },
+    "clinical history": {
+        "Date": "2023-09-05"
+    },
+    "other": {
+        "ReportId": "2047",
+        "ReportDate": "2023-09-15",
+        "SignedBy": "Laurie Clark",
+        "Supervisor": "Dr. Krista Gallagher"
+    }
+}

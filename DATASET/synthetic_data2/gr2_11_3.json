@@ -1,0 +1,92 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "NT5C2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.T367=",
+            "Exon": 4,
+            "DNA Alteration": "c.1100C>A",
+            "Allele Frequency %": "22.19"
+        },
+        {
+            "Gene": "DPYD",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.E23Vfs*17",
+            "Exon": 6,
+            "DNA Alteration": "c.68_69delAG",
+            "Allele Frequency %": "23.78"
+        },
+        {
+            "Gene": "DPYD",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.M1R",
+            "Exon": 3,
+            "DNA Alteration": "c.2T>G",
+            "Allele Frequency %": "3.25"
+        },
+        {
+            "Gene": "TLR8",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.L122R",
+            "Exon": 5,
+            "DNA Alteration": "c.365T>G",
+            "Allele Frequency %": "8.07"
+        },
+        {
+            "Gene": "PAX5",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.M1V",
+            "Exon": 8,
+            "DNA Alteration": "c.1A>G",
+            "Allele Frequency %": "4.7"
+        },
+        {
+            "Gene": "TLR8",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.Y736fs*4",
+            "Exon": 4,
+            "DNA Alteration": "c.2207_2212delinsTAGATTC",
+            "Allele Frequency %": "1.53"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Positive| 2+, 49%"
+        },
+        {
+            "Biomarker": "ER",
+            "Result": "Negative| 2+, 54%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Positive| 1+, 37%"
+        },
+        {
+            "Biomarker": "PMS2",
+            "Result": "Negative| 3+, 86%"
+        },
+        {
+            "Biomarker": "MSH6",
+            "Result": "Positive| 3+, 28%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "IKZF1",
+        "EGFR",
+        "MPL",
+        "AKT1"
+    ]
+}

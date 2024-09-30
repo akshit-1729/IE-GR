@@ -1,0 +1,82 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "GNAS",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.R367Q",
+            "Exon": 10,
+            "DNA Alteration": "c.1100G>A",
+            "Allele Frequency %": "15.45"
+        },
+        {
+            "Gene": "MAPK1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.C134W",
+            "Exon": 2,
+            "DNA Alteration": "c.402C>G",
+            "Allele Frequency %": "13.12"
+        },
+        {
+            "Gene": "SIX1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.V504_R506dup",
+            "Exon": 16,
+            "DNA Alteration": "c.1405G>A",
+            "Allele Frequency %": "9.34"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "PR",
+            "Result": "Negative| 2+, 56%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Negative| 2+, 39%"
+        },
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Positive| 1+, 72%"
+        },
+        {
+            "Biomarker": "MLH1",
+            "Result": "Negative| 3+, 28%"
+        },
+        {
+            "Biomarker": "PMS2",
+            "Result": "Positive| 3+, 60%"
+        },
+        {
+            "Biomarker": "MSH2",
+            "Result": "Negative| 1+, 34%"
+        },
+        {
+            "Biomarker": "ER",
+            "Result": "Negative| 2+, 56%"
+        },
+        {
+            "Biomarker": "MSH6",
+            "Result": "Positive| 3+, 14%"
+        },
+        {
+            "Biomarker": "AR",
+            "Result": "Positive| 2+, 54%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Positive| 3+, 9%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "FGFR1",
+        "NRAS",
+        "CD74",
+        "MYOD1"
+    ]
+}

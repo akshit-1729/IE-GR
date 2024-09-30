@@ -1,0 +1,100 @@
+{
+    "patient": {
+        "Name": "Gloria Potter",
+        "DateOfBirth": "1998-09-08",
+        "Sex": "Male",
+        "Diagnosis": "Lymphoma",
+        "BodyPart": "Colorectal",
+        "Physician": "Dr. Laurie Clark",
+        "TreatingInstitution": "Soto-Norris"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Colorectal",
+            "CollectedDate": "2023-09-09",
+            "ReceivedDate": "2023-09-09",
+            "TumorPercentage": "51%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-09-14",
+            "ReceivedDate": "2023-09-14"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "TEK",
+                "DNA Alteration": "c.1354A>G",
+                "GeneMutation": "p.N452D Frameshift-GOF",
+                "VariantAlleleFraction": "31.81%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "IKZF1",
+                "DNA Alteration": "c.3113A>G",
+                "GeneMutation": "p.N159Y Frameshift-LOF",
+                "VariantAlleleFraction": "33.51%"
+            },
+            {
+                "Gene": "IDH2",
+                "DNA Alteration": "c.419G>A",
+                "GeneMutation": "p.R172W Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "16.96%"
+            },
+            {
+                "Gene": "ALK",
+                "DNA Alteration": "c.3512_3513delinsAT",
+                "GeneMutation": "p.R172S Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "22.44%"
+            },
+            {
+                "Gene": "MYO1G",
+                "DNA Alteration": "c.145G>A",
+                "GeneMutation": "p.T1087I Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "13.92%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": [
+            "KRAS",
+            "HDAC2",
+            "MET",
+            "B2M"
+        ]
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "45 m/Mb",
+            "Tmbpercentile": "67%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "Equivocal"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

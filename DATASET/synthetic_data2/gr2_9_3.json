@@ -1,0 +1,110 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "EZH2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.A374E",
+            "Exon": 19,
+            "DNA Alteration": "3",
+            "Allele Frequency %": "28.53"
+        },
+        {
+            "Gene": "PDGFRA",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.K385I",
+            "Exon": 13,
+            "DNA Alteration": "c.2525A>T",
+            "Allele Frequency %": "4.25"
+        },
+        {
+            "Gene": "CSF1R",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.G35W",
+            "Exon": 9,
+            "DNA Alteration": "1",
+            "Allele Frequency %": "8.18"
+        },
+        {
+            "Gene": "FGFR2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.P95X",
+            "Exon": 2,
+            "DNA Alteration": "A",
+            "Allele Frequency %": "1.29"
+        },
+        {
+            "Gene": "NTRK1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.F691L",
+            "Exon": 9,
+            "DNA Alteration": "c.2028C>A",
+            "Allele Frequency %": "5.69"
+        },
+        {
+            "Gene": "SRSF2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.R479H",
+            "Exon": 14,
+            "DNA Alteration": "c.1436G>A",
+            "Allele Frequency %": "3.65"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "MLH1",
+            "Result": "Positive| 3+, 84%"
+        },
+        {
+            "Biomarker": "AR",
+            "Result": "Positive| 1+, 77%"
+        },
+        {
+            "Biomarker": "ERBB2",
+            "Result": "Negative| 2+, 83%"
+        },
+        {
+            "Biomarker": "MSH2",
+            "Result": "Negative| 2+, 71%"
+        },
+        {
+            "Biomarker": "ER",
+            "Result": "Negative| 2+, 46%"
+        },
+        {
+            "Biomarker": "PR",
+            "Result": "Negative| 1+, 92%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Positive| 1+, 4%"
+        },
+        {
+            "Biomarker": "MSH6",
+            "Result": "Negative| 2+, 82%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Positive| 2+, 99%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "GNAS",
+        "MPL",
+        "CSF3R",
+        "BRAF",
+        "RNF43",
+        "HDAC2"
+    ]
+}

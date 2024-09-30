@@ -1,0 +1,54 @@
+{
+    "Gene variants of unknown significance": [
+        {
+            "Gene": "ARID2",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.D917Y",
+            "Exon": 5,
+            "DNA Alteration": "c.3920T>A",
+            "Allele Frequency %": "19.45"
+        },
+        {
+            "Gene": "MYO1G",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.Y646F",
+            "Exon": 8,
+            "DNA Alteration": "c.1937A>T",
+            "Allele Frequency %": "7.67"
+        },
+        {
+            "Gene": "NF1",
+            "Method": "Seq",
+            "Analyte": "DNA tumor",
+            "Variant Interpretation": "Variant of uncertain significance",
+            "Protien Alteration": "p.L265P",
+            "Exon": 15,
+            "DNA Alteration": "c.794T>C",
+            "Allele Frequency %": "18.32"
+        }
+    ],
+    "Immunohistochemistry results": [
+        {
+            "Biomarker": "MLH1",
+            "Result": "Negative| 3+, 50%"
+        },
+        {
+            "Biomarker": "PD-L1(SP142)",
+            "Result": "Positive| 2+, 33%"
+        },
+        {
+            "Biomarker": "PTEN",
+            "Result": "Positive| 2+, 90%"
+        }
+    ],
+    "Genes Tested with indeterminate results": [
+        "FLT3",
+        "ERBB2",
+        "APC",
+        "FLT3"
+    ]
+}

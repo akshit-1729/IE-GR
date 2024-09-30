@@ -1,0 +1,95 @@
+{
+    "patient": {
+        "Name": "Michael Bennett",
+        "DateOfBirth": "1966-07-03",
+        "Sex": "Female",
+        "Diagnosis": "Adenocarcinoma",
+        "BodyPart": "Prostate",
+        "Physician": "Dr. Michelle Wilson",
+        "TreatingInstitution": "Jones, Obrien and Williams"
+    },
+    "specimen": {
+        "Tumor specimen": {
+            "source": "Prostate",
+            "CollectedDate": "2023-12-23",
+            "ReceivedDate": "2023-12-23",
+            "TumorPercentage": "78%"
+        },
+        "Normal specimen": {
+            "source": "Blood",
+            "CollectedDate": "2023-12-24",
+            "ReceivedDate": "2023-12-24"
+        }
+    },
+    "genomic variants": {
+        "Somatic - Potentially Actionable": [
+            {
+                "Gene": "CTNNB1",
+                "DNA Alteration": "c.101G>T",
+                "GeneMutation": "p.T41I Stopgain-LOF",
+                "VariantAlleleFraction": "20.35%"
+            }
+        ],
+        "Somatic - Biologically Relevant": [
+            {
+                "Gene": "IDH1",
+                "DNA Alteration": "c.395G>T",
+                "GeneMutation": "p.S45P Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "7.96%"
+            },
+            {
+                "Gene": "JAK2",
+                "DNA Alteration": "c.1848_1849delinsCT",
+                "GeneMutation": "p.S37C Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "12.16%"
+            },
+            {
+                "Gene": "NOTCH1",
+                "DNA Alteration": "c.3587G>A",
+                "GeneMutation": "p.R132L Spliceregionvariant-LOF",
+                "VariantAlleleFraction": "17.91%"
+            },
+            {
+                "Gene": "MPL",
+                "DNA Alteration": "c.1544G>T",
+                "GeneMutation": "p.T875N Missensevariant(exon2)-GOF",
+                "VariantAlleleFraction": "8.17%"
+            }
+        ],
+        "Germline - Pathogenic": [],
+        "Pertinent Negatives": []
+    },
+    "immunotherapy markers": [
+        {
+            "marker_name": "Tumor Mutational Burden",
+            "TmbValue": "33 m/Mb",
+            "Tmbpercentile": "8%",
+            "Status type": "Microsatellite Instability Status",
+            "statusvalue": "High"
+        }
+    ],
+    "FDA-Approved Therapies": {
+        "Current Diagnosis": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ],
+        "Other Indications": [
+            {
+                "Mechanism": "KRAS G12C Inhibitors",
+                "Medication": "Sotorasib",
+                "Recommendations": [
+                    "NCCN, Consensus, Non-Small Cell Lung Cancer",
+                    "MSK OncoKB, Level 1"
+                ],
+                "Relevant Mutation": "KRASp.G12C G12C-GOF"
+            }
+        ]
+    }
+}

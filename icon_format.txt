@@ -1,0 +1,118 @@
+1. **Patient Information**
+   1.1 Patient ID  
+   1.2 Name  
+   1.3 Date of Birth  
+   1.4 Age  
+   1.5 Gender  
+   1.6 Contact Information (if applicable)  
+   1.7 Address (if applicable)  
+
+2. **Diagnosis Information**
+   2.1 Diagnosis Center  
+   2.2 Doctor's Name  
+   2.3 Accession Number  
+   2.4 Date of Diagnosis  
+   2.5 Date of Report Issuance  
+   2.6 CLIA Number  
+   2.7 Laboratory Medical Director  
+   2.8 Method of Analysis (e.g., NGS, Immunochemistry, etc.)  
+   2.9 Pipeline Version (Report Version)  
+
+3. **Cancer Information**
+   3.1 Cancer Type  
+   3.2 Cancer Stage (if applicable)  
+   3.3 Cancer Grade (if applicable)  
+   3.4 Cancer Location in the Body  
+   3.5 Tumor Specimen Source  
+   3.6 Tumor Percentage in Sample  
+   3.7 Normal Specimen Source (if applicable)  
+   3.8 Date of Tumor Sample Collection  
+   3.9 Date Tumor Sample Received  
+   3.10 Date of Normal Sample Collection (if applicable)  
+   3.11 Date Normal Sample Received (if applicable)  
+
+4. **Biomarkers**
+   4.1 **General Biomarkers**
+       4.1.1 Microsatellite Instability (MSI)  
+       4.1.2 Tumor Mutational Burden (TMB)  
+       4.1.3 Tumor Mutational Burden Percentile (if applicable)
+       4.1.4 Loss of Heterozygosity (LOH) (if applicable)  
+       4.1.5 Mismatch Repair (MMR) Status  
+       4.1.6 PDL1 Expression (if applicable)  
+       4.1.7 EBV (Epstein-Barr Virus) Status (if applicable)  
+       4.1.8 Other Immunotherapy Markers (if applicable)  
+       4.1.9 List of Low-Coverage Regions (Indeterminate Genes)  
+       
+   4.2 **Gene Mutations**  
+   For each mutation:
+       4.2.1 Gene Name  
+       4.2.2 DNA Mutation Description (e.g., c.20G>T)  
+       4.2.3 Protein Variant (e.g., p.P252R)  
+       4.2.4 Somatic or Germline  
+       4.2.5 Potentially Actionable or Biologically Relevant  
+       4.2.6 Variant Allele Fraction (VAF)  
+       4.2.7 Mutation Type (e.g., missense, nonsense, frameshift, etc.)  
+       4.2.8 Transcript ID  
+       4.2.9 Exon Number  
+       4.2.10 Functional Impact (e.g., Loss of Function, Gain of Function)  
+       4.2.11 Analyte  
+       4.2.12 Method of Detection  
+       4.2.13 Pathogenicity (e.g., pathogenic, likely pathogenic, uncertain significance)  
+       4.2.14 Pertinent Negative Results (if applicable)  
+
+   4.3 **Immunochemistry Biomarkers**  
+   For each biomarker:
+       4.3.1 Biomarker Name (e.g., PDL1, HER2, etc.)  
+       4.3.2 Number of Stained Cells  
+       4.3.3 Percentage of Expression  
+       4.3.4 Interpretation (Positive/Negative)  
+
+5. **Therapeutic Information**
+   5.1 **FDA-Approved Therapies for Current Diagnosis**  
+   For each therapy:
+       5.1.1 Therapy Name  
+       5.1.2 Therapy Type (e.g., Chemotherapy, Immunotherapy, Targeted Therapy)
+       5.1.3 Medication  
+       5.1.4 Evidence Source (e.g., NCCN, MSK-OncoKB, etc.)  
+       5.1.5 **Associated Biomarkers**  
+           5.1.5.1 Biomarker Name 
+           5.1.5.2 Biomarker level (if applicable) 
+           5.1.5.3 Positively/Negatively Associated (Benefit/Lack of Benefit)  
+
+   5.2 **FDA-Approved Therapies for Other Indications**  
+   For each therapy:
+       5.2.1 Therapy Name  
+       5.2.2 Therapy Type
+       5.2.3 Medication  
+       5.2.4 Evidence Source  
+       5.2.5 **Associated Biomarkers**  
+           5.2.5.1 Biomarker Name  
+           5.2.5.2 Positively/Negatively Associated  
+
+6. **Clinical Trials**
+   For each trial:
+       6.1 Trial Title  
+       6.2 Clinical Trial ID  
+       6.3 Phase of Trial (e.g., Phase 1, Phase 2)  
+       6.4 Trial Location (if available)  
+       6.5 Therapy Type (chemo or targeted)
+       6.6 Medication
+       6.7 **Associated Mutations**  
+           6.5.1 List of Mutations Associated with the Trial  
+
+7. **Variants of Unknown Significance (VUS)**
+   For each variant:
+       7.1 Gene Name
+       7.2 DNA Alteration
+       7.3 Protien Variant
+       7.4 Mutation Type  
+       7.5 Variant Allele Fraction (VAF)  
+       7.6 Transcript ID  
+       7.7 Exon Number  
+       7.8 Functional Impact (if known)  
+       7.9 Somatic or Germline
+
+8. **Additional Indicators**
+   8.1 Prognostic Markers (e.g., KRAS mutation with unfavorable prognosis)  
+   8.2 Other Molecular Markers  
+   8.3 Special Notes on Cancer Progression or Drug Resistance (if applicable)
